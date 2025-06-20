@@ -78,7 +78,7 @@ def ask_mistral(context_chunks, query):
 
 # ========== STREAMLIT UI ==========
 
-st.set_page_config(page_title="Mental Health Chatbot", page_icon="🧠")
+st.set_page_config(page_title="Mental Health Chatbot Sakina Ai", page_icon="🧠")
 st.title("🧠 Mental Health Support Chatbot 🤖")
 st.markdown("_This tool provides general mental health support and is **not** a substitute for professional help. If you're in crisis, please contact a professional or emergency service._")
 
@@ -91,7 +91,7 @@ if 'faiss_index' not in st.session_state:
 user_query = st.text_input("How are you feeling today, or what would you like support with?")
 
 # Display chatbot response
-if st.button("Get Support"):
+if st.button("Start Chat"):
     if user_query.strip():
         context_chunks = fetch_relevant_chunks(user_query, st.session_state['faiss_index'], st.session_state['chunks'])
         if context_chunks:
