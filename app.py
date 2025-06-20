@@ -6,8 +6,8 @@ from mistralai import Mistral, UserMessage
 
 # ========== CONFIG ==========
 
-# Load API key from environment variable (set this in Streamlit Secrets)
-MISTRAL_API_KEY = os.getenv("P5Ya1Is7YS4AM2dVkBU0KrV9Bz0BU0KU")
+# Load API key securely from Streamlit Secrets
+MISTRAL_API_KEY = st.secrets["P5Ya1Is7YS4AM2dVkBU0KrV9Bz0BU0KU"]  # Make sure the API key is set in Streamlit Secrets
 client = Mistral(api_key=MISTRAL_API_KEY)
 
 # ========== CURATED MENTAL HEALTH TEXT CHUNKS ==========
@@ -28,11 +28,18 @@ mental_health_texts = [
 # ========== EMBEDDING + FAISS SETUP ==========
 
 def create_embeddings(text_list):
-    response = client.embeddings.create(model="mistral-embed", inputs=text_list)
-    return np.array([r.embedding for r in response.data])
+    try:
+        response = client.embeddings.create(model="mistral-embed", inputs=text_list)
+        return np.array([r.embedding for r in response.data])
+    except Exception as e:
+        st.error(f"Error creating embeddings: {e}")
+        return None
 
 def setup_faiss_index(text_chunks):
     embeddings = create_embeddings(text_chunks)
+    if embeddings is None:
+        st.error("Failed to create embeddings. Cannot initialize FAISS index.")
+        return None
     index = faiss.IndexFlatL2(embeddings.shape[1])
     index.add(embeddings)
     return index
@@ -41,6 +48,8 @@ def setup_faiss_index(text_chunks):
 
 def fetch_relevant_chunks(query, index, chunks, num_chunks=3):
     query_embedding = create_embeddings([query])
+    if query_embedding is None:
+        return []
     _, indices = index.search(query_embedding, num_chunks)
     return [chunks[i] for i in indices[0]]
 
@@ -54,11 +63,15 @@ def ask_mistral(context_chunks, query):
         f"User: {query}\n"
         f"Assistant:"
     )
-    response = client.chat.complete(
-        model="mistral-large-latest",
-        messages=[UserMessage(content=prompt)]
-    )
-    return response.choices[0].message.content
+    try:
+        response = client.chat.complete(
+            model="mistral-large-latest",
+            messages=[UserMessage(content=prompt)]
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        st.error(f"Error generating response from Mistral: {e}")
+        return "Sorry, something went wrong. Please try again."
 
 # ========== STREAMLIT UI ==========
 
@@ -78,7 +91,10 @@ user_query = st.text_input("How are you feeling today, or what would you like su
 if st.button("Get Support"):
     if user_query.strip():
         context_chunks = fetch_relevant_chunks(user_query, st.session_state['faiss_index'], st.session_state['chunks'])
-        answer = ask_mistral(context_chunks, user_query)
-        st.text_area("Supportive Response:", value=answer, height=250)
+        if context_chunks:
+            answer = ask_mistral(context_chunks, user_query)
+            st.text_area("Supportive Response:", value=answer, height=250)
+        else:
+            st.warning("Sorry, I couldn't find relevant context. Please try again.")
     else:
         st.warning("Please enter something you'd like help with.")
