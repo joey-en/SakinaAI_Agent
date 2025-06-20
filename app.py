@@ -79,7 +79,7 @@ def ask_mistral(context_chunks, query):
 # ========== STREAMLIT UI ==========
 
 st.set_page_config(page_title="Mental Health Chatbot Sakina Ai", page_icon="🧠")
-st.title("🧠 Mental Health Support Chatbot 🤖")
+st.title("🧠 Mental Health Support Chatbot Sakina AI")
 st.markdown("_This tool provides general mental health support and is **not** a substitute for professional help. If you're in crisis, please contact a professional or emergency service._")
 
 # Initialize FAISS index once
