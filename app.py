@@ -7,7 +7,7 @@ from mistralai import Mistral, UserMessage
 # ========== CONFIG ==========
 
 # Load API key securely from Streamlit Secrets
-MISTRAL_API_KEY = st.secrets["P5Ya1Is7YS4AM2dVkBU0KrV9Bz0BU0KU"]  # Make sure the API key is set in Streamlit Secrets
+MISTRAL_API_KEY = st.secrets["LnHHJIjBC8JxkWieTqd1XhPHu8klhTFm"]  # Make sure the API key is set in Streamlit Secrets
 client = Mistral(api_key=MISTRAL_API_KEY)
 
 # ========== CURATED MENTAL HEALTH TEXT CHUNKS ==========
