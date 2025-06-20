@@ -76,96 +76,28 @@ def ask_mistral(context_chunks, query):
         st.error(f"Error generating response from Mistral: {e}")
         return "Sorry, something went wrong. Please try again."
 
-# ========== CUSTOM CSS FOR PROFESSIONAL UI ==========
-
-st.markdown("""
-    <style>
-        /* Page background and general settings */
-        body {
-            background-color: #f5f5f5;
-            font-family: 'Arial', sans-serif;
-        }
-        
-        .stButton > button {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            border-radius: 4px;
-            cursor: pointer;
-            margin-top: 20px;
-        }
-        
-        .stButton > button:hover {
-            background-color: #45a049;
-        }
-
-        .stTextInput input {
-            background-color: #ffffff;
-            border-radius: 4px;
-            padding: 10px;
-            width: 100%;
-            font-size: 16px;
-        }
-        
-        /* Chatbot header */
-        .chat-header {
-            text-align: center;
-            color: #2c3e50;
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-
-        /* Chatbox for the messages */
-        .chatbox {
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 10px;
-            max-width: 600px;
-            margin: auto;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Text area for chat responses */
-        .stTextArea textarea {
-            border-radius: 8px;
-            padding: 15px;
-            font-size: 16px;
-            width: 100%;
-            height: 200px;
-        }
-    </style>
-""", unsafe_allow_html=True)
-
 # ========== STREAMLIT UI ==========
 
-st.set_page_config(page_title="Mental Health Chatbot Sakina AI", page_icon="🧠")
-
-# Header
-st.markdown("<div class='chat-header'>🧠 Mental Health Support Chatbot Sakina AI</div>", unsafe_allow_html=True)
+st.set_page_config(page_title="Mental Health Chatbot Sakina Ai", page_icon="🧠")
+st.title("🧠 Mental Health Support Chatbot Sakina AI")
 st.markdown("_This tool provides general mental health support and is **not** a substitute for professional help. If you're in crisis, please contact a professional or emergency service._")
 
-# Chatbox layout
-with st.container():
-    st.markdown("<div class='chatbox'>", unsafe_allow_html=True)
+# Initialize FAISS index once
+if 'faiss_index' not in st.session_state:
+    st.session_state['faiss_index'] = setup_faiss_index(mental_health_texts)
+    st.session_state['chunks'] = mental_health_texts
 
-    # User input
-    user_query = st.text_input("How are you feeling today, or what would you like support with?", key="query")
+# User input
+user_query = st.text_input("How are you feeling today, or what would you like support with?")
 
-    # Button to start chat
-    if st.button("Start Chat"):
-        if user_query.strip():
-            context_chunks = fetch_relevant_chunks(user_query, st.session_state['faiss_index'], st.session_state['chunks'])
-            if context_chunks:
-                answer = ask_mistral(context_chunks, user_query)
-                st.text_area("Supportive Response:", value=answer, height=250)
-            else:
-                st.warning("Sorry, I couldn't find relevant context. Please try again.")
+# Display chatbot response
+if st.button("Start Chat"):
+    if user_query.strip():
+        context_chunks = fetch_relevant_chunks(user_query, st.session_state['faiss_index'], st.session_state['chunks'])
+        if context_chunks:
+            answer = ask_mistral(context_chunks, user_query)
+            st.text_area("Supportive Response:", value=answer, height=250)
         else:
-            st.warning("Please enter something you'd like help with.")
-
-    st.markdown("</div>", unsafe_allow_html=True)
+            st.warning("Sorry, I couldn't find relevant context. Please try again.")
+    else:
+        st.warning("Please enter something you'd like help with.")
