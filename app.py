@@ -1,14 +1,17 @@
+import os
 import streamlit as st
 import faiss
 import numpy as np
-import os
 from mistralai import Mistral, UserMessage
 
 # ========== CONFIG ==========
 
-# Load API key securely from Streamlit Secrets
-MISTRAL_API_KEY = st.secrets["LnHHJIjBC8JxkWieTqd1XhPHu8klhTFm"]  # Make sure the API key is set in Streamlit Secrets
-client = Mistral(api_key=MISTRAL_API_KEY)
+# Set the API key as an environment variable
+os.environ["MISTRAL_API_KEY"] = "P5Ya1Is7YS4AM2dVkBU0KrV9Bz0BU0KU"
+
+# Retrieve the API key using os.getenv() 
+api_key = os.getenv("MISTRAL_API_KEY")
+client = Mistral(api_key=api_key)
 
 # ========== CURATED MENTAL HEALTH TEXT CHUNKS ==========
 
