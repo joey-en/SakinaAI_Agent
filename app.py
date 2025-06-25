@@ -5,15 +5,16 @@ import numpy as np
 from mistralai import Mistral, UserMessage
 
 # ========== CONFIG ==========
-
 from dotenv import load_dotenv
+
 load_dotenv(".env")
 api_key = os.getenv("MISTRAL_API_KEY", "MISTRAL_API_KEY not found")
 client = Mistral(api_key=api_key)
 
-PDF_FOLDER_PATH = "./data"
-INDEX_PATH = "./saved_index_chunks/faiss.index"
-CHUNK_PATH = "./saved_index_chunks/chunks.pkl"
+DOCUMENT_FOLDER = "./data"
+INDEX_PATH = "./database/faiss.index"
+CHUNK_PATH = "./database/chunks.pkl"
+READ_FILE_LIST = "./database/read_files.json"
 
 # ========== CONTENT LOADING ==========
 from langchain.document_loaders import PyPDFLoader, TextLoader
@@ -38,14 +39,16 @@ def split_document_chunks(document):
     chunks = splitter.split_documents(document)
     return [chunk.page_content for chunk in chunks]
 
-def load_pdf_chunks_from_folder(folder_path):
-    all_chunks = []
-    for filename in os.listdir(folder_path):
-        document = load_document(os.path.join(folder_path, filename))
-        all_chunks.extend(split_document_chunks(document))
-    return all_chunks
+def load_file_chunks(file_path):
+    document = load_document(file_path)
+    return split_document_chunks(document)
 
-# -------
+def load_datafolder_chunks(folder_path):
+#     all_chunks = []
+#     for filename in os.listdir(folder_path):
+#         all_chunks.extend(load_file_chunks(os.path.join(folder_path, filename)))
+#     return all_chunks
+    return [chunk for file in os.listdir(folder_path) for chunk in load_file_chunks(os.path.join(folder_path, file))]
 
 import pickle
 
@@ -63,10 +66,27 @@ def load_chunks(path=CHUNK_PATH):
     with open(path, "rb") as f:
         return pickle.load(f)
 
+import json
+
+def load_seen_files(path=READ_FILE_LIST):
+    if os.path.exists(path):
+        with open(path, "r") as f:
+            return json.load(f)
+    return []
+
+def save_seen_files(seen_files, path=READ_FILE_LIST):
+    with open(path, "w") as f:
+        json.dump(seen_files, f)
+
+def get_new_files(seen_files, document_folder = DOCUMENT_FOLDER):
+    all_files = [f for f in os.listdir(document_folder) if f.endswith((".pdf", ".txt"))]
+    return [f for f in all_files if f not in seen_files]
+
+
 # ========== EMBEDDING + FAISS SETUP ==========
 import time
 
-def create_embeddings(text_list, batch_size=30, delay=2.0,): # Added batch size because of API limits
+def create_embeddings(text_list, batch_size=30, delay=2.0): # Added batch size because of API limits
     all_embeddings = []
     list_size = len(text_list)
 
@@ -92,7 +112,6 @@ def create_embeddings(text_list, batch_size=30, delay=2.0,): # Added batch size 
         st.error(f"Error in batch {i}–{i+batch_size}: {text_list[i]}... \n\n ------ \n\n {e}")
         return None
     
-    
 def setup_faiss_index(text_chunks):
     embeddings = create_embeddings(text_chunks)
     if embeddings is None:
@@ -102,6 +121,15 @@ def setup_faiss_index(text_chunks):
     index = faiss.IndexFlatL2(embeddings.shape[1])
     index.add(embeddings)
     return index, chunks, embeddings
+
+def new_document_to_index(new_file_path, index, chunks):
+    new_chunks = load_file_chunks(new_file_path)
+    new_embeddings = create_embeddings(new_chunks)
+    index.add(new_embeddings)
+    chunks.extend(new_chunks)
+
+    return index, chunks
+
 
 # ========== CONTEXT RETRIEVAL ==========
 
@@ -157,26 +185,46 @@ st.markdown("_This tool provides general mental health support and is **not** a 
 
 # Initialize chunks and FAISS index once
 if 'chunks' not in st.session_state:
-    if os.path.exists(INDEX_PATH) and os.path.exists(CHUNK_PATH):
-        st.info("Loading cached index and chunks...")
-        st.session_state['faiss_index'] = load_faiss_index(INDEX_PATH)
-        st.session_state['chunks'] = load_chunks(CHUNK_PATH)
-        st.success("Cached data loaded.")
-    else: # Read folder for the first time
-        st.info("Fetching relevant clinical information and building database...")
-        chunks = load_pdf_chunks_from_folder(PDF_FOLDER_PATH)
-        index, chunk_texts, embeddings = setup_faiss_index(chunks)
-        
-        if index:
-            st.session_state['faiss_index'] = index
-            st.session_state['chunks'] = chunk_texts
-            st.session_state['embeddings'] = embeddings
-            st.info("Index was created sucessfully")
 
-            save_faiss_index(index, INDEX_PATH)
-            save_chunks(chunks, CHUNK_PATH)
-        else:
-            st.error("Failed to build FAISS index.")
+    if not os.path.exists(READ_FILE_LIST):
+        with open(READ_FILE_LIST, "w") as f:
+            json.dump([], f)
+
+    seen_files = load_seen_files(READ_FILE_LIST)
+    new_files = get_new_files(seen_files, DOCUMENT_FOLDER)
+
+    # === Make content DB ======
+    if not os.path.exists(INDEX_PATH) and not os.path.exists(CHUNK_PATH):
+        st.info("Building new database...")
+        chunks = load_datafolder_chunks(DOCUMENT_FOLDER)
+        index, chunk_texts, embeddings = setup_faiss_index(chunks)
+        save_faiss_index(index, INDEX_PATH)
+        save_chunks(chunks, CHUNK_PATH)
+        save_seen_files(new_files, READ_FILE_LIST)
+        new_files = None
+
+    # === Add new documents to content DB ===
+    if new_files:
+        st.info(f"Found {len(new_files)} new file(s): {', '.join(new_files)}")
+        index = load_faiss_index(INDEX_PATH)
+        chunks = load_chunks(CHUNK_PATH)
+
+        for file in new_files:
+            file_path = os.path.join(DOCUMENT_FOLDER, file)
+            index, chunks = new_document_to_index(file_path, index, chunks)
+            st.info(f"{file} is added to index")
+
+        save_faiss_index(index, INDEX_PATH)
+        save_chunks(chunks, CHUNK_PATH)
+        save_seen_files(seen_files, READ_FILE_LIST)
+        # st.success("New documents added to the index.")
+
+    else:
+        st.info("Loading cached index and chunks.")
+
+    # === Step 3: Load final state into Streamlit session ===
+    st.session_state['faiss_index'] = load_faiss_index(INDEX_PATH)
+    st.session_state['chunks'] = load_chunks(CHUNK_PATH)
 
 # User input
 user_query = st.text_input("How are you feeling today, or what would you like support with?")
