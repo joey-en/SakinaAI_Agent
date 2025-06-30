@@ -67,18 +67,22 @@ def load_chunks(path=CHUNK_PATH):
         return pickle.load(f)
 
 import json
+from datetime import datetime
 
-def load_seen_files(path=READ_FILE_LIST):
+def load_read_files(path=READ_FILE_LIST):
     ''' returns a list of read files based on path'''
     if os.path.exists(path):
         with open(path, "r") as f:
             return json.load(f)
-    return []
+    return {}
 
-def save_seen_files(seen_files, path=READ_FILE_LIST):
+def save_read_files(seen_files, path=READ_FILE_LIST):
     ''' saves a list of read files on the specified file path'''
     with open(path, "w") as f:
-        json.dump(seen_files, f)
+        json.dump(seen_files, f, indent=2)
+        
+def add_read_file(read_files, file_name):
+    read_files[file_name] = {"added_at": datetime.now().isoformat()}
 
 def get_new_files(seen_files, document_folder = DOCUMENT_FOLDER):
     ''' returns a list of files in the speficied folder but not in seen_files'''
@@ -191,9 +195,9 @@ if 'chunks' not in st.session_state:
 
     if not os.path.exists(READ_FILE_LIST):
         with open(READ_FILE_LIST, "w") as f:
-            json.dump([], f)
+            json.dump({}, f)
 
-    seen_files = load_seen_files(READ_FILE_LIST)
+    seen_files = load_read_files(READ_FILE_LIST)
     new_files = get_new_files(seen_files, DOCUMENT_FOLDER)
 
     # === Make content DB ======
@@ -203,7 +207,7 @@ if 'chunks' not in st.session_state:
         index, chunk_texts, embeddings = setup_faiss_index(chunks)
         save_faiss_index(index, INDEX_PATH)
         save_chunks(chunks, CHUNK_PATH)
-        save_seen_files(new_files, READ_FILE_LIST)
+        save_read_files(new_files, READ_FILE_LIST)
         new_files = None
 
     # === Add new documents to content DB ===
@@ -215,13 +219,13 @@ if 'chunks' not in st.session_state:
         for file in new_files:
             file_path = os.path.join(DOCUMENT_FOLDER, file)
             index, chunks = new_document_to_index(file_path, index, chunks)
+            add_read_file(seen_files, file)
             st.info(f"{file} is added to index")
 
         save_faiss_index(index, INDEX_PATH)
         save_chunks(chunks, CHUNK_PATH)
         
-        seen_files.extend(new_files)
-        save_seen_files(seen_files, READ_FILE_LIST)
+        save_read_files(seen_files, READ_FILE_LIST)
         # st.success("New documents added to the index.")
 
     else:
