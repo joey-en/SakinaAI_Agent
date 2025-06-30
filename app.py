@@ -69,16 +69,19 @@ def load_chunks(path=CHUNK_PATH):
 import json
 
 def load_seen_files(path=READ_FILE_LIST):
+    ''' returns a list of read files based on path'''
     if os.path.exists(path):
         with open(path, "r") as f:
             return json.load(f)
     return []
 
 def save_seen_files(seen_files, path=READ_FILE_LIST):
+    ''' saves a list of read files on the specified file path'''
     with open(path, "w") as f:
         json.dump(seen_files, f)
 
 def get_new_files(seen_files, document_folder = DOCUMENT_FOLDER):
+    ''' returns a list of files in the speficied folder but not in seen_files'''
     all_files = [f for f in os.listdir(document_folder) if f.endswith((".pdf", ".txt"))]
     return [f for f in all_files if f not in seen_files]
 
@@ -216,6 +219,8 @@ if 'chunks' not in st.session_state:
 
         save_faiss_index(index, INDEX_PATH)
         save_chunks(chunks, CHUNK_PATH)
+        
+        seen_files.extend(new_files)
         save_seen_files(seen_files, READ_FILE_LIST)
         # st.success("New documents added to the index.")
 
