@@ -1,0 +1,2073 @@
+[
+  {
+    "diagnosis": "Intellectual Disability (Intellectual Developmental Disorder)",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Characterized by deficits in general mental abilities.",
+      "Results in impairments of adaptive functioning."
+    ],
+    "related_diagnoses": {
+      "autism spectrum disorder": "may coexist",
+      "attention-deficit/hyperactivity disorder (ADHD)": "often comorbid",
+      "specific learning disorder": "can overlap"
+    }
+  },
+  {
+    "diagnosis": "Intellectual Disability",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Disorder with onset during the developmental period that includes both intellectual and adaptive functioning deficits in conceptual, social, and practical domains.",
+      "Deficits in intellectual functions such as reasoning, problem solving, planning, abstract thinking, judgment, academic learning, and learning from experience."
+    ],
+    "related_diagnoses": null
+  },
+  null,
+  {
+    "diagnosis": "Intellectual Disability",
+    "symptoms": null,
+    "treatments": null,
+    "duration": "lifelong",
+    "description": [
+      "Deficit in intellectual and adaptive functioning established before age 18.",
+      "Delayed motor, language, and social milestones."
+    ],
+    "related_diagnoses": {
+      "Neurocognitive Disorder": "May co-occur with intellectual disability.",
+      "Autism Spectrum Disorder": "Common comorbidity, can complicate assessment of intellectual functioning.",
+      "Attention-deficit/Hyperactivity Disorder": "Frequent comorbidity.",
+      "Depressive and Bipolar Disorders": "Can occur throughout the range of severity of intellectual disability.",
+      "Anxiety Disorders": "Frequent comorbidity.",
+      "Stereotypic Movement Disorder": "With or without self-injurious behavior.",
+      "Impulse-Control Disorders": "Frequent comorbidity."
+    }
+  },
+  {
+    "diagnosis": "Language Disorder",
+    "symptoms": [
+      "Persistent difficulties in acquiring and using language",
+      "Deficits in comprehension or production of vocabulary",
+      "Limited sentence structure",
+      "Impairments in discourse",
+      "Reduced vocabulary",
+      "Difficulties following instructions of increasing length",
+      "Difficulties remembering new words and sentences",
+      "Difficulties with narrative coherence"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Deficits in language acquisition and use.",
+      "Substantially lower language abilities compared to peers."
+    ],
+    "related_diagnoses": {
+      "Speech Sound Disorder": "Co-occurrence possible",
+      "Intellectual Disability (Intellectual Developmental Disorder)": "Not attributed to, but may coexist"
+    }
+  },
+  {
+    "diagnosis": "Speech Sound Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Persistent difficulty with speech sound production that interferes with speech intelligibility or prevents verbal communication of messages.",
+      "Difficulties are not attributable to congenital or acquired conditions."
+    ],
+    "related_diagnoses": {
+      "Language disorder": "Co-occurs with speech sound disorder",
+      "Specific learning disorder": "Poorer prognosis if associated with speech sound disorder",
+      "Developmental coordination disorder": "May be impaired in terms of motor coordination",
+      "Autism spectrum disorder": "Loss of speech and language in a child under 3 years may be a sign",
+      "Epilepsy": "Can be associated with acquired aphasia or Landau-Kleffner syndrome",
+      "Intellectual disability": "Often presents as language delay, but separate diagnosis given if language deficits exceed intellectual limitations",
+      "Down syndrome, 22q deletion, FoxP2 gene mutation": "Speech production problems may be differentially impaired in these genetic conditions"
+    }
+  },
+  {
+    "diagnosis": "Childhood-onset fluency disorder (stuttering)",
+    "symptoms": [
+      "Sound and syllable repetitions",
+      "Sound prolongations of consonants and vowels",
+      "Broken words (pauses within a word)",
+      "Audible or silent blocking (filled or unfilled pauses in speech)",
+      "Circumlocutions (word substitutions to avoid problematic words)",
+      "Words produced with an excess of physical tension",
+      "Monosyllabic whole-word repetitions"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Disturbance in the normal fluency and time patterning of speech.",
+      "Interference with academic or occupational achievement or social communication."
+    ],
+    "related_diagnoses": {
+      "Autism Spectrum Disorder": "Not better explained by...",
+      "Intellectual Disability (Intellectual Developmental Disorder)": "Not better explained by..."
+    }
+  },
+  {
+    "diagnosis": "Autism Spectrum Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Persistent deficits in social communication and social interaction.",
+      "Restricted, repetitive patterns of behavior, interests, or activities."
+    ],
+    "related_diagnoses": {
+      "Social (Pragmatic) Communication Disorder": "May be diagnosed instead if symptoms don't fully meet criteria for ASD",
+      "Intellectual Disability (Intellectual Developmental Disorder)": "Frequently co-occurs; social communication should be below that expected for general developmental level to diagnose both conditions."
+    }
+  },
+  {
+    "diagnosis": "Autism Spectrum Disorder",
+    "symptoms": [
+      "Severe deficits in verbal and nonverbal social communication skills",
+      "Very limited initiation of social interactions",
+      "Minimal response to social overtures from others",
+      "Marked inflexibility of behavior",
+      "Extreme difficulty coping with change",
+      "Other restricted/repetitive behaviors interfering with functioning",
+      "Great distress/difficulty changing focus or action",
+      "Noticeable impairments in social communication even with supports in place",
+      "Limited initiation of social interactions and reduced/abnormal responses to social overtures from others",
+      "Decreased interest in social interactions",
+      "Atypical or unsuccessful responses to social overtures of others",
+      "Significant interference caused by inflexibility of behavior in one or more contexts",
+      "Difficulty switching between activities",
+      "Problems of organization and planning hampering independence"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Persistent impairment in reciprocal social communication and social interaction.",
+      "Restricted, repetitive patterns of behavior, interests, or activities."
+    ],
+    "related_diagnoses": {
+      "Attention-deficit/Hyperactivity Disorder": "Often comorbid",
+      "Developmental Coordination Disorder": "May occur alongside",
+      "Disruptive Behavior, Impulse-Control, or Conduct Disorders": "Can coexist",
+      "Anxiety, Depressive, or Bipolar Disorders": "Common comorbidities",
+      "Tics or Tourette's Disorder": "Sometimes associated",
+      "Self-Injury": "Potential symptom",
+      "Feeding, Elimination, or Sleep Disorders": "Possible secondary issues"
+    }
+  },
+  {
+    "diagnosis": "Autism Spectrum Disorder",
+    "symptoms": [
+      "Absent, reduced, or atypical social interest",
+      "Rejection of others",
+      "Passivity",
+      "Inappropriate approaches seeming aggressive or disruptive",
+      "Lack of shared social play and imagination",
+      "Insistence on playing by very fixed rules",
+      "Difficulty understanding appropriate behavior in different situations",
+      "Misunderstanding how language is used (e.g., irony)",
+      "Preference for solitary activities or interacting with people significantly younger or older",
+      "Desire to establish friendships without a complete idea of what they entail",
+      "Stereotyped or repetitive motor movements",
+      "Repetitive use of objects",
+      "Repetitive speech (echolalia, etc.)",
+      "Excessive adherence to routines and rigid patterns of behavior",
+      "Highly restricted, fixated interests with abnormal intensity or focus",
+      "Extreme reactions to sensory input (e.g., sounds, textures)"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Social communication deficits judged against norms for age, gender, and culture.",
+      "Restricted, repetitive patterns of behavior, interests, or activities."
+    ],
+    "related_diagnoses": {
+      "Intellectual Disability": "May coexist with autism spectrum disorder.",
+      "Language Impairment": "Commonly associated with autism spectrum disorder."
+    }
+  },
+  {
+    "diagnosis": "Autism spectrum disorder",
+    "symptoms": [
+      "Marked social and communication impairments",
+      "Restricted/repetitive behaviors",
+      "Difficulties in early childhood and early school years",
+      "Developmental gains in later childhood in some areas",
+      "Behavioral deterioration during adolescence for a small proportion",
+      "Social naivety and vulnerability",
+      "Difficulties organizing practical demands without aid",
+      "Prone to anxiety and depression",
+      "Compensation strategies used to mask difficulties in public",
+      "Impairments causing current functioning issues in social, occupational, or other important areas"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A neurodevelopmental disorder characterized by persistent deficits in social communication and interaction across multiple contexts.",
+      "Defined by the presence of restricted, repetitive patterns of behavior, interests, or activities."
+    ],
+    "related_diagnoses": {
+      "Rett syndrome": "May exhibit similar symptoms during regression phase but improves later.",
+      "Selective mutism": "Early development not typically disturbed, appropriate communication in certain contexts.",
+      "Language disorders and social (pragmatic) communication disorder": "Problems of communication and secondary social difficulties without abnormal nonverbal communication or restricted/repetitive patterns of behavior.",
+      "Intellectual disability (intellectual developmental disorder)": "Differentiation can be challenging in young children. Appropriate if no significant discrepancy between social-communicative skills and other intellectual skills."
+    }
+  },
+  {
+    "diagnosis": "Attention-Deficit/Hyperactivity Disorder",
+    "symptoms": [
+      "Overly focused or easily distracted attention",
+      "Hyperactivity"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Persistent pattern of inattention and/or hyperactivity-impulsivity interfering with functioning or development.",
+      "Difficulty sustaining attention, finishing tasks, staying organized."
+    ],
+    "related_diagnoses": {
+      "autism spectrum disorder": "may coexist, requiring dual diagnosis if criteria for both are met",
+      "other comorbid mental disorders": "common, including anxiety disorders, depressive disorders, etc."
+    }
+  },
+  {
+    "diagnosis": "Attention-Deficit/Hyperactivity Disorder",
+    "symptoms": [
+      "wandering off task",
+      "lacking persistence",
+      "having difficulty sustaining focus",
+      "being disorganized",
+      "excessive motor activity",
+      "fidgeting",
+      "tapping",
+      "talkativeness",
+      "hasty actions without forethought",
+      "interrupting others excessively"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A persistent pattern of inattention and/or hyperactivity-impulsivity interfering with functioning or development.",
+      "Manifests as wandering off task, lacking persistence, disorganization, and impulsive behaviors."
+    ],
+    "related_diagnoses": {
+      "conduct disorder": "secondary development of conduct problems",
+      "antisocial personality disorder": "increased likelihood for substance use disorders and incarceration",
+      "substance use disorders": "elevated risk, especially when conduct disorder or antisocial personality disorder develops"
+    }
+  },
+  {
+    "diagnosis": "Attention-Deficit/Hyperactivity Disorder",
+    "symptoms": [
+      "reduced school performance",
+      "academic attainment",
+      "social rejection",
+      "poorer occupational performance",
+      "unemployment",
+      "elevated interpersonal conflict",
+      "conduct disorder development",
+      "antisocial personality disorder development",
+      "substance use disorders",
+      "incarceration",
+      "increased risk of accidental injury",
+      "traffic accidents and violations",
+      "obesity"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "a disorder characterized by persistent patterns of inattention and/or hyperactivity-impulsivity that impairs functioning or development"
+    ],
+    "related_diagnoses": {
+      "oppositional defiant disorder": "may resist work or school tasks that require self-application due to negativity, hostility, and defiance",
+      "intermittent explosive disorder": "high levels of impulsive behavior, but does not include serious aggression towards others nor inattention issues like ADHD",
+      "autism spectrum disorder": "similar social dysfunction and peer rejection, but distinct in terms of social disengagement, isolation, and communication cues",
+      "reactive attachment disorder": "shows social disinhibition but lacks the full ADHD symptom cluster and displays different features",
+      "anxiety disorders": "shared symptoms of inattention, but differs in cause - ADHD due to attraction to external stimuli while anxiety due to worry and rumination",
+      "depressive disorders": "presents with inability to concentrate, but only during a depressive episode",
+      "bipolar disorder": "includes increased activity, poor concentration, and impulsivity episodically accompanied by elevated mood, grandiosity, etc.",
+      "disruptive mood dysregulation disorder": "characterized by pervasive irritability and intolerance of frustration, but impulsiveness and disorganized attention are not essential features",
+      "substance use disorders": "differentiation may be problematic if the first presentation of ADHD symptoms follows the onset of abuse or frequent use."
+    }
+  },
+  {
+    "diagnosis": "Attention-Deficit/Hyperactivity Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Difficulties learning and using academic skills.",
+      "Symptoms causing clinically significant distress or impairment."
+    ],
+    "related_diagnoses": {
+      "Oppositional Defiant Disorder": "Co-occurs in approximately half of children with the combined presentation and about a quarter with the predominantly inattentive presentation.",
+      "Conduct Disorder": "Co-occurs in about a quarter of children or adolescents with the combined presentation.",
+      "Disruptive Mood Dysregulation Disorder": "Most children and adolescents with symptoms meeting criteria for both ADHD and DMDD.",
+      "Anxiety Disorders": "Occurs in a minority of individuals with ADHD but more often than in the general population.",
+      "Major Depressive Disorder": "Occurs in a minority of individuals with ADHD but more often than in the general population.",
+      "Intermittent Explosive Disorder": "Occurs in a minority of adults with ADHD, but at rates above population levels.",
+      "Substance Use Disorders": "Present in only a minority of adults with ADHD.",
+      "Antisocial Personality Disorder": "May co-occur with ADHD in adults.",
+      "Obsessive-Compulsive Disorder": "May co-occur with ADHD.",
+      "Tic Disorders": "May co-occur with ADHD.",
+      "Autism Spectrum Disorder": "May co-occur with ADHD."
+    }
+  },
+  {
+    "diagnosis": "Specific Learning Disorder",
+    "symptoms": [
+      "Difficulties learning key academic skills",
+      "Persistent difficulties mastering academic skills",
+      "Low academic achievement for age",
+      "Interference in school performance",
+      "Avoidance of activities requiring academic skills",
+      "Interference with occupational performance or everyday activities requiring those skills"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Neurodevelopmental disorder with a biological origin.",
+      "Disruption of the normal pattern of learning academic skills."
+    ],
+    "related_diagnoses": {
+      "Intellectual Disability": "Not attributable to intellectual disabilities",
+      "Global Developmental Delay": "Not attributable to global developmental delay",
+      "Hearing or Vision Disorders": "Not attributable to hearing or vision disorders",
+      "Neurological or Motor Disorders": "Not attributable to neurological or motor disorders"
+    }
+  },
+  {
+    "diagnosis": "Specific Learning Disorder",
+    "symptoms": [
+      "Difficulty in learning letter-sound correspondence",
+      "Slow, inaccurate, and effortful reading",
+      "Inability to decode fluent words",
+      "Poor spelling",
+      "Arithmetic calculation difficulties",
+      "Trouble understanding the magnitude of numbers",
+      "Inaccurate pronunciation of multisyllabic words",
+      "Confusion between words that sound alike",
+      "Memory issues regarding dates, names, and phone numbers",
+      "Fear of reading aloud or refusal to read aloud",
+      "Ongoing spelling problems",
+      "Slow and effortful reading",
+      "Difficulties making inferences from written text",
+      "Avoidance of activities demanding reading or arithmetic"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A clinical diagnosis based on a synthesis of various factors including medical, developmental, educational, and family histories.",
+      "Lifelong condition characterized by variable course and clinical expression."
+    ],
+    "related_diagnoses": {
+      "Attention-Deficit/Hyperactivity Disorder (ADHD)": "Co-occurs with specific learning disorder",
+      "Autistic Spectrum Disorder": "Cognitive deficits associated with specific learning disorder are found in this disorder too",
+      "Communication Disorders": "Similar cognitive deficits are present in this disorder",
+      "Developmental Coordination Disorder": "Similar cognitive deficits are present in this disorder too"
+    }
+  },
+  {
+    "diagnosis": "Specific Learning Disorder",
+    "symptoms": [
+      "Difficulties in reading",
+      "Slow and effortful reading",
+      "Problems making important inferences from numerical information",
+      "Avoidance of activities demanding reading or writing",
+      "Ongoing spelling problems",
+      "Inability to master the basic sense of number",
+      "Lack of proficiency in word identification or spelling",
+      "Episodes of severe anxiety or anxiety disorders",
+      "Somatic complaints or panic attacks"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Circumscribed learning difficulties that persist across the lifespan.",
+      "Marked problems with inattentive behavior predicting later difficulties in reading and mathematics."
+    ],
+    "related_diagnoses": {
+      "ADHD": "Co-occurrence is more frequent than expected by chance. Both diagnoses can be given if criteria for both are met.",
+      "Autistic Spectrum Disorder": "Common comorbidity",
+      "Communication Disorders": "Common comorbidity",
+      "Developmental Coordination Disorder": "Common comorbidity",
+      "Anxiety Disorders": "Common comorbidity",
+      "Depressive and Bipolar Disorders": "Common comorbidity"
+    }
+  },
+  {
+    "diagnosis": "Developmental Coordination Disorder",
+    "symptoms": [
+      "Clumsiness",
+      "Slowness and inaccuracy of performance of motor skills",
+      "Difficulties in acquiring and executing coordinated motor skills"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Substantially below average motor skills compared to one's age.",
+      "Significantly interferes with daily activities."
+    ],
+    "related_diagnoses": {
+      "Attention-Deficit/Hyperactivity Disorder": "Co-occurrence can increase impairment.",
+      "Autism Spectrum Disorder": "Shared genetic effects suggested in severe cases.",
+      "Anxiety Disorders": "Common comorbidity.",
+      "Depressive and Bipolar Disorders": "Common comorbidity."
+    }
+  },
+  {
+    "diagnosis": "Stereotypic Movement Disorder",
+    "symptoms": [
+      "Repetitive, seemingly driven, and apparently purposeless motor behavior",
+      "Interference with social, academic, or other activities"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Essential feature of repetitive, rhythmic, or apparently purposeless motor behavior",
+      "Behaviors may be rhythmical movements of the head, hands, or body without obvious adaptive function"
+    ],
+    "related_diagnoses": {
+      "Intellectual Disability (Intellectual Developmental Disorder)": "Co-occurrence may increase risk of stereotypic movements and self-injury",
+      "Neurological Condition": "Not attributed to physiological effects of substances or conditions",
+      "Other Neurodevelopmental or Mental Disorder": "Excluded as cause of stereotypic movements"
+    }
+  },
+  {
+    "diagnosis": "Stereotypic Movement Disorder",
+    "symptoms": [
+      "Simple stereotypic movements (e.g., rocking)",
+      "Complex stereotypic movements",
+      "Self-injury",
+      "Repetitive self-injurious behaviors"
+    ],
+    "treatments": null,
+    "duration": "Typically begins within the first 3 years of life.",
+    "description": [
+      "Purposeless, stereotypical movements or gestures"
+    ],
+    "related_diagnoses": {
+      "Neurogenetic Syndromes": "May occur as a primary diagnosis or secondary to another disorder",
+      "Autism Spectrum Disorder": "Stereotypic movements may be a presenting symptom",
+      "Tic Disorders": "Distinguished by age at onset, consistency, and duration of movements",
+      "Obsessive-Compulsive and Related Disorders": "Distinguished by the nature of repetitive behaviors and lack of obsessions",
+      "Other Neurological Conditions": "Requires exclusion through neurological history and examination"
+    }
+  },
+  {
+    "diagnosis": "Tic Disorder",
+    "symptoms": [
+      "Sudden, rapid, recurrent, nonrhythmic motor movements or vocalizations",
+      "Various tic symptoms over time",
+      "Characteristic recurring tic repertoire",
+      "Involuntary suppression of tics for varying lengths of time",
+      "Simple motor tics (eye blinking, shoulder shrugging)",
+      "Simple vocal tics (throat clearing, sniffing, grunting)",
+      "Complex motor tics (combination of simple tics like simultaneous head turning and shoulder shrugging)",
+      "Copropraxia (tic-like sexual or obscene gestures)",
+      "Echopraxia (imitation of someone else's movements)",
+      "Palilalia (repeating one's own sounds or words)",
+      "Echolalia (repeating the last heard word or phrase)",
+      "Coprolalia (abrupt, sharp bark or grunt utterances without social interaction prosody)"
+    ],
+    "treatments": null,
+    "duration": "Persistent symptoms assured by 1-year minimum duration criterion.",
+    "description": [
+      "Comprise four diagnostic categories: Tourette\u2019s disorder, persistent (chronic) motor or vocal tic disorder, provisional tic disorder, and other specified and unspecified tic disorders.",
+      "Characterized by sudden, rapid, recurrent, nonrhythmic motor movements or vocalizations."
+    ],
+    "related_diagnoses": {
+      "Attention-Deficit/Hyperactivity Disorder (ADHD)": "Commonly comorbid in prepubertal children",
+      "Obsessive-Compulsive Disorder (OCD)": "Commonly comorbid in prepubertal children",
+      "Separation Anxiety Disorder": "Commonly comorbid in prepubertal children",
+      "Major Depressive Disorder": "More likely to develop in adolescents and adults",
+      "Substance Use Disorder": "More likely to develop in adolescents and adults",
+      "Bipolar Disorder": "More likely to develop in adolescents and adults"
+    }
+  },
+  {
+    "diagnosis": "Tic disorders",
+    "symptoms": [
+      null
+    ],
+    "treatments": [
+      null
+    ],
+    "duration": null,
+    "description": [
+      "Involuntary, repetitive, patterned movements or vocalizations"
+    ],
+    "related_diagnoses": {
+      "ADHD": "Commonly comorbid",
+      "OCD": "Commonly comorbid",
+      "Depression": "More likely experienced by women with persistent tic disorders",
+      "substance use disorders": "Can also occur alongside tic disorders",
+      "depressive, bipolar, or other mental disorders": "Possible comorbidities"
+    }
+  },
+  {
+    "diagnosis": "Psychotic Disorder",
+    "symptoms": [
+      "Delusions",
+      "Bizarre Delusions",
+      "Non-bizarre Delusions",
+      "Referential Delusions",
+      "Persecutory Delusions",
+      "Grandiose Delusions",
+      "Erotomanic Delusions",
+      "Nihilistic Delusions",
+      "Somatic Delusions",
+      "Thought Withdrawal",
+      "Thought Insertion",
+      "Delusions of Control",
+      "Auditory Hallucinations",
+      "Formal Thought Disorder",
+      "Derailment or Loose Associations",
+      "Tangentiality",
+      "Incoherence or Word Salad",
+      "Grossly Disorganized or Abnormal Motor Behavior",
+      "Catatonia",
+      "Diminished Emotional Expression",
+      "Avolition",
+      "Alogia",
+      "Anhedonia",
+      "Asociality"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Fixed beliefs that cannot be changed based on evidence.",
+      "Perception-like experiences without external stimuli."
+    ],
+    "related_diagnoses": {
+      "Schizotypal Personality Disorder": "Within the schizophrenia spectrum, milder forms of cognitive and perceptual distortions.",
+      "Delusional Disorder": "At least 1 month of delusions but no other psychotic symptoms.",
+      "Substance/Medication-Induced Psychotic Disorder": "Psychosis caused by drugs or toxins.",
+      "Psychotic Disorder Due To Another Medical Condition": "Psychosis directly resulting from another medical condition.",
+      "Catatonia Associated With Another Mental Disorder": "Catatonia occurring alongside other mental disorders."
+    }
+  },
+  {
+    "diagnosis": "Delusional Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Presence of one or more delusions lasting for at least a month.",
+      "Hallucinations, if present, are not prominent and relate to the delusional theme."
+    ],
+    "related_diagnoses": {
+      "schizophrenia spectrum disorders": "considered part of the schizophrenia spectrum",
+      "personality disorders": "specifically schizotypal personality disorder listed under both sections"
+    }
+  },
+  {
+    "diagnosis": "Delusional Disorder",
+    "symptoms": [
+      "Persecutory delusions",
+      "Conspiracy theories",
+      "Cheating, spying, malicious maligned, harassment delusions",
+      "Somatic delusions involving bodily functions or sensations",
+      "Belief in emitting a foul odor",
+      "Skin infestation delusion",
+      "Internal parasite delusion",
+      "Ugly or misshapen body parts delusion",
+      "Body part malfunction delusion"
+    ],
+    "treatments": null,
+    "duration": "At least 1 month",
+    "description": [
+      "Presence of one or more non-bizarre delusions persisting for at least 1 month.",
+      "Impairments in psychosocial functioning may be more circumscribed compared to other psychotic disorders."
+    ],
+    "related_diagnoses": {
+      "Schizophrenia": "Not given if the individual has ever had a symptom presentation that met Criterion A for schizophrenia.",
+      "Obsessive-Compulsive Disorder": "Diagnosis of Obsessive-Compulsive Disorder, with absent insight/delusional beliefs specifier, should be given instead if the individual is completely convinced about OCD beliefs.",
+      "Body Dysmorphic Disorder": "Diagnosis of Body Dysmorphic Disorder, with absent insight/delusional beliefs specifier, should be given instead if the individual is completely convinced about body image concerns."
+    }
+  },
+  {
+    "diagnosis": "Brief Psychotic Disorder",
+    "symptoms": [
+      "sudden onset of at least one of the following positive psychotic symptoms:",
+      "delusions",
+      "hallucinations",
+      "disorganized speech",
+      "grossly abnormal psychomotor behavior, including catatonia",
+      "emotional turmoil or overwhelming confusion",
+      "rapid shifts from one intense affect to another",
+      "poor judgment, cognitive impairment, or acting on the basis of delusions"
+    ],
+    "treatments": null,
+    "duration": "lasts at least 1 day but less than 1 month",
+    "description": [
+      "a disturbance involving sudden onset of psychotic symptoms lasting up to 1 month with eventual full return to premorbid functioning.",
+      "includes delusions, hallucinations, disorganized speech, or grossly abnormal psychomotor behavior."
+    ],
+    "related_diagnoses": {
+      "schizophreniform disorder": "if psychotic symptoms persist for at least 1 day",
+      "substance/medication-induced psychotic disorder": "when caused by substances or medications",
+      "depressive and bipolar disorders with psychotic features": "ruled out based on timing and type of symptoms",
+      "other psychotic disorders": "differentiated based on symptom duration and other presenting symptoms",
+      "personality disorders": "brief periods of psychotic symptoms precipitated by stress may be seen but don't warrant a separate diagnosis unless persistent beyond 1 day."
+    }
+  },
+  {
+    "diagnosis": "Schizophreniform disorder",
+    "symptoms": [
+      null
+    ],
+    "treatments": [
+      null
+    ],
+    "duration": {
+      "range": "At least 1 month but less than 6 months"
+    },
+    "description": [
+      "Identical characteristic symptoms to schizophrenia.",
+      "Duration distinguishes it from schizophrenia."
+    ],
+    "related_diagnoses": {
+      "Schizophrenia": "Intermediate duration compared to schizophrenia.",
+      "Brief psychotic disorder": "Longer duration than brief psychotic disorder."
+    }
+  },
+  null,
+  {
+    "diagnosis": "Schizophrenia",
+    "symptoms": [
+      "Impairments in motor coordination",
+      "Sensory integration issues",
+      "Motor sequencing problems",
+      "Left-right confusion",
+      "Disinhibition of associated movements",
+      "Minor physical facial and limb anomalies",
+      "Depressive symptoms",
+      "Hallucinations (visual)",
+      "Delusions",
+      "Disorganized speech",
+      "Disorganized behavior",
+      "Negative symptoms",
+      "Cognitive impairments",
+      "Social and occupational dysfunction",
+      "Suicidal thoughts or actions"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Psychosis emerging between late teens and mid-30s.",
+      "Positive symptoms often diminishing with age."
+    ],
+    "related_diagnoses": {
+      "Bipolar Disorder": "May involve concurrent mood episodes.",
+      "Depression": "Can feature psychotic or catatonic elements.",
+      "Autism Spectrum Disorder": "Shares symptoms like disorganized speech and behavior.",
+      "Attention Deficit Hyperactivity Disorder": "Shares symptoms like disorganized behavior."
+    }
+  },
+  {
+    "diagnosis": "Schizoaffective Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "An uninterrupted period of illness during which there is a major mood episode (major depressive or manic) concurrent with Criterion A of schizophrenia.",
+      "Symptoms that meet criteria for a major mood episode are present for the majority of the total duration of the active and residual portions of the illness."
+    ],
+    "related_diagnoses": {
+      "Schizophrenia": "Concurrent with Criterion A of schizophrenia",
+      "Major depressive disorder": "concurrent with Criterion A of schizophrenia",
+      "Manic episode": "part of the presentation (Bipolar type)",
+      "Substance-related disorders": "High rates of comorbidity",
+      "Anxiety disorders": "Increasingly recognized comorbidity",
+      "Obsessive-compulsive disorder": "Elevated rates in individuals with schizophrenia",
+      "Panic disorder": "Elevated rates in individuals with schizophrenia",
+      "Schizotypal or paranoid personality disorder": "May sometimes precede the onset of schizophrenia",
+      "Delirium or major or minor neurocognitive disorder": "Psychotic symptoms temporally related to onset of cognitive changes",
+      "Substance/Medication-induced psychotic disorder": "Chronological relationship of substance use to the onset and remission of psychosis in the absence of substance use"
+    }
+  },
+  {
+    "diagnosis": "schizoaffective disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A mental health condition characterized by continuous signs of a psychotic disorder (such as delusions or hallucinations) along with a separate period of major depressive or manic episodes."
+    ],
+    "related_diagnoses": {
+      "schizophrenia": "may be distinguished by severity and persistence of negative symptoms",
+      "bipolar disorder": "can differ in terms of predominant mood symptoms",
+      "major depressive disorder": "can vary in presence and timing of mood episodes"
+    }
+  },
+  {
+    "diagnosis": "Schizoaffective Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A mental health condition characterized by a mix of psychotic and mood symptoms.",
+      "Prominent delusions and/or hallucinations for at least 2 weeks in the absence of a major mood episode."
+    ],
+    "related_diagnoses": {
+      "Schizophrenia": "Often difficult to differentiate from schizoaffective disorder based on symptom presentation.",
+      "Depressive and Bipolar Disorders with Psychotic Features": "Can be distinguished from schizoaffective disorder by the fact that psychotic features primarily occur during mood episodes.",
+      "Psychosis Due to Another Medical Condition": "Needs to be ruled out due to potential overlap in symptoms."
+    }
+  },
+  {
+    "diagnosis": "Substance/Medication-Induced Psychotic Disorder",
+    "symptoms": [
+      "delusions",
+      "hallucinations",
+      "abnormal psychomotor behavior",
+      "negative symptoms"
+    ],
+    "treatments": null,
+    "duration": "Can persist for weeks.",
+    "description": [
+      "Prominent delusions and/or hallucinations caused by physiological effects of a substance/medication"
+    ],
+    "related_diagnoses": {
+      "Primary Psychotic Disorder": "Distinguished by considering onset, course, and other factors."
+    }
+  },
+  {
+    "diagnosis": "Substance/Medication-Induced Psychotic Disorder",
+    "symptoms": [
+      "altered perceptions",
+      "hallucinations",
+      "delusions",
+      "marked anxiety",
+      "emotional lability",
+      "depersonalization"
+    ],
+    "treatments": null,
+    "duration": "typically self-limited and resolves upon removal of the offending agent",
+    "description": [
+      "Psychosis resulting from substance or medication use.",
+      "May involve hallucinations, delusions, or other perceptual disturbances."
+    ],
+    "related_diagnoses": {
+      "Substance Intoxication or Substance Withdrawal": "Distinguishable by intact reality testing for perceived experiences attributed to substance use.",
+      "Delirium": "Psychotic symptoms considered an associated feature if occurring during delirium.",
+      "Major or Mild Neurocognitive Disorder": "Delusions diagnosed under this condition if no substance involvement."
+    }
+  },
+  {
+    "diagnosis": "Psychotic disorder due to another medical condition",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Delusions or hallucinations attributed to a medical condition.",
+      "May vary in terms of onset, exacerbation, or remission linked to the underlying medical condition."
+    ],
+    "related_diagnoses": {
+      "substance/medication-induced psychotic disorder": "Considered when there is evidence of recent or prolonged substance use, withdrawal, or exposure to toxins.",
+      "delirium": "Commonly involves hallucinations and delusions, but a separate diagnosis of psychotic disorder due to another medical condition isn't given if the disturbance occurs exclusively during delirium.",
+      "major or mild neurocognitive disorder": "With behavioral disturbance if delusions occur in this context."
+    }
+  },
+  {
+    "diagnosis": "Catatonia",
+    "symptoms": [
+      "Stupor",
+      "Catalepsy",
+      "Waxy flexibility",
+      "Mutism",
+      "Negativism",
+      "Posturing",
+      "Mannerism",
+      "Stereotypy",
+      "Agitation",
+      "Grimacing",
+      "Echolalia",
+      "Echopraxia"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Marked psychomotor disturbance involving at least three of the 12 diagnostic features.",
+      "Can occur in various disorders including neurodevelopmental, psychotic, bipolar, depressive disorders, and other medical conditions."
+    ],
+    "related_diagnoses": {
+      "Neurodevelopmental disorders": "Shares symptoms",
+      "Psychotic disorders": "Shares symptoms",
+      "Bipolar disorders": "Shares symptoms",
+      "Depressive disorders": "Shares symptoms",
+      "Other mental disorders": "Shares symptoms",
+      "Delirium": "Not better explained by",
+      "Schizophrenia spectrum and other psychotic disorders": "May be present in these disorders",
+      "Substance/medication-induced psychotic disorder": "May be present in this disorder",
+      "Neuroleptic malignant syndrome": "Consideration should be given to differential diagnosis",
+      "Medical conditions like infections, metabolism issues, neurological conditions": "Causes catatonia due to another medical condition"
+    }
+  },
+  {
+    "diagnosis": "Unspecified Catatonia",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Category for presentations with catatonic symptoms causing distress or impairment, lacking clear underlying mental disorder or meeting full catatonia criteria."
+    ],
+    "related_diagnoses": {
+      "Schizophrenia Spectrum and Other Psychotic Disorders": "Predominate symptoms but don't meet full criteria for any specific disorder.",
+      "Bipolar and Related Disorders": "Bridge between schizophrenia spectrum and depressive disorders; includes bipolar I, II, cyclothymic disorder, etc."
+    }
+  },
+  {
+    "diagnosis": "Bipolar Disorder",
+    "symptoms": [
+      "Inflated self-esteem or grandiosity",
+      "Decreased need for sleep",
+      "More talkative than usual or pressure to keep talking",
+      "Flight of ideas or subjective experience that thoughts are racing",
+      "Distractibility",
+      "Increase in goal-directed activity",
+      "Excessive involvement in activities with high potential for painful consequences"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Characterized by periods of elevated mood (mania) and depressed mood"
+    ],
+    "related_diagnoses": {
+      "Major Depressive Episode": "Common comorbidity",
+      "Schizophrenia": "Not better explained by..."
+    }
+  },
+  null,
+  {
+    "diagnosis": "bipolar I disorder",
+    "symptoms": [
+      "marked impairment in social or occupational functioning",
+      "require hospitalization to prevent harm to self or others",
+      "increased irritability, edginess, or agitation following antidepressant use",
+      "poor judgment, loss of insight, and hyperactivity",
+      "rapid shifts to anger or depression",
+      "hostile and physically threatening behavior towards others",
+      "suicidal ideation",
+      "sexual or social disinhibition in late mid-life or late-life",
+      "cognitive impairments",
+      "irritability associated with both major depressive disorder and bipolar disorder"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A type of mood disorder characterized by extreme changes in mood, energy levels, activity levels, and the ability to carry out day-to-day tasks.",
+      "Marked by periods of abnormally elevated moods (mania) alternating with periods of depression."
+    ],
+    "related_diagnoses": {
+      "schizophrenia": "share genetic origins",
+      "major depressive disorder": "may be accompanied by hypomanic or manic symptoms",
+      "generalized anxiety disorder, panic disorder, posttraumatic stress disorder, or other anxiety disorders": "need to be considered in the differential diagnosis as either the primary disorder or a comorbid disorder"
+    }
+  },
+  {
+    "diagnosis": "Bipolar II Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Distinct period of abnormally and persistently elevated, expansive, or irritable mood.",
+      "Abnormally and persistently increased activity or energy."
+    ],
+    "related_diagnoses": {
+      "Anxiety Disorders": "May be confused with bipolar disorder",
+      "ADHD": "Symptoms may overlap with mania",
+      "Personality Disorders": "Substantial symptomatic overlap with bipolar disorders"
+    }
+  },
+  {
+    "diagnosis": "Bipolar II Disorder",
+    "symptoms": [
+      "intense sadness",
+      "rumination about loss",
+      "insomnia",
+      "poor appetite",
+      "weight loss",
+      "persistent depressed mood",
+      "self-criticism or pessimism",
+      "feelings of emptiness and loss (during grief)",
+      "positive emotions and humor (uncharacteristic of depression)"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Recurring mood episodes consisting of one or more major depressive episodes and at least one hypomanic episode.",
+      "Hypomanic episodes lasting at least 4 days, causing no significant impairment."
+    ],
+    "related_diagnoses": {
+      "Schizoaffective disorder": "Not better explained by...",
+      "Schizophrenia": "Not better explained by...",
+      "Schizophreniform disorder": "Not better explained by...",
+      "Delusional disorder": "Not better explained by..."
+    }
+  },
+  {
+    "diagnosis": "Bipolar II disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A mood disorder characterized by alternating periods of depression and hypomania.",
+      "Hypomanic episodes define this disorder."
+    ],
+    "related_diagnoses": {
+      "Major Depressive Disorder": "May be misdiagnosed due to shared symptoms like depression.",
+      "Cyclothymic Disorder": "Distinguished by the presence of one or more major depressive episodes.",
+      "Schizophrenia Spectrum & Psychotic Disorders": "Differentiated based on the absence of prominent mood symptoms and presence of psychosis."
+    }
+  },
+  {
+    "diagnosis": "cyclothymic disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": "chronic, fluctuating mood disturbance involving numerous periods of hypomanic symptoms and periods of depressive symptoms",
+    "description": [
+      "Essential feature is a chronic, fluctuating mood disturbance involving numerous periods of hypomanic symptoms and periods of depressive symptoms.",
+      "Hypomanic symptoms are of insufficient number, severity, pervasiveness, or duration to meet full criteria for a hypomanic episode.",
+      "Depressive symptoms are of insufficient number, severity, pervasiveness, or duration to meet full criteria for a major depressive episode."
+    ],
+    "related_diagnoses": {
+      "major depressive disorder": "if subsequent experience of a major depressive, manic, or hypomanic episode occurs",
+      "bipolar I disorder": "if subsequent experience of a major depressive, manic, or hypomanic episode occurs",
+      "other specified or unspecified bipolar and related disorder": "if subsequent experience of a major depressive, manic, or hypomanic episode occurs",
+      "schizoaffective disorder": "not diagnosed if the pattern of mood swings is better explained by...",
+      "schizophrenia": "not diagnosed if the pattern of mood swings is better explained by...",
+      "schizophreniform disorder": "not diagnosed if the pattern of mood swings is better explained by...",
+      "delusional disorder": "not diagnosed if the pattern of mood swings is better explained by..."
+    }
+  },
+  {
+    "diagnosis": "Cyclothymic Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Characterized by numerous periods of hypomanic symptoms and depressive symptoms over at least two years.",
+      "May involve genetic and physiological factors."
+    ],
+    "related_diagnoses": {
+      "Bipolar and related disorder due to another medical condition": "Made when the mood disturbance is attributed to a specific medical condition.",
+      "Depressive disorder due to another medical condition": "Same as above.",
+      "Bipolar I disorder, bipolar II disorder": "More common among first-degree biological relatives.",
+      "Substance-related disorders": "Increased familial risk.",
+      "Sleep disorders": "Present in some cases.",
+      "Attention-deficit/hyperactivity disorder": "Commonly comorbid in child treatment settings."
+    }
+  },
+  {
+    "diagnosis": "substance/medication-induced bipolar and related disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Aprominent and persistent period of abnormally elevated, expansive, or irritable mood and abnormally increased activity or energy.",
+      "Essential features similar to mania, hypomania, or depression but caused by substance/medication use."
+    ],
+    "related_diagnoses": {
+      "substance intoxication or substance-induced delirium": "differentiation required",
+      "other bipolar disorders": "differentiation required",
+      "medication side effects": "differentiation required"
+    }
+  },
+  {
+    "diagnosis": "Bipolar and Related Disorder Due to Another Medical Condition",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Presence of a prominent and persistent period of abnormally elevated, expansive, or irritable mood and abnormally increased activity or energy predominating in the clinical picture that is attributable to another medical condition."
+    ],
+    "related_diagnoses": {
+      "Delirium": "Differentiate symptoms of mania from excited or hypervigilant delirious symptoms.",
+      "Catatonia": "Differentiate symptoms of mania from excited catatonic symptoms.",
+      "Acute anxiety": "Differentiate symptoms of mania from agitation related to acute anxiety states.",
+      "Substance/Medication Induced Depressive or Manic Symptoms": "Important differential diagnostic observation - the other medical condition may be treated with medications that can induce depressive or manic symptoms."
+    }
+  },
+  {
+    "diagnosis": "Hypomanic episode",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "One or more hypo-manic episodes...",
+      "Multiple episodes of hypomanic symptoms..."
+    ],
+    "related_diagnoses": {
+      "Short-duration cyclothymia": "Less than 24 months",
+      "Major Depressive Episode": "Never met full criteria",
+      "Manic Episode": "Never met full criteria",
+      "Persistent Depressive Disorder (Dysthymia)": "Can be concurrently applied during..."
+    }
+  },
+  {
+    "diagnosis": "null",
+    "symptoms": [],
+    "treatments": [],
+    "duration": "null",
+    "description": [
+      "Atypical features dominate during the majority of days of the current or most recent major depressive episode.",
+      "Mood reactivity - ability to brighten in response to positive events.",
+      "Significant weight gain or increased appetite.",
+      "Hypersomnia (extended sleep or daily naps totaling \u226510 hours)",
+      "Leaden paralysis (heavy, leaden feeling in arms or legs)",
+      "Long-standing pattern of interpersonal rejection sensitivity."
+    ],
+    "related_diagnoses": {
+      "Seasonal Pattern": "Regular temporal relationship between mood episodes and a particular time of year",
+      "Peripartum Onset": "Onset of mood symptoms during pregnancy or within 4 weeks of delivery",
+      "Catatonia": "Present during most of the episode",
+      "Psychotic Features": "Delusions or hallucinations present at any time in the episode"
+    }
+  },
+  {
+    "diagnosis": "Disruptive Mood Dysregulation Disorder",
+    "symptoms": [
+      null
+    ],
+    "treatments": [
+      null
+    ],
+    "duration": null,
+    "description": [
+      "Chronic, severe persistent irritability.",
+      "Frequent temper outbursts verbally and/or behaviorally.",
+      "Persistent irritable or angry mood between temper outbursts."
+    ],
+    "related_diagnoses": {
+      "oppositional defiant disorder": "Cannot coexist",
+      "intermittent explosive disorder": "Cannot coexist",
+      "bipolar disorder": "Cannot coexist",
+      "major depressive disorder": "Can coexist",
+      "attention-deficit/hyperactivity disorder": "Can coexist",
+      "conduct disorder": "Can coexist",
+      "substance use disorders": "Can coexist"
+    }
+  },
+  {
+    "diagnosis": "Disruptive Mood Dysregulation Disorder",
+    "symptoms": [
+      "Severe, chronic irritability",
+      "Low frustration tolerance",
+      "Difficulties in school performance"
+    ],
+    "treatments": null,
+    "duration": "Persistent over many months",
+    "description": [
+      "A childhood condition characterized by severe, recurrent temper outbursts that are grossly out of proportion to the situation.",
+      "Symptoms occur persistently across different settings."
+    ],
+    "related_diagnoses": {
+      "Pediatric Bipolar Disorder": "Comorbid, shares symptoms",
+      "Oppositional Defiant Disorder": "Considered during differential diagnosis"
+    }
+  },
+  {
+    "diagnosis": "disruptive mood dysregulation disorder",
+    "symptoms": [
+      "severe and frequently recurrent outbursts",
+      "persistent disruption in mood between outbursts",
+      "impairment in at least one setting (home, school, or among peers)",
+      "irritability"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "a childhood disorder characterized by frequent temper outbursts and persistently irritable or angry mood"
+    ],
+    "related_diagnoses": {
+      "oppositional defiant disorder": "high comorbidity, shares symptoms",
+      "attention-deficit/hyperactivity disorder": "can be comorbid",
+      "major depressive disorder": "can be comorbid",
+      "anxiety disorders": "can be comorbid",
+      "intermittent explosive disorder": "similar symptoms but different diagnostic criteria",
+      "bipolar disorder": "do not diagnose if symptoms meet criteria for bipolar disorder"
+    }
+  },
+  {
+    "diagnosis": "major depressive disorder",
+    "symptoms": [
+      "persistent depressed mood",
+      "loss of interest or pleasure",
+      "changes in appetite or weight",
+      "sleep disturbance"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A period of at least 2 weeks with either depressed mood or loss of interest.",
+      "Presence of at least four additional symptoms including changes in appetite, sleep, and psychomotor activity, decreased energy, feelings of worthlessness or guilt, difficulties in thinking, concentration, or decision-making, and recurrent thoughts of death."
+    ],
+    "related_diagnoses": {
+      "schizoaffective disorder": "exclusionary",
+      "schizophrenia": "exclusionary",
+      "schizophreniform disorder": "exclusionary",
+      "delusional disorder": "exclusionary",
+      "other specified and unspecified schizophrenia spectrum and other psychotic disorders": "exclusionary"
+    }
+  },
+  {
+    "diagnosis": "Major Depressive Disorder",
+    "symptoms": [
+      "agitation",
+      "retardation",
+      "decreased energy",
+      "tiredness",
+      "fatigue",
+      "worthlessness or guilt",
+      "impaired ability to think or concentrate",
+      "thoughts of death or suicide"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A mood disorder characterized by persistent feelings of sadness and loss of interest"
+    ],
+    "related_diagnoses": {
+      "Bipolar Disorder": "May start with depressive episodes.",
+      "Schizophrenia": "Possible transition from major depressive disorder with psychotic features."
+    }
+  },
+  {
+    "diagnosis": "Major Depressive Disorder",
+    "symptoms": [
+      "sadness",
+      "loss of interest",
+      "insomnia",
+      "hypersomnia",
+      "low energy or fatigue",
+      "poor appetite or overeating",
+      "low self-esteem",
+      "poor concentration or decision-making difficulties",
+      "feelings of hopelessness"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Depressed mood for most of the day, for more days than not, for at least 2 years.",
+      "Presence, while depressed, of two (or more) of the following..."
+    ],
+    "related_diagnoses": {
+      "bipolar disorder": "may transition from depressive episodes",
+      "schizophrenia": "possible transition from major depressive disorder with psychotic features",
+      "substance/medication-induced depressive or bipolar disorder": "distinguished by substance involvement",
+      "attention-deficit/hyperactivity disorder": "distractibility and low frustration tolerance overlap",
+      "adjustment disorder with depressed mood": "less severe than major depressive episode",
+      "other specified depressive disorder": "for presentations of depressed mood without meeting full criteria for duration or severity",
+      "borderline personality disorder": "markedly increases risk for future suicide attempts",
+      "anorexia nervosa, bulimia nervosa, panic disorder, obsessive-compulsive disorder": "frequent comorbidities with major depressive disorder"
+    }
+  },
+  {
+    "diagnosis": "Persistent Depressive Disorder (Dysthymia)",
+    "symptoms": [
+      "Depressed mood",
+      "Poor appetite or overeating",
+      "Insomnia or hypersomnia",
+      "Low energy or fatigue",
+      "Low self-esteem",
+      "Poor concentration or difficulty making decisions",
+      "Feelings of hopelessness"
+    ],
+    "treatments": null,
+    "duration": "At least 2 years (1 year for children and adolescents)",
+    "description": [
+      "Consolidation of DSM-IV defined chronic major depressive disorder and dysthymic disorder.",
+      "Essential feature is a depressed mood occurring for most of the day, for more days than not."
+    ],
+    "related_diagnoses": {
+      "Borderline Personality Disorder": "Co-occurs frequently",
+      "Substance-Related Disorders": "Frequently co-occurs",
+      "Panic Disorder": "Frequently co-occurs",
+      "Obsessive-Compulsive Disorder": "Frequently co-occurs",
+      "Anorexia Nervosa": "Frequently co-occurs",
+      "Bulimia Nervosa": "Frequently co-occurs",
+      "Schizoaffective Disorder": "Not diagnosed if symptoms occur only during the course of the psychotic disorder.",
+      "Schizophrenia": "Not diagnosed if symptoms occur only during the course of the psychotic disorder.",
+      "Delusional Disorder": "Not diagnosed if symptoms occur only during the course of the psychotic disorder."
+    }
+  },
+  {
+    "diagnosis": "Persistent depressive disorder",
+    "symptoms": [
+      null
+    ],
+    "treatments": [
+      null
+    ],
+    "duration": null,
+    "description": [
+      "Chronic low-grade depression.",
+      "Symptoms often occur alongside psychotic disorders."
+    ],
+    "related_diagnoses": {
+      "schizoaffective disorder": "Often occurs together",
+      "schizophrenia": "Often occurs together",
+      "delusional disorder": "Often occurs together",
+      "substance/medication-induced depressive or bipolar disorder": "Distinguished by cause",
+      "personality disorders": "Coexistence is common",
+      "major depressive disorder": "Higher risk for comorbidity compared to persistent depressive disorder",
+      "anxiety disorders": "Higher risk for comorbidity compared to major depressive disorder",
+      "substance use disorders": "Higher risk for comorbidity compared to major depressive disorder",
+      "DSM-IV Cluster B and C personality disorders": "Strongly associated with early-onset persistent depressive disorder",
+      "premenstrual dysphoric disorder": "Not an exacerbation of symptoms according to diagnostic criteria"
+    }
+  },
+  {
+    "diagnosis": "premenstrual dysphoric disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Affective and somatic symptoms that occur repeatedly during the luteal phase of the menstrual cycle.",
+      "Markedly impairs social or occupational functioning."
+    ],
+    "related_diagnoses": {
+      "premenstrual syndrome": "less severe, requires fewer symptoms, no stipulation of affective symptoms",
+      "dysmenorrhea": "distinct syndrome of painful menses",
+      "bipolar disorder, major depressive disorder, persistent depressive disorder (dysthymia)": "overlap in symptoms, require charting to differentiate",
+      "substance/medication-induced depressive disorder": "symptoms caused by hormonal treatments or substances/medications"
+    }
+  },
+  {
+    "diagnosis": "Substance/Medication-Induced Depressive Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": "Symptoms typically remit within days to several weeks after discontinuation of substance.",
+    "description": [
+      "Depressive symptoms associated with substance use or withdrawal."
+    ],
+    "related_diagnoses": {
+      "Comorbid Substance Use Disorder": "Often present when depressive symptoms arise due to substance use.",
+      "Primary Depressive Disorder": "Must be ruled out if depressive symptoms persist beyond expected withdrawal period."
+    }
+  },
+  {
+    "diagnosis": "Substance/Medication-Induced Depressive Disorder",
+    "symptoms": [
+      "feelings of worthlessness",
+      "insomnia/hypersomnia",
+      "thoughts of death and suicide attempts"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Mood disturbance severe enough to require independent clinical attention.",
+      "Caused by substances or medications."
+    ],
+    "related_diagnoses": {
+      "Major Depressive Disorder": "Can coexist with substance/medication-induced depressive disorder.",
+      "Cocaine Withdrawal": "May cause dysphoria, but substance/medication-induced depressive disorder requires more intense or prolonged symptoms.",
+      "Other Specified Depressive Disorder/Unspecified Depressive Disorder": "When insufficient evidence exists to link depressive symptoms to substances, another medical condition, or being primary."
+    }
+  },
+  {
+    "diagnosis": "Depressive Disorder Due to Another Medical Condition",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A prominent and persistent period of depressed mood or markedly diminished interest or pleasure in all, or almost all, activities.",
+      "Thought to be related to the direct physiological effects of another medical condition."
+    ],
+    "related_diagnoses": {
+      "adjustment disorder": "may bring on either an adjustment disorder or an episode of major depression",
+      "medication-induced depressive disorder": "Some medical conditions are treated with medications that can induce depressive or manic symptoms."
+    }
+  },
+  {
+    "diagnosis": "Other Specified Depressive Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Presents with symptoms characteristic of a depressive disorder causing clinically significant distress or impairment.",
+      "Does not meet full criteria for any specific depressive disorder."
+    ],
+    "related_diagnoses": {
+      "Recurrent Brief Depression": "Concurrent presence of depressed mood and at least four other symptoms of depression for 2-13 days at least once per month for at least 12 consecutive months.",
+      "Short-Duration Depressive Episode": "Depressed affect and at least four of the other eight symptoms of a major depressive episode associated with clinically significant distress or impairment that persists for more than 4 days, but less than 14 days.",
+      "Depressive Episode with Insufficient Symptoms": "Depressed affect and at least one of the other eight symptoms of a major depressive episode associated with clinically significant distress or impairment that persist for at least 2 weeks."
+    }
+  },
+  {
+    "diagnosis": "Major Depressive Disorder",
+    "symptoms": [
+      "Significant weight gain or increase in appetite",
+      "Hypersomnia",
+      "Leaden paralysis",
+      "Long-standing pattern of interpersonal rejection sensitivity"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Characterized by persistent low mood, loss of interest or pleasure, and various physical and emotional symptoms.",
+      "Includes subtypes like 'atypical depression'",
+      "Seasonal patterns may exist"
+    ],
+    "related_diagnoses": {
+      "Bipolar I Disorder": "May share seasonal patterns",
+      "Bipolar II Disorder": "More likely to exhibit seasonal patterns compared to Bipolar I Disorder",
+      "Schizophrenia Spectrum and Other Psychotic Disorders": "Catatonic features can be associated with both conditions."
+    }
+  },
+  {
+    "diagnosis": "Anxiety Disorders",
+    "symptoms": [
+      "excessive fear or anxiety",
+      "fear of separation from attachment figures",
+      "persistent worry about harm to attachment figures",
+      "reluctance to leave home or go to school",
+      "fear of being alone",
+      "nightmares involving separation themes",
+      "physical symptoms like headaches, stomachaches, nausea, vomiting"
+    ],
+    "treatments": null,
+    "duration": "Typically lasting 6 months or more in adults, 4 weeks in children and adolescents.",
+    "description": [
+      "Emotional response to perceived imminent threat",
+      "Anticipation of future threat"
+    ],
+    "related_diagnoses": {
+      "Panic Disorder": "Comorbid",
+      "Social Anxiety Disorder": "Highly Comorbid",
+      "Specific Phobia": "Highly Comorbid",
+      "Agoraphobia": "Comorbid",
+      "Generalized Anxiety Disorder": "Comorbid"
+    }
+  },
+  null,
+  null,
+  {
+    "diagnosis": "Selective Mutism",
+    "symptoms": [
+      "excessive shyness",
+      "fear of social embarrassment",
+      "social isolation and withdrawal",
+      "clinging",
+      "compulsive traits",
+      "negativism",
+      "temper tantrums",
+      "mild oppositional behavior",
+      "subtle receptive language difficulties"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Persistent failure to speak in specific social situations despite speaking in others.",
+      "Typically manifests before age 5."
+    ],
+    "related_diagnoses": {
+      "Social Anxiety Disorder": "Most commonly co-occurs with selective mutism.",
+      "Separation Anxiety Disorder": "May also coexist with selective mutism.",
+      "Specific Phobia": "Can share similar characteristics like avoidance and fear disproportionate to threat."
+    }
+  },
+  null,
+  {
+    "diagnosis": "Specific Phobia",
+    "symptoms": [
+      "crying",
+      "tantrums",
+      "freezing",
+      "clinging"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Excessive fears in young children are usually transitory and mildly impairing.",
+      "Fear and anxiety regarding specific objects or situations."
+    ],
+    "related_diagnoses": {
+      "Agoraphobia": "May resemble situational specific phobia based on overlapping feared situations.",
+      "Social anxiety disorder": "Should be diagnosed instead if the situations are feared because of negative evaluation.",
+      "Separation anxiety disorder": "Should be diagnosed instead if the situations are feared because of separation from a primary caregiver or attachment figure.",
+      "Panic disorder": "Considered if the individual also experiences panic attacks unrelated to the specific phobia object or situation."
+    }
+  },
+  {
+    "diagnosis": "Social Anxiety Disorder (Social Phobia)",
+    "symptoms": [
+      "Marked fear or anxiety about social situations",
+      "Fear of acting in a way that will be negatively evaluated",
+      "Avoidance of social situations or enduring them with intense fear or anxiety",
+      "Anxiety out of proportion to the actual threat posed by the social situation",
+      "Clinically significant distress or impairment in social, occupational, or other important areas of functioning"
+    ],
+    "treatments": null,
+    "duration": "Typically lasting for 6 months or more",
+    "description": [
+      "Essential feature: Marked, or intense, fear or anxiety of social situations"
+    ],
+    "related_diagnoses": {
+      "Panic Disorder": "May co-occur",
+      "Body Dysmorphic Disorder": "Can share similar features but distinct diagnoses",
+      "Autism Spectrum Disorder": "Symptoms should not be attributed to these disorders"
+    }
+  },
+  {
+    "diagnosis": "Social Anxiety Disorder (Social Phobia)",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Fear of negative evaluation in social situations.",
+      "Avoidance of social interactions."
+    ],
+    "related_diagnoses": {
+      "Agoraphobia": "Fears and avoids social situations due to potential incapacitation or lack of help",
+      "Panic Disorder": "Focus on fear of panic attacks instead of negative evaluation",
+      "Generalized Anxiety Disorder": "Worry about ongoing relationships rather than social performance",
+      "Separation Anxiety Disorder": "Concerns about being separated from attachment figures",
+      "Specific Phobias": "Fear of embarrassment or humiliation in specific contexts",
+      "Selective Mutism": "Failure to speak due to fear of negative evaluation in speaking situations",
+      "Major Depressive Disorder": "Feelings of worthlessness leading to social anxiety",
+      "Body Dysmorphic Disorder": "Preoccupation with perceived physical flaws causing social anxiety and avoidance"
+    }
+  },
+  {
+    "diagnosis": "panic disorder",
+    "symptoms": [
+      "palpitations",
+      "pounding heart",
+      "accelerated heart rate",
+      "sweating",
+      "trembling or shaking",
+      "sensations of shortness of breath or smothering",
+      "feelings of choking",
+      "chest pain or discomfort",
+      "nausea or abdominal distress",
+      "dizziness, unsteadiness, light-headedness, or fainting",
+      "chills or heat sensations",
+      "paresthesias (numbness or tingling)",
+      "derealization (feelings of unreality)",
+      "depersonalization (being detached from oneself)",
+      "fear of losing control or 'going crazy'",
+      "fear of dying"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Recurrent unexpected panic attacks"
+    ],
+    "related_diagnoses": {
+      "social anxiety disorder": "often comorbid",
+      "major depressive disorder": "often comorbid",
+      "substance use disorders": "often comorbid",
+      "body dysmorphic disorder": "frequently comorbid",
+      "avoidant personality disorder": "often comorbid with generalized form of social anxiety disorder",
+      "high-functioning autism": "common in children",
+      "selective mutism": "common in children"
+    }
+  },
+  {
+    "diagnosis": "Panic Disorder",
+    "symptoms": [
+      "unexpected full-symptom panic attacks",
+      "limited-symptom panic attacks",
+      "worry about panic attacks or their consequences",
+      "embarrassment or fear of being judged negatively by others due to visible panic symptoms",
+      "concerns about going crazy or losing control",
+      "constant or intermittent feelings of anxiety related to health and mental health concerns",
+      "anticipating a catastrophic outcome from a mild physical symptom or medication side effect",
+      "extreme intolerance of medication side effects",
+      "pervasive concerns about abilities to complete daily tasks or withstand daily stressors",
+      "excessive use of drugs to control panic attacks",
+      "severe restrictions on food intake or avoidance of specific foods or medications due to concerns about physical symptoms that provoke panic attacks"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A psychological disorder characterized by recurrent unexpected panic attacks"
+    ],
+    "related_diagnoses": {
+      "Agoraphobia": "separate diagnosis if present",
+      "Other anxiety disorders": "frequently comorbid",
+      "Depressive disorders": "frequently comorbid",
+      "Substance use disorders": "frequently comorbid"
+    }
+  },
+  {
+    "diagnosis": "Panic Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A psychological condition marked by sudden episodes of intense fear that reach a peak within minutes."
+    ],
+    "related_diagnoses": {
+      "Agoraphobia": "Often coexists with panic disorder.",
+      "Major Depressive Disorder": "Frequently comorbid, with varying order of onset.",
+      "Bipolar Disorder": "Less common but still possible comorbidity.",
+      "Specific Phobia": "May coexist, though panic attacks here are usually expected.",
+      "Generalized Anxiety Disorder": "Coexistence is possible, again with expected panic attacks."
+    }
+  },
+  {
+    "diagnosis": "Panic Disorder",
+    "symptoms": [
+      "Palpitations",
+      "Pounding heart",
+      "Accelerated heart rate",
+      "Sweating",
+      "Trembling or shaking",
+      "Sensations of shortness of breath or smothering",
+      "Feelings of choking",
+      "Chest pain or discomfort",
+      "Nausea or abdominal distress",
+      "Feeling dizzy, unsteady, light-headed, or faint",
+      "Chills or heat sensations",
+      "Paresthesias (numbness or tingling sensations)",
+      "Derealization (feelings of unreality)",
+      "Depersonalization (being detached from oneself)",
+      "Fear of losing control or 'going crazy'",
+      "Fear of dying"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Abrupt surge of intense fear or intense discomfort reaching a peak within minutes"
+    ],
+    "related_diagnoses": {
+      "Comorbid with Major Depressive Disorder": "Varying rates (10%-65%) depending on individual.",
+      "Substance-related disorder": "Attempted self-treatment with alcohol or medication.",
+      "Other anxiety disorders": "Common comorbidity.",
+      "Illness anxiety disorder": "Common comorbidity."
+    }
+  },
+  {
+    "diagnosis": "Panic Disorder",
+    "symptoms": [
+      "abrupt surge of intense fear or discomfort"
+    ],
+    "treatments": [],
+    "duration": null,
+    "description": [
+      "Abrupt surges of intense fear or discomfort"
+    ],
+    "related_diagnoses": {
+      "Agoraphobia": "Fear or avoidance of situations where escape might be difficult or help unavailable.",
+      "Anxiety Disorders": "Increased likelihood of comorbid mental disorders.",
+      "Depressive Disorders": "Increased likelihood of comorbid mental disorders."
+    }
+  },
+  {
+    "diagnosis": "Agoraphobia",
+    "symptoms": [
+      "fear or anxiety in response to agoraphobic situations",
+      "avoidance of agoraphobic situations",
+      "intense fear or anxiety upon encountering agoraphobic situations",
+      "fear disproportionate to the actual danger posed by the agoraphobic situations"
+    ],
+    "treatments": null,
+    "duration": "Typically lasting for 6 months or more",
+    "description": [
+      "A mental health condition marked by fear or anxiety about being in places or situations where escape might be difficult or help unavailable.",
+      "This fear leads to active avoidance of those situations."
+    ],
+    "related_diagnoses": {
+      "Panic Disorder": "Often precedes or coexists with agoraphobia",
+      "Other Anxiety Disorders": "May complicate the course of agoraphobia",
+      "Depressive Disorders": "Commonly complicates the course of agoraphobia",
+      "Substance Use Disorders": "Frequently seen alongside agoraphobia",
+      "Personality Disorders": "Can complicate the course of agoraphobia",
+      "Specific Phobia, Situational Type": "Differentiable based on fear focus and extent of avoidance"
+    }
+  },
+  {
+    "diagnosis": "Agoraphobia",
+    "symptoms": [
+      "fear, anxiety, or avoidance"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Fear or avoidance of situations where escape might be difficult or help unavailable during a panic attack.",
+      "Shared characteristics and criteria with specific phobias, especially situational type."
+    ],
+    "related_diagnoses": {
+      "separation anxiety disorder": "Differentiated by focusing on detachment from significant others and home environment instead of panic-like symptoms.",
+      "specific phobias": "Shares symptoms but differs in requiring fears from two or more agoraphobic situations.",
+      "panic disorder": "Differentiates through presence of panic attacks leading to avoidance of two or more agoraphobic situations.",
+      "social anxiety disorder": "Focuses on fear of negative evaluation rather than panic-like symptoms.",
+      "acute stress disorder / PTSD": "Distinguishes by restricting fear to reminders of traumatic events without extending to two or more agoraphobic situations.",
+      "major depressive disorder": "Avoidance unrelated to fears of panic-like or other incapacitating or embarrassing symptoms."
+    }
+  },
+  {
+    "diagnosis": "Generalized Anxiety Disorder",
+    "symptoms": [
+      "trembling",
+      "twitching",
+      "feeling shaky",
+      "muscle aches or soreness",
+      "sweating",
+      "nausea",
+      "diarrhea",
+      "accelerated heart rate",
+      "shortness of breath",
+      "dizziness",
+      "autonomic hyperarousal",
+      "somatic symptoms",
+      "exaggerated startle response",
+      "worrying about future problems",
+      "overly conforming",
+      "perfectionism",
+      "unsureness of oneself",
+      "seeking excessive reassurance",
+      "concern about school performance or competence",
+      "fear of humiliation",
+      "concerns about illness"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A persistent and excessive worry about everyday things.",
+      "Symptoms include muscle tension, tremors, and feelings of shakiness."
+    ],
+    "related_diagnoses": {
+      "Separation Anxiety Disorder": "Often accompanied by worries that may mimic those described in GAD.",
+      "Social Anxiety Disorder (Social Phobia)": "May be concerned about school performance because of fear of humiliation.",
+      "Obsessive-Compulsive Disorder": "Worries may resemble those in GAD but are distinct due to intrusive and unwanted thoughts."
+    }
+  },
+  {
+    "diagnosis": "Generalized anxiety disorder",
+    "symptoms": [
+      null
+    ],
+    "treatments": [
+      null
+    ],
+    "duration": null,
+    "description": [
+      "Excessive worry about future problems.",
+      "Excessiveness of worry about future events"
+    ],
+    "related_diagnoses": {
+      "social anxiety disorder": "often comorbid",
+      "obsessive-compulsive disorder": "distinguished by different types of worries",
+      "posttraumatic stress disorder": "anxiety is invariably present, not diagnosed separately if better explained by PTSD",
+      "adjustment disorder": "residual category, anxiety responds to identifiable stressors within 3 months and doesn't persist beyond 6 months after stressor ends",
+      "depressive, bipolar, and psychotic disorders": "common associated feature, not diagnosed separately if only during these conditions",
+      "substance/medication-induced anxiety disorder": "caused by substance intoxication or withdrawal or medication exposure"
+    }
+  },
+  {
+    "diagnosis": "Substance/Medication-Induced Anxiety Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": "Usually improves or remits within days to several weeks to a month.",
+    "description": [
+      "Prominent symptoms of panic or anxiety judged to be due to the effects of a substance."
+    ],
+    "related_diagnoses": {
+      "Substance Intoxication": "Commonly occurs in substance intoxication",
+      "Substance Withdrawal": "Commonly occurs in substance withdrawal",
+      "Primary Anxiety Disorder": "Distinguished based on onset, course, and other factors regarding substances/medications",
+      "Delirium": "Symptoms are considered an associated feature of delirium",
+      "Anxiety Disorder Due to Another Medical Condition": "Diagnosed if panic or anxiety symptoms are attributed to another medical condition"
+    }
+  },
+  {
+    "diagnosis": "Anxiety Disorder Due to Another Medical Condition",
+    "symptoms": [
+      "prominent anxiety symptoms",
+      "panic attacks"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Clinically significant anxiety judged to be best explained as a physiological effect of another medical condition.",
+      "Prominent physical component to the anxiety."
+    ],
+    "related_diagnoses": {
+      "Adjustment Disorder": "Comorbid, but differs in that the stressor is specifically the medical condition in Adjustment Disorder vs. the anxiety being physiologically linked to the medical condition here."
+    }
+  },
+  {
+    "diagnosis": "illness anxiety disorder",
+    "symptoms": [
+      "worry about illness",
+      "concern about pain",
+      "bodily preoccupations"
+    ],
+    "treatments": [],
+    "duration": null,
+    "description": [
+      "characterized by worry about illness, concern about pain, and bodily preoccupations"
+    ],
+    "related_diagnoses": {
+      "adjustment disorders": "warranted when individuals experience a maladaptive response to the stress of having another medical condition",
+      "anxiety disorder due to another medical condition": "should be distinguished from illness anxiety disorder",
+      "schizophrenia, anorexia nervosa": "may be an associated feature of another mental disorder"
+    }
+  },
+  {
+    "diagnosis": "Obsessive-Compulsive Disorder",
+    "symptoms": [
+      "Recurrent and persistent thoughts, urges, or images",
+      "Repetitive behaviors or mental acts"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Persistent difficulty discarding or parting with possessions",
+      "Excessive collecting, buying, or stealing of unnecessary items"
+    ],
+    "related_diagnoses": {
+      "hoarding disorder": "differs from normal collecting",
+      "trichotillomania (hair-pulling disorder)": "characterized by recurrent pulling out of one's hair",
+      "excoriation (skin-picking) disorder": "characterized by recurrent picking of one's skin",
+      "substance /medication-induced obsessive-compulsive and related disorder": "due to substance intoxication or withdrawal or to a medication",
+      "obsessive-compulsive and related disorder due to another medical condition": "direct pathophysiological consequence of a medical disorder",
+      "body-focused repetitive behavior disorder": "example of other specified obsessive-compulsive and related disorder",
+      "stereotypies": "as in stereotypic movement disorder",
+      "autism spectrum disorder": "repetitive patterns of behavior"
+    }
+  },
+  {
+    "diagnosis": "Obsessive-Compulsive Disorder",
+    "symptoms": [
+      "obsessive thoughts",
+      "images",
+      "urges",
+      "ritualistic behaviors",
+      "counting",
+      "repeating words silently"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "presence of obsessions and compulsions",
+      "intrusive and unwanted thoughts, images, or urges",
+      "marked distress or anxiety caused by obsessions",
+      "attempts to suppress or neutralize obsessions through compulsions"
+    ],
+    "related_diagnoses": {
+      "Tic disorders": "common in males with childhood onset of OCD",
+      "Major Depressive Disorder": "increases suicide attempt risk"
+    }
+  },
+  {
+    "diagnosis": "Obsessive-Compulsive Disorder",
+    "symptoms": [
+      "Recurrent unwanted thoughts or impulses (obsessions)",
+      "Repetitive behaviors or mental acts (compulsions)",
+      "Fear of harm",
+      "Symmetry concerns",
+      "Cleaning dimension symptoms",
+      "Forbidden thoughts and symmetry dimension symptoms",
+      "Aggressive obsessions interfering with mother-infant relationship",
+      "Contamination concerns avoiding doctors' offices and hospitals",
+      "Skin lesions due to excessive washing",
+      "Avoidance of socializing with peers",
+      "Struggling to complete school or work projects due to symmetry concerns",
+      "Avoiding relationships out of fear of contamination",
+      "Impaired social and occupational functioning",
+      "Time spent obsessing and doing compulsions",
+      "Avoidance of situations triggering obsessions or compulsions",
+      "Rumination in Major Depressive Disorder (differentiation)"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Intrusive thoughts, images, or urges causing distress.",
+      "Behaviors or mental acts performed to neutralize these intrusions."
+    ],
+    "related_diagnoses": {
+      "Tic Disorder": "Co-occurrence especially in male patients with early onset.",
+      "Attention-Deficit/Hyperactivity Disorder": "Triad with OCD and Tic Disorder possible in children.",
+      "Anxiety Disorders": "Recurrent thoughts, avoidant behaviors, and reassurance seeking overlap.",
+      "Generalized Anxiety Disorder": "Worries about real-life concerns differentiate from OCD obsessions.",
+      "Specific Phobia": "Fear reactions to specific objects or situations less circumscribed than OCD.",
+      "Social Anxiety Disorder (Social Phobia)": "Limited fear objects to social interactions differentiates from OCD.",
+      "Major Depressive Disorder": "Mood congruent ruminations differentiate from OCD obsessions.",
+      "Body Dysmorphic Disorder": "Obsessions and compulsions limited to physical appearance.",
+      "Trichotillomania (Hair-Pulling Disorder)": "Compulsive behavior limited to hair pulling without obsessions.",
+      "Hoarding Disorder": "Difficulty discarding possessions, marked distress associated with discarding items.",
+      "Anorexia Nervosa": "Obsessions and compulsions not limited to weight and food.",
+      "Paraphilias, Gambling Disorder, Substance Use Disorders": "Pleasure derived from activities differentiating from OCD compulsions."
+    }
+  },
+  {
+    "diagnosis": "Body Dysmorphic Disorder",
+    "symptoms": [
+      "Preoccupation with perceived defects or flaws in physical appearance",
+      "Performing repetitive behaviors or mental acts in response to appearance concerns",
+      "Clinically significant distress or impairment in social, occupational, or other important areas of functioning"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+      "Intrusive, unwanted, time-consuming preoccupations."
+    ],
+    "related_diagnoses": {
+      "Eating disorders": "Not better explained by concerns with body fat or weight.",
+      "Obsessive-compulsive disorder (OCD)": "Elevated prevalence of body dysmorphic disorder in first-degree relatives of OCD patients."
+    }
+  },
+  {
+    "diagnosis": "Body Dysmorphic Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Excessive appearance-related preoccupations and repetitive behaviors.",
+      "Impaired psychosocial functioning."
+    ],
+    "related_diagnoses": {
+      "Obsessive-Compulsive Disorder": "Elevated prevalence in first-degree relatives",
+      "Eating disorders": "Can be comorbid",
+      "Social Anxiety Disorder": "Common comorbidity",
+      "Major Depressive Disorder": "Most common comorbid disorder"
+    }
+  },
+  {
+    "diagnosis": "Hoarding Disorder",
+    "symptoms": [
+      null
+    ],
+    "treatments": [
+      null
+    ],
+    "duration": "chronic",
+    "description": [
+      "Persistent difficulty discarding or parting with possessions.",
+      "This difficulty is due to a perceived need to save the items and to distress associated with discarding them.",
+      "Cluttering of active living areas resulting in substantial impairment."
+    ],
+    "related_diagnoses": {
+      "Animal hoarding": "Special manifestation of hoarding disorder",
+      "Obsessive-Compulsive Disorder (OCD)": "Shares symptoms - fears of losing important information, perfectionism, avoidance, etc."
+    }
+  },
+  {
+    "diagnosis": "Hoarding Disorder",
+    "symptoms": [
+      null
+    ],
+    "treatments": [
+      null
+    ],
+    "duration": null,
+    "description": [
+      "Difficulty discarding possessions regardless of their actual value.",
+      "Excessive accumulation of belongings leading to clutter that interferes with daily activities."
+    ],
+    "related_diagnoses": {
+      "Obsessive-Compulsive Disorder": "May coexist, especially when hoarding is linked to OCD-like obsessions or compulsions.",
+      "Mood or Anxiety Disorders": "Approximately 75% of individuals with hoarding disorder have a comorbid mood or anxiety disorder, including Major Depressive Disorder, Social Anxiety Disorder, and Generalized Anxiety Disorder."
+    }
+  },
+  {
+    "diagnosis": "Trichotillomania (Hair-Pulling Disorder)",
+    "symptoms": [
+      "Hair pulling",
+      "Behaviors or rituals involving hair",
+      "Searching for specific texture or color of hair",
+      "Trying to pull out hair in a specific way",
+      "Visually examining, tactilely manipulating, or orally manipulating pulled hair",
+      "Emotional states preceding or accompanying hair pulling (anxiety, boredom)",
+      "Increasing sense of tension leading up to hair pulling"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Chronic hair-pulling disorder",
+      "Characterized by repeated urge to pull out one's own hair"
+    ],
+    "related_diagnoses": {
+      "Obsessive-Compulsive Disorder": "More common in individuals with OCD and their first-degree relatives",
+      "Body Dysmorphic Disorder": "Not diagnosed if removing hair for perceived defects or flaws in appearance",
+      "Major Depressive Disorder": "Often accompanied by MDD",
+      "Excoriation (Skin-Picking) Disorder": "Majority of individuals with trichotillomania also have excoriation disorder"
+    }
+  },
+  {
+    "diagnosis": "Excoriation (Skin-Picking) Disorder",
+    "symptoms": [
+      "Recurrent picking at own skin",
+      "Picking at healthy skin, minor skin irregularities, lesions like pimples or calluses, or scabs from previous picking",
+      "Using fingernails, tweezers, pins, or other objects for picking",
+      "Skin rubbing, squeezing, lancing, and biting",
+      "Spending significant time on picking behavior (sometimes several hours per day)",
+      "Attempting to conceal or camouflage skin lesions",
+      "Experiencing negative affects like loss of control, embarrassment, and shame",
+      "Avoiding social situations due to impairment in functioning"
+    ],
+    "treatments": null,
+    "duration": "Chronic with waxing and waning if untreated",
+    "description": [
+      "Essential feature is recurrent picking at one's own skin leading to skin lesions.",
+      "Behavior may endure for months or years."
+    ],
+    "related_diagnoses": {
+      "Obsessive-Compulsive Disorder": "More common in individuals with OCD and their first-degree family members",
+      "Trichotillomania (Hair-Pulling Disorder)": "Often accompanied by other mental disorders including...",
+      "Body Dysmorphic Disorder": "(Skin picking may occur...) in individuals with...appearance concerns; however, excoriation disorder should not be diagnosed."
+    }
+  },
+  {
+    "diagnosis": "Substance/Medication-Induced Obsessive-Compulsive and Related Disorder",
+    "symptoms": [
+      "obsessions",
+      "compulsions",
+      "skin picking",
+      "hair pulling",
+      "body-focused repetitive behaviors"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Prominent symptoms of an obsessive-compulsive and related disorder attributed to the effects of a substance.",
+      "Symptoms developing during or soon after substance intoxication or withdrawal or after exposure to a medication."
+    ],
+    "related_diagnoses": {
+      "Comorbid Substance Use Disorder": "Mild, Moderate, Severe - depending on the context specified in coding notes."
+    }
+  },
+  {
+    "diagnosis": "substance-induced obsessive-compulsive and related disorder",
+    "symptoms": [
+      "obsessions",
+      "compulsions",
+      "hair pulling",
+      "skin picking"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Symptoms caused by substance intoxication.",
+      "May occur with stimulants like cocaine or heavy metals."
+    ],
+    "related_diagnoses": {
+      "primary obsessive-compulsive and related disorder": "Distinguished by onset, course, and other factors unrelated to substances/medications.",
+      "delirium": "Not diagnosed separately if symptoms exclusive to delirium."
+    }
+  },
+  {
+    "diagnosis": "obsessive-compulsive and related disorders",
+    "symptoms": [
+      "obsessions",
+      "compulsions",
+      "attention deficit",
+      "emotional lability",
+      "tics",
+      "nonmotor features",
+      "mood symptoms",
+      "illness anxiety",
+      "repetitive behaviors",
+      "appearance concerns",
+      "fear of bodily deformities",
+      "offensive body odor fears",
+      "sudden intense anxiety regarding genital retraction"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "a group of disorders characterized by intrusive thoughts, impulses, images, or urges (obsessions) and repetitive behaviors or mental acts (compulsions)",
+      "combination of motor and nonmotor features including obsessions, compulsions, attention deficit, emotional lability",
+      "sudden onset of obsessions, compulsions, and/or tics accompanied by various acute neuropsychiatric symptoms after Group A streptococcal infection",
+      "preoccupation with having or acquiring a serious illness even when medically reassured otherwise",
+      "excessive fear of having a bodily deformity or offensive body odor",
+      "sudden and intense anxiety that the penis (or female genitalia) will recede into the body potentially leading to death"
+    ],
+    "related_diagnoses": {
+      "rheumatic fever": "involves cardiac inflammation caused by Group A streptococcus bacteria, often preceding Sydenham's chorea",
+      "Sydenham's chorea": "neurological manifestation of rheumatic fever, sharing motor and nonmotor features with OCD",
+      "PANDAS (pediatric autoimmune neuropsychiatric disorders associated with streptococcal infections)": "post-infectious autoimmune disorder featuring abrupt onset of OCD-like symptoms after strep throat or skin infection",
+      "substance/medication-induced obsessive-compulsive and related disorders": "caused by recent or prolonged substance use, withdrawal, or exposure to toxins resulting in OCD-like symptoms",
+      "delirium": "OCD symptoms occurring solely during delirium warrant exclusion of independent OCD diagnosis unless coexisting dementia also presents with OCD symptoms",
+      "major neurocognitive disorder (dementia)": "if OCD symptoms arise physiologically from the same pathology causing dementia and constitute a prominent aspect of the clinical presentation, then both diagnoses apply simultaneously",
+      "schizophrenia": "associated feature of OCD symptoms in schizophrenia patients",
+      "anorexia nervosa": "associated feature of OCD symptoms in anorexia nervosa patients",
+      "taijin kyofusho variants like shubo-kyofu and jikoshu-kyofu": "cultural concepts of distress involving extreme social anxiety over perceived bodily deformities or odors respectively akin to OCD symptomatology in Western contexts"
+    }
+  },
+  {
+    "diagnosis": "Unspecified Obsessive-Compulsive and Related Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Predominant symptoms characteristic of an obsessive-compulsive and related disorder causing clinically significant distress or impairment.",
+      "Insufficient information to diagnose a specific obsessive-compulsive and related disorder."
+    ],
+    "related_diagnoses": {
+      "Trauma- and Stressor-Related Disorders": "Close relationship; shares symptoms like anxiety, fear, depression, aggression, dissociation after exposure to trauma or stress.",
+      "Reactive Attachment Disorder": "Shared etiology - social neglect; Reactive Attachment Disorder expresses as internalizing disorder with depressive symptoms and withdrawn behavior whereas Disinhibited Social Engagement Disorder shows disinhibition and externalizing behavior."
+    }
+  },
+  {
+    "diagnosis": "Reactive Attachment Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Profound reduction in positive affect.",
+      "Emotion regulation difficulties.",
+      "Lack of preferred attachment."
+    ],
+    "related_diagnoses": {
+      "Autism Spectrum Disorder": "Can share aberrant social behaviors, but differ in response to neglect and presence of restricted interests or ritualized behaviors.",
+      "Intellectual Disability (Intellectual Developmental Disorder)": "May coexist due to common causes like neglect, but differs in social and emotional skills and absence of reduced positive affect.",
+      "Depressive Disorders": "May coexist due to similar negative affective states, but differs in seeking and responding to comforting efforts by caregivers."
+    }
+  },
+  {
+    "diagnosis": "Posttraumatic Stress Disorder",
+    "symptoms": [
+      null
+    ],
+    "treatments": [
+      null
+    ],
+    "duration": "more than 1 month",
+    "description": [
+      "Exposure to actual or threatened death, serious injury, or sexual violence.",
+      "Presence of one (or more) of the following intrusion symptoms...",
+      "Persistent avoidance of stimuli associated with the traumatic event(s)...",
+      "Negative alterations in cognitions and mood associated with the traumatic event(s)...",
+      "Marked alterations in arousal and reactivity associated with the traumatic event(s)..."
+    ],
+    "related_diagnoses": {
+      "Attention-deficit/hyperactivity disorder": "Differentiate between the two disorders based on lack of attention or hyperactivity issues."
+    }
+  },
+  {
+    "diagnosis": "Posttraumatic Stress Disorder",
+    "symptoms": [
+      "Recurrent, involuntary, and intrusive distressing memories of the traumatic event(s)",
+      "Distressing dreams in which the content and/or affect of the dream are related to the traumatic event(s)",
+      "Dissociative reactions (e.g., flashbacks)",
+      "Intense or prolonged psychological distress at exposure to internal or external cues symbolizing aspects of the traumatic event(s)",
+      "Marked physiological reactions to reminders of the traumatic event(s)",
+      "Avoidance of activities, places, or physical reminders that arouse recollections of the traumatic event(s)",
+      "Avoidance of people, conversations, or interpersonal situations that arouse recollections of the traumatic event(s)",
+      "Substantially increased frequency of negative emotional states",
+      "Socially withdrawn behavior",
+      "Persistent reduction in expression of positive emotions",
+      "Irritable behavior and angry outbursts",
+      "Hypervigilance",
+      "Exaggerated startle response",
+      "Problems with concentration",
+      "Sleep disturbance"
+    ],
+    "treatments": [],
+    "duration": "more than 1 month",
+    "description": [
+      "Development of characteristic symptoms following exposure to one or more traumatic events"
+    ],
+    "related_diagnoses": {}
+  }
+]

@@ -1,93 +1,16 @@
 [
   {
     "file_name": "DSM_5 Short.txt",
-    "added_at": "2025-07-09T16:08:23.323212",
-    "number_of_chunks": 15,
-    "process_time": "0:01:05.906398",
-    "notes": "CHUNK_SIZE_10000 CHUNK_OVERLAP_1000 "
-  },
-  {
-    "file_name": "DSM_5 Short.txt",
-    "added_at": "2025-07-09T16:15:51.194517",
-    "number_of_chunks": 15,
-    "process_time": "0:01:04.471132",
-    "notes": "CHUNK_SIZE_10000 CHUNK_OVERLAP_1000 MAX_TOKENS=1024"
-  },
-  {
-    "file_name": "DSM_5 Short.txt",
-    "added_at": "2025-07-09T16:21:28.842978",
-    "number_of_chunks": 15,
-    "process_time": "0:01:05.084155",
-    "notes": "CHUNK_SIZE_10000 CHUNK_OVERLAP_1000 MAX_TOKENS=1024"
-  },
-  {
-    "file_name": "DSM_5 Short.txt",
-    "added_at": "2025-07-09T16:30:15.635573",
-    "number_of_chunks": 15,
-    "process_time": "0:01:02.719300",
-    "notes": "CHUNK_SIZE_10000 CHUNK_OVERLAP_1000 MAX_TOKENS=1024"
-  },
-  {
-    "file_name": "DSM_5 Short.txt",
-    "added_at": "2025-07-09T16:32:50.998717",
-    "number_of_chunks": 15,
-    "process_time": "0:01:01.649184",
-    "notes": "CHUNK_SIZE_10000 CHUNK_OVERLAP_1000 MAX_TOKENS=1024"
-  },
-  {
-    "file_name": "DSM_5 Short.txt",
-    "added_at": "2025-07-09T16:37:31.689857",
-    "number_of_chunks": 15,
-    "process_time": "0:01:37.059311",
-    "notes": "CHUNK_SIZE_10000 CHUNK_OVERLAP_1000 MAX_TOKENS=1024"
-  },
-  {
-    "file_name": "DSM_5 Short.txt",
-    "added_at": "2025-07-09T16:40:53.439368",
-    "number_of_chunks": 15,
-    "process_time": "0:01:26.842236",
-    "notes": "CHUNK_SIZE_10000 CHUNK_OVERLAP_1000 MAX_TOKENS=1024 \nYou are a precise medical text parser. From the user's input text, extract structured mental health information and return a JSON with the following keys:\n\n- 'diagnosis' (string): The primary mental health condition mentioned.\n- 'symptoms' (list of strings): Observable or reported symptoms.\n- 'treatments' (list of strings): Medications, therapies, or interventions.\n- 'duration' (string or null): How long the condition lasts or is expected to last.\n- 'description' (list of string): Definition and/or defining quality of the condition.\n- 'related_diagnoses' (dictionary): A dictionary where each key is the name of a related disorder, and each value is a string describing the relationship \u2014 such as 'comorbid', 'shares symptoms', 'subtype of', or 'same category'.\n\nIf any value is missing in the text, use null or an empty list accordingly.\n\nRespond with *only* valid JSON. **Do not include comments (like // or #)**, explanations, or any text outside the JSON. Only return a valid JSON object with double-quoted keys and values where appropriate."
-  },
-  {
-    "file_name": "DSM_5 Short.txt",
-    "added_at": "2025-07-09T16:44:12.779753",
-    "number_of_chunks": 15,
-    "process_time": "0:02:12.957345",
-    "notes": "CHUNK_SIZE_10000 CHUNK_OVERLAP_1000 MAX_TOKENS=1024 \nYou are a precise medical text parser. From the user's input text, extract structured mental health information and return a JSON with the following keys:\n\n- 'diagnosis' (string): The primary mental health condition mentioned.\n- 'symptoms' (list of strings): Observable or reported symptoms.\n- 'treatments' (list of strings): Medications, therapies, or interventions.\n- 'duration' (string or null): How long the condition lasts or is expected to last.\n- 'description' (list of string): Definition and/or defining quality of the condition.\n- 'related_diagnoses' (dictionary): A dictionary where each key is the name of a related disorder, and each value is a short string/phrase describing the relationship \u2014 such as 'comorbid', 'shares symptoms', 'subtype of', or 'same category'.\n\nIf any value is missing in the text, use null or an empty list accordingly.\n\nRespond with *only* valid JSON. **Do not include comments (like // or #)**, explanations, or any text outside the JSON. Only return a valid JSON object with double-quoted keys and values where appropriate."
-  },
-  {
-    "file_name": "DSM_5 Short.txt",
-    "added_at": "2025-07-09T16:46:15.914142",
-    "number_of_chunks": 15,
-    "process_time": "0:01:35.318410",
-    "notes": "CHUNK_SIZE_10000 CHUNK_OVERLAP_1000 MAX_TOKENS=1024 \nYou are a precise medical text parser. From the user's input text, extract structured mental health information and return a JSON with the following keys:\n\n- 'diagnosis' (string): The primary mental health condition mentioned.\n- 'symptoms' (list of strings): Observable or reported symptoms.\n- 'treatments' (list of strings): Medications, therapies, or interventions.\n- 'duration' (string or null): How long the condition lasts or is expected to last.\n- 'description' (list of string): Definition and/or defining quality of the condition.\n- 'related_diagnoses' (dictionary): A dictionary where each key is the name of a related disorder, and each value is a short string/phrase describing the relationship \u2014 such as 'comorbid', 'shares symptoms', 'subtype of', or 'same category'.\n\nIf any value is missing in the text, use null or an empty list accordingly.\n\nRespond with *only* valid JSON. **Do not include comments (like // or #)**, explanations, or any text outside the JSON. Only return a valid JSON object with double-quoted keys and values where appropriate."
-  },
-  {
-    "file_name": "DSM_5 Short.txt",
-    "added_at": "2025-07-09T16:51:55.033536",
-    "number_of_chunks": 15,
-    "process_time": "0:01:35.272978",
-    "notes": "CHUNK_SIZE_10000 CHUNK_OVERLAP_1000 MAX_TOKENS=1024 \nYou are a precise medical text parser. From the user's input text, extract structured mental health information and return a JSON with the following keys:\n\n- 'diagnosis' (string): The primary mental health condition mentioned.\n- 'symptoms' (list of strings): Observable or reported symptoms.\n- 'treatments' (list of strings): Medications, therapies, or interventions.\n- 'duration' (string or null): How long the condition lasts or is expected to last.\n- 'description' (list of string): Definition and/or defining quality of the condition.\n- 'related_diagnoses' (dictionary): A dictionary where each key is the name of a related disorder, and each value is a short string/phrase describing the relationship \u2014 such as 'comorbid', 'shares symptoms', 'subtype of', or 'same category'.\n\nIf any value is missing in the text, use null or an empty list accordingly.\n\nRespond with *only* valid JSON. **Do not include comments (like // or #)**, explanations, or any text outside the JSON. Only return a valid JSON object with double-quoted keys and values where appropriate."
-  },
-  {
-    "file_name": "DSM_5 Short.txt",
-    "added_at": "2025-07-09T17:01:18.366808",
-    "number_of_chunks": 15,
-    "process_time": "0:01:36.513689",
-    "notes": "CHUNK_SIZE_10000 CHUNK_OVERLAP_1000 MAX_TOKENS=1024 SYSTEM_PROMPT=You are a precise medical text parser. From the user's input text, extract structured mental health information and return a JSON with the following keys:\n\n- 'diagnosis' (string): The primary mental health condition mentioned.\n- 'symptoms' (list of strings): Observable or reported symptoms.\n- 'treatments' (list of strings): Medications, therapies, or interventions.\n- 'duration' (string or null): How long the condition lasts or is expected to last.\n- 'description' (list of string): Definition and/or defining quality of the condition.\n- 'related_diagnoses' (dictionary): A dictionary where each key is the name of a related disorder, and each value is a short string/phrase describing the relationship \u2014 such as 'comorbid', 'shares symptoms', 'subtype of', or 'same category'.\n\nIf any value is missing in the text, use null or an empty list accordingly.\n\nRespond with *only* valid JSON. **Do not include comments (like // or #)**, explanations, or any text outside the JSON. Only return a valid JSON object with double-quoted keys and values where appropriate."
-  },
-  {
-    "file_name": "DSM_5 Short.txt",
-    "added_at": "2025-07-09T17:05:40.357030",
-    "number_of_chunks": 15,
-    "process_time": "0:01:06.167436",
-    "notes": "CHUNK_SIZE_10000 CHUNK_OVERLAP_1000 MAX_TOKENS=1024 SYSTEM_PROMPT=You are a precise medical text parser. From the user's input text, extract structured mental health information \nand return a JSON with the following keys:\\n\\n\n- 'diagnosis' (string): The primary mental health condition mentioned.\\n\n- 'symptoms' (list of strings): Observable or reported symptoms.\\n\n- 'treatments' (list of strings): Medications, therapies, or interventions.\\n\n- 'duration' (string or null): How long the condition lasts or is expected to last.\\n\n- 'description' (list of string): Definition and/or defining quality of the condition.\\n\n- 'related_diagnoses' (dictionary): A dictionary where each key is the name of a related disorder, and each value is a short string/phrase describing the relationship \u2014 such as 'comorbid', 'shares symptoms', 'subtype of', or 'same category'.\\n\\n\nIf any value is missing in the text, use null or an empty list accordingly.\\n\\n\nRespond with *only* valid JSON. **DO NOT INCLUDE COMMENTS (like // or #)**, explanations, or any text outside the JSON. Only return a valid JSON object with double-quoted keys and values where appropriate."
-  },
-  {
-    "file_name": "DSM_5 Short.txt",
     "added_at": "2025-07-09T17:15:41.001868",
     "number_of_chunks": 15,
     "process_time": "0:01:05.626225",
+    "notes": "CHUNK_SIZE_10000 CHUNK_OVERLAP_1000 MAX_TOKENS=1024 SYSTEM_PROMPT=You are a precise medical text parser. From the user's input text, extract structured mental health information \nand return a JSON with the following keys:\\n\\n\n- 'diagnosis' (string): The primary mental health condition mentioned.\\n\n- 'symptoms' (list of strings): Observable or reported symptoms.\\n\n- 'treatments' (list of strings): Medications, therapies, or interventions.\\n\n- 'duration' (string or null): How long the condition lasts or is expected to last.\\n\n- 'description' (list of string): Definition and/or defining quality of the condition.\\n\n- 'related_diagnoses' (dictionary): A dictionary where each key is the name of a related disorder, and each value is a short string/phrase describing the relationship \u2014 such as 'comorbid', 'shares symptoms', 'subtype of', or 'same category'.\\n\\n\nIf any value is missing in the text, use null or an empty list accordingly.\\n\\n\nRespond with *only* valid JSON. **DO NOT INCLUDE COMMENTS (like // or #)**, explanations, or any text outside the JSON. Only return a valid JSON object with double-quoted keys and values where appropriate."
+  },
+  {
+    "file_name": "DSM_5.txt",
+    "added_at": "2025-07-09T17:58:09.407746",
+    "number_of_chunks": 312,
+    "process_time": "0:25:05.448046",
     "notes": "CHUNK_SIZE_10000 CHUNK_OVERLAP_1000 MAX_TOKENS=1024 SYSTEM_PROMPT=You are a precise medical text parser. From the user's input text, extract structured mental health information \nand return a JSON with the following keys:\\n\\n\n- 'diagnosis' (string): The primary mental health condition mentioned.\\n\n- 'symptoms' (list of strings): Observable or reported symptoms.\\n\n- 'treatments' (list of strings): Medications, therapies, or interventions.\\n\n- 'duration' (string or null): How long the condition lasts or is expected to last.\\n\n- 'description' (list of string): Definition and/or defining quality of the condition.\\n\n- 'related_diagnoses' (dictionary): A dictionary where each key is the name of a related disorder, and each value is a short string/phrase describing the relationship \u2014 such as 'comorbid', 'shares symptoms', 'subtype of', or 'same category'.\\n\\n\nIf any value is missing in the text, use null or an empty list accordingly.\\n\\n\nRespond with *only* valid JSON. **DO NOT INCLUDE COMMENTS (like // or #)**, explanations, or any text outside the JSON. Only return a valid JSON object with double-quoted keys and values where appropriate."
   }
 ]

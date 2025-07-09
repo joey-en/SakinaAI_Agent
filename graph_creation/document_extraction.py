@@ -115,7 +115,7 @@ def extract_dict_from_chunk(text_chunk: str, retries=3, delay=1.5) -> dict:
     print("Failed to extract structured data from text chunk after retries.")
     return None
 
-def extract_dict_from_file(file_path: str, notes= "", checkpoint_chunk=40):
+def extract_dict_from_file(file_path: str, notes= "", checkpoint_chunk=20):
     start_time = datetime.now()
     extracted_data = []
     file = Path(file_path)
@@ -166,4 +166,4 @@ def extract_dict_from_file(file_path: str, notes= "", checkpoint_chunk=40):
 
     return extracted_data, final_name, backup_dir.name, log_entry
 
-extract_dict_from_file("./data/DSM_5 Short.txt", notes=f"CHUNK_SIZE_{CHUNK_SIZE} CHUNK_OVERLAP_{CHUNK_OVERLAP} MAX_TOKENS={MAX_TOKENS} SYSTEM_PROMPT={SYSTEM_PROMPT}")
+extract_dict_from_file("./data/DSM_5.txt", notes=f"CHUNK_SIZE_{CHUNK_SIZE} CHUNK_OVERLAP_{CHUNK_OVERLAP} MAX_TOKENS={MAX_TOKENS} SYSTEM_PROMPT={SYSTEM_PROMPT}")
