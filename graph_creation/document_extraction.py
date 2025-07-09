@@ -166,4 +166,4 @@ def extract_dict_from_file(file_path: str, notes= "", checkpoint_chunk=20):
 
     return extracted_data, final_name, backup_dir.name, log_entry
 
-extract_dict_from_file("./data/DSM_5.txt", notes=f"CHUNK_SIZE_{CHUNK_SIZE} CHUNK_OVERLAP_{CHUNK_OVERLAP} MAX_TOKENS={MAX_TOKENS} SYSTEM_PROMPT={SYSTEM_PROMPT}")
+extract_dict_from_file("./data/ICD-11.pdf", notes=f"CHUNK_SIZE_{CHUNK_SIZE} CHUNK_OVERLAP_{CHUNK_OVERLAP} MAX_TOKENS={MAX_TOKENS} SYSTEM_PROMPT={SYSTEM_PROMPT}")

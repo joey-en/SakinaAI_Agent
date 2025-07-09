@@ -1,0 +1,1204 @@
+[
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Descriptions and diagnostic criteria for ICD-11 mental, behavioral, and neurodevelopmental disorders"
+    ],
+    "related_diagnoses": null
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Descriptions and diagnostic criteria for ICD-11 mental, behavioral, and neurodevelopmental disorders"
+    ],
+    "related_diagnoses": null
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {
+      "Tourette syndrome": "subtype of",
+      "Chronic motor tic disorder": "subtype of",
+      "Chronic phonic tic disorder": "subtype of",
+      "Autism spectrum disorder": "neurodevelopmental disorder",
+      "Attention deficit hyperactivity disorder": "neurodevelopmental disorder",
+      "Stereotyped movement disorder": "neurodevelopmental disorder",
+      "Other specified neurodevelopmental disorder": "category",
+      "Neurodevelopmental disorder, unspecified": "category"
+    }
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {
+      "schizoaffective disorder": "subtype",
+      "schizotypal disorder": "subtype",
+      "delusional disorder": "subtype",
+      "bipolar type I disorder": "category",
+      "bipolar type II disorder": "category",
+      "cyclothymic disorder": "category",
+      "depressive episode": "component of mood disorders",
+      "manic episode": "component of mood disorders",
+      "mixed episode": "component of mood disorders",
+      "hypomanic episode": "component of mood disorders",
+      "single episode depressive disorder": "type of depressive disorder",
+      "recurrent depressive disorder": "type of depressive disorder",
+      "dysthymic disorder": "type of depressive disorder"
+    }
+  },
+  null,
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": null
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {
+      "substance-induced mental disorders": "caused by psychoactive substances",
+      "disorders due to addictive behaviors": "similar to those caused by substance use",
+      "impulse control disorders": "includes several specific conditions like pyromania and kleptomania"
+    }
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {
+      "Oppositional Defiant Disorder": "subcategory",
+      "Conduct-Dissocial Disorder": "subcategory",
+      "Other Specified Disruptive Behaviour or Dissocial Disorder": "subcategory",
+      "Dissocial Disorder, Unspecified": "subcategory",
+      "Personality Difficulty": "related",
+      "Exhibitionistic Disorder": "paraphilia",
+      "Voyeuristic Disorder": "paraphilia",
+      "Paedophilic Disorder": "paraphilia",
+      "Coercive Sexual Sadism Disorder": "paraphilia",
+      "Frotteuristic Disorder": "paraphilia",
+      "Other Paraphilic Disorder Involving Non-Consenting Individuals": "paraphilia",
+      "Paraphilic Disorder Involving Solitary Behaviour or Consenting Individuals": "paraphilia",
+      "Factitious Disorder Imposed On Self": "factitious disorder",
+      "Factitious Disorder Imposed On Another": "factitious disorder"
+    }
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A group of conditions characterized by cognitive decline.",
+      "Includes delirium, mild neurocognitive disorder, amnestic disorder, various forms of dementia."
+    ],
+    "related_diagnoses": {
+      "Alzheimer Disease Dementia": "Subtype",
+      "Cerebrovascular Disease Dementia": "Subtype",
+      "Lewy Body Disease Dementia": "Subtype",
+      "Frontotemporal Dementia": "Subtype",
+      "Substance Induced Dementias": "Subtype",
+      "Unspecified Cause Dementias": "Category",
+      "Unknown Cause Dementias": "Category",
+      "Other Specified Neurocognitive Disorder": "Related Category",
+      "Unspecified Neurocognitive Disorder": "Related Category",
+      "Mental & Behavioral Disorders Associated With Pregnancy / Childbirth / Puerperium Without Psychotic Symptoms": "Related Category",
+      "Mental & Behavioral Disorders Associated With Pregnancy / Childbirth / Puerperium With Psychotic Symptoms": "Related Category",
+      "Unspecified Mental & Behavioral Disorders Associated With Pregnancy / Childbirth / Puerperium": "Related Category",
+      "Psychological Or Behavioural Factors Affecting Other Diseases And Disorders": "Related Category"
+    }
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {
+      "secondary neurodevelopmental syndrome": "subtype",
+      "secondary psychotic syndrome": "subtype",
+      "secondary mood syndrome": "subtype",
+      "secondary anxiety syndrome": "subtype",
+      "secondary obsessive-compulsive or related syndrome": "subtype",
+      "secondary dissociative syndrome": "subtype",
+      "secondary impulse control syndrome": "subtype",
+      "secondary neurocognitive syndrome": "subtype",
+      "secondary personality change": "subtype",
+      "secondary catatonia syndrome": "subtype",
+      "other specified secondary mental or behavioral syndrome": "variant",
+      "secondary mental or behavioral syndrome, unspecified": "variant"
+    }
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Relationship distress",
+      "Maltreatment by spouse or partner",
+      "Problems in relationship between child and caregiver",
+      "Child maltreatment",
+      "History of spouse or partner violence (physical, sexual, psychological, neglect)"
+    ],
+    "related_diagnoses": {
+      "Abuse": "Comorbid; Shares Symptoms",
+      "Intimate Partner Violence": "Same Category",
+      "Neglect": "Subtype of Maltreatment",
+      "Childhood Trauma": "Shares Symptoms; Related to Problems Associated with Upbringing and Harmful Events"
+    }
+  },
+  {
+    "diagnosis": null,
+    "symptoms": [],
+    "treatments": [],
+    "duration": null,
+    "description": [],
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Clinical Descriptions and Diagnostic Requirements"
+    ],
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": null,
+    "symptoms": [],
+    "treatments": [],
+    "duration": null,
+    "description": [],
+    "related_diagnoses": {}
+  },
+  null,
+  null,
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": null,
+    "symptoms": [],
+    "treatments": [],
+    "duration": null,
+    "description": [],
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": null,
+    "symptoms": [],
+    "treatments": [],
+    "duration": null,
+    "description": [],
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": null,
+    "symptoms": [],
+    "treatments": [],
+    "duration": null,
+    "description": [],
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": null,
+    "symptoms": [],
+    "treatments": [],
+    "duration": null,
+    "description": [],
+    "related_diagnoses": {
+      "gaming disorder": "new diagnostic category",
+      "alcohol and cannabis use disorders": "high concordance among ICD-11, ICD-10, and DSM-IV; substantial difference with DSM-5 regarding mild disorders"
+    }
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Syndromes characterized by clinically significant disturbance in an individual's cognition, emotional regulation or behaviour reflecting a dysfunction in the psychological, biological or developmental processes.",
+      "These disturbances are usually associated with distress or impairment in personal, family, social, educational, occupational or other important areas of functioning."
+    ],
+    "related_diagnoses": null
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Disturbances usually associated with distress or impairment in personal, family, social, educational, occupational or other important areas of functioning"
+    ],
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": null,
+    "symptoms": [],
+    "treatments": [],
+    "duration": null,
+    "description": [],
+    "related_diagnoses": {}
+  },
+  null,
+  {
+    "diagnosis": null,
+    "symptoms": [],
+    "treatments": [],
+    "duration": null,
+    "description": [],
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "The text discusses various articles and research papers regarding the alignment of the ICD-11 classification of disorders due to substance use with global service needs, proposals for paraphilic disorders in ICD-11, public stakeholder comments on ICD-11 chapters related to mental and sexual health, etc."
+    ],
+    "related_diagnoses": null
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": null,
+    "symptoms": [],
+    "treatments": [],
+    "duration": null,
+    "description": [],
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": "null",
+    "symptoms": "null",
+    "treatments": "null",
+    "duration": "null",
+    "description": [
+      "Definition and diagnostic requirements for ICD-11 mental disorders"
+    ],
+    "related_diagnoses": "null"
+  },
+  {
+    "diagnosis": null,
+    "symptoms": [],
+    "treatments": [],
+    "duration": null,
+    "description": [],
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Guidance on essential features needed for confident diagnosis.",
+      "Flexibility allowed for professional judgment based on patient characteristics and culture."
+    ],
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {
+      "agoraphobia": "may involve social anxiety but focuses on fears of being in places or situations where escape might be difficult",
+      "body dysmorphic disorder": "anxiety involving excessive self-consciousness about perceived defects in appearance",
+      "olfactory reference disorder": "anxiety involving excessive self-consciousness about emitting an offensive body odour",
+      "substance-induced mental disorders": "due to the effects of a substance or medication on the CNS",
+      "secondary mood syndrome": "depressive symptoms due to a medical condition classified elsewhere",
+      "other mental disorders": "disorders sharing features with the disorder under consideration"
+    }
+  },
+  {
+    "diagnosis": null,
+    "symptoms": [
+      "fear of specific negative outcomes in social situations",
+      "panic attacks",
+      "incapacitating physical symptoms (e.g., falling)",
+      "embarrassing physical symptoms (e.g., incontinence)"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      null
+    ],
+    "related_diagnoses": {
+      "anorexia nervosa": "symptom overlap can lead to recommending only a single diagnosis",
+      "bulimia nervosa": "symptoms do not meet diagnostic requirements when present alongside another disorder"
+    }
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Describes cases where symptoms cannot be attributed solely to another disorder.",
+      "Prevents diagnosing a disorder if its symptoms only appear during another disorder."
+    ],
+    "related_diagnoses": {
+      "schizotypal disorder": "prevents diagnosis if individual had schizophrenia, schizoaffective disorder or delusional disorder",
+      "separation anxiety disorder": "may be assigned alongside social anxiety disorder if both criteria are met but different fears trigger the anxiety",
+      "stereotyped movement disorder": "co-occurring diagnosis may be warranted if severity requires additional clinical attention within context of autism spectrum disorder",
+      "depressive disorders": "generalized anxiety disorder should be diagnosed before or after depressive episode according to CDDR for generalized anxiety disorder"
+    }
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "other specified diagnoses refer to disorders sharing primary clinical features with existing categories",
+      "unspecified diagnoses are used when insufficient information is available for a more specific diagnosis"
+    ],
+    "related_diagnoses": {
+      "schizophrenia": "example of a disorder fitting under 'other specified primary psychotic disorder'",
+      "feeding and eating disorders": "example of a group where 'other specified feeding and eating disorder' applies",
+      "dissociative disorders": "example including 'Ganser syndrome' under 'other specified dissociative disorder'"
+    }
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Sleep-wake disorders including nightmare disorder, sleepwalking disorder, sleep terrors, and various insomnia, hypersomnia, and circadian rhythm disorders.",
+      "Mental, behavioural and neurodevelopmental disorders share relationships with diseases of the nervous system affecting cognition, emotional regulation or behaviour."
+    ],
+    "related_diagnoses": {
+      "diseases of the nervous system": "closely related",
+      "secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere": "may be assigned when mental, behavioural or neurodevelopmental syndromes are a direct pathological consequence of a disease of the nervous system"
+    }
+  },
+  {
+    "diagnosis": null,
+    "symptoms": [],
+    "treatments": [],
+    "duration": null,
+    "description": [],
+    "related_diagnoses": {
+      "premenstrual dysphoric disorder": "secondary-parented in the mood disorders grouping",
+      "gender incongruence": "reformulation and renaming of ICD-10 gender identity disorders"
+    }
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      null
+    ],
+    "related_diagnoses": {
+      "depressive disorders": "example of diagnostic class",
+      "anxiety and fear-related disorders": "another example of diagnostic class",
+      "acute and transient psychotic disorder": "includes recoding conventions for episode status and remission",
+      "mood disorders": "examples of postcoordinated symptomatic manifestations provided"
+    }
+  },
+  {
+    "diagnosis": "recurrent depressive disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Recurrent depressive disorder, characterized by recurring episodes of depression."
+    ],
+    "related_diagnoses": {
+      "schizophrenia": "may share some symptoms",
+      "dementia due to Alzheimer disease": "severity can be coded using extension codes"
+    }
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Classification of mental, behavioral and neurodevelopmental disorders",
+      "Double coding convention for secondary mental or behavioral syndromes",
+      "Structure of ICD-11 chapters including primary and secondary parents"
+    ],
+    "related_diagnoses": {
+      "frontotemporal dementia": "Neurocognitive disorder due to underlying disease",
+      "Tourette syndrome": "Primary parented in diseases of the nervous system, secondary parented in mental, behavioural and neurodevelopmental disorders"
+    }
+  },
+  {
+    "diagnosis": "Not applicable (Based on provided text description - it appears to be a general heading about diagnostic requirements)",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Describes clinical descriptions and diagnostic requirements for ICD-11 mental disorders"
+    ],
+    "related_diagnoses": null
+  },
+  null,
+  {
+    "diagnosis": "Autism Spectrum Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Characterized by persistent deficits in social communication and interaction across multiple contexts; restricted, repetitive patterns of behavior, interests, or activities."
+    ],
+    "related_diagnoses": {
+      "Disorder of Intellectual Development": "may occur alongside",
+      "Developmental Speech or Language Disorder": "can share some features with"
+    }
+  },
+  {
+    "diagnosis": "Attention deficit hyperactivity disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      null
+    ],
+    "related_diagnoses": {
+      "Tic disorders": "from Chapter 8 on diseases of the nervous system",
+      "Secondary neurodevelopmental syndrome": "from secondary mental or behavioural syndromes associated with disorders and diseases classified elsewhere"
+    }
+  },
+  {
+    "diagnosis": "Schizophrenia",
+    "related_diagnoses": {
+      "Schizoaffective disorder": "similar to schizophrenia but includes mood disturbance"
+    },
+    "description": [
+      null
+    ],
+    "symptoms": [
+      null
+    ],
+    "treatments": [
+      null
+    ],
+    "duration": null
+  },
+  {
+    "diagnosis": "Schizoaffective disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Continuous Schizoaffective Disorder"
+    ],
+    "related_diagnoses": {
+      "Schizotypal disorder": "",
+      "Acute and transient psychotic disorder": "",
+      "Delusional disorder": ""
+    }
+  },
+  {
+    "diagnosis": "schizophrenia and other primary psychotic disorders",
+    "symptoms": [
+      "Positive symptoms",
+      "Negative symptoms",
+      "Depressive mood symptoms",
+      "Manic mood symptoms",
+      "Psychomotor symptoms",
+      "Cognitive symptoms"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": null
+  },
+  {
+    "diagnosis": "Substance-induced psychotic disorder",
+    "symptoms": [
+      "hallucinations",
+      "delusions",
+      "mixed psychotic symptoms"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {
+      "Alcohol-induced psychotic disorder": "",
+      "Cannabis-induced psychotic disorder": "",
+      "Synthetic cannabinoid-induced psychotic disorder": "",
+      "Opioid-induced psychotic disorder": "",
+      "Sedative, hypnotic or anxiolytic-induced psychotic disorder": "",
+      "Cocaine-induced psychotic disorder": ""
+    }
+  },
+  null,
+  null,
+  null,
+  {
+    "diagnosis": "Bipolar type II disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Characterized by periods of depression and less intense manic episodes known as hypomania"
+    ],
+    "related_diagnoses": {
+      "Cyclothymic disorder": "Related bipolar disorder",
+      "Other specified bipolar or related disorder": "Similar conditions",
+      "Bipolar or related disorder, unspecified": "Less specific diagnosis under the same category"
+    }
+  },
+  null,
+  {
+    "diagnosis": "recurrent depressive disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "characterized by recurring episodes of depression"
+    ],
+    "related_diagnoses": {
+      "mixed depressive and anxiety disorder": "shares symptoms",
+      "dysthymic disorder": "other specified",
+      "other specified depressive disorder": "other specified",
+      "depressive disorder, unspecified": "unspecified",
+      "mood disorder, unspecified": "unspecified"
+    }
+  },
+  {
+    "diagnosis": "Substance-induced mood disorder",
+    "symptoms": [
+      "depressive symptoms",
+      "manic symptoms",
+      "mixed depressive and manic symptoms"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      null
+    ],
+    "related_diagnoses": {
+      "Alcohol-induced mood disorder": "Specify clinical presentation",
+      "Cannabis-induced mood disorder": "Specify clinical presentation",
+      "Synthetic cannabinoid-induced mood disorder": "Specify clinical presentation",
+      "Opioid-induced mood disorder": "Specify clinical presentation"
+    }
+  },
+  {
+    "diagnosis": "Substance/Medication-Induced Mood Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A mood disorder caused by substance abuse or medication."
+    ],
+    "related_diagnoses": {
+      "Cocaine-induced mood disorder": "Same category",
+      "Stimulant-induced mood disorder": "Same category",
+      "Synthetic cathinone-induced mood disorder": "Same category",
+      "Hallucinogen-induced mood disorder": "Same category"
+    }
+  },
+  {
+    "diagnosis": "Inhalant-, MDMA-, dissociative drug-, other specified psychoactive substance-, multiple specified psychoactive substances-, or unknown/unspecified psychoactive substance-induced mood disorder",
+    "symptoms": [
+      null
+    ],
+    "treatments": [
+      null
+    ],
+    "duration": null,
+    "description": [
+      "A group of disorders characterized by mood disturbances resulting from exposure to various psychoactive substances."
+    ],
+    "related_diagnoses": {
+      "Substance Use Disorder": "May occur concurrently.",
+      "Depressive Episode": "Shares symptoms when presenting with depressive features.",
+      "Manic Episode": "Shares symptoms when presenting with manic features.",
+      "Mixed Episode": "Shares symptoms when presenting with both depressive and manic features."
+    }
+  },
+  {
+    "diagnosis": "Mixed Depressive and Manic Symptoms",
+    "symptoms": [
+      "depressive symptoms",
+      "manic symptoms"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      null
+    ],
+    "related_diagnoses": {
+      "Unspecified Mood Syndrome": "",
+      "Secondary Mood Syndrome": "",
+      "Generalized Anxiety Disorder": "may share symptoms",
+      "Panic Disorder": "panic attacks may occur comorbidly",
+      "Agoraphobia": "panic attacks may occur comorbidly",
+      "Specific Phobia": "panic attacks may occur comorbidly",
+      "Social Anxiety Disorder": "panic attacks may occur comorbidly",
+      "Separation Anxiety Disorder": "panic attacks may occur comorbidly"
+    }
+  },
+  {
+    "diagnosis": "Selective mutism",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Other specified anxiety or fear-related disorder"
+    ],
+    "related_diagnoses": {
+      "Panic disorder": "Shares symptoms",
+      "Obsessive-compulsive and related disorders": "Subtype of",
+      "Substance-induced anxiety disorders": "Related to"
+    }
+  },
+  {
+    "diagnosis": "Substance/Medication-Induced Anxiety Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      null
+    ],
+    "related_diagnoses": {
+      "Cocaine-induced anxiety disorder": "substance-induced",
+      "Stimulant-induced anxiety disorder": "substance-induced",
+      "Synthetic cathinone-induced anxiety disorder": "substance-induced",
+      "Caffeine-induced anxiety disorder": "substance-induced",
+      "Hallucinogen-induced anxiety disorder": "substance-induced",
+      "Volatile inhalant-induced anxiety disorder": "substance-induced",
+      "MDMA or related drug-induced anxiety disorder": "substance-induced",
+      "Dissociative drug-induced anxiety disorder": "substance-induced",
+      "Anxiety disorder induced by other specified psychoactive substance": "substance-induced",
+      "Anxiety disorder induced by multiple specified psychoactive substances": "substance-induced",
+      "Anxiety disorder induced by unknown or unspecified specified psychoactive substances": "substance-induced",
+      "Secondary anxiety syndrome": "secondary to disorders and diseases classified elsewhere"
+    }
+  },
+  {
+    "diagnosis": "obsessive-compulsive disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Characterized by recurrent obsessions and compulsions.",
+      "Includes subtypes based on insight levels."
+    ],
+    "related_diagnoses": {
+      "body dysmorphic disorder": "similar obsessive-compulsive and related disorder",
+      "olfactory reference disorder": "another obsessive-compulsive and related disorder",
+      "hypochondriasis (health anxiety disorder)": "obsessive-compulsive and related disorder",
+      "hoarding disorder": "obsessive-compulsive and related disorder",
+      "trichotillomania (hair-pulling disorder)": "body-focused repetitive behaviour disorder",
+      "excoriation (skin-picking) disorder": "body-focused repetitive behaviour disorder"
+    }
+  },
+  {
+    "diagnosis": "Body-focused repetitive behaviour disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Repetitive behaviours focused on one's own body"
+    ],
+    "related_diagnoses": {
+      "Obsessive-compulsive or related disorder": "other specified or unspecified",
+      "Substance-induced obsessive-compulsive and related disorders": "includes various substances",
+      "Secondary obsessive-compulsive or related syndrome": "associated with disorders classified elsewhere"
+    }
+  },
+  {
+    "diagnosis": "Post-traumatic stress disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      null
+    ],
+    "related_diagnoses": {
+      "Complex post-traumatic stress disorder": "associated",
+      "Prolonged grief disorder": "associated",
+      "Adjustment disorder": "associated",
+      "Reactive attachment disorder": "associated",
+      "Disinhibited social engagement disorder": "associated",
+      "Other specified disorder specifically associated with stress": "specified",
+      "Disorder specifically associated with stress, unspecified": "unspecified",
+      "Acute stress reaction": "secondary categorized factor influencing health status",
+      "6B42": null,
+      "6B44": null,
+      "6B45": null,
+      "6B43": null,
+      "6B41": null,
+      "6B40": null,
+      "6B4Y": null,
+      "6B4Z": null,
+      "QE84": null,
+      "6B64": null,
+      "6B65": null
+    }
+  },
+  {
+    "diagnosis": "Dissociative neurological symptom disorder",
+    "symptoms": [
+      "visual disturbance",
+      "auditory disturbance",
+      "vertigo or dizziness",
+      "other sensory disturbance",
+      "non-epileptic seizures",
+      "speech disturbance",
+      "paresis or weakness",
+      "gait disturbance",
+      "movement disturbance",
+      "chorea",
+      "myoclonus",
+      "tremor",
+      "dystonia",
+      "facial spasm",
+      "parkinsonism",
+      "other specified movement disturbance",
+      "unspecified movement disturbance",
+      "cognitive symptoms",
+      "other specified symptoms",
+      "unspecified symptoms"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {
+      "Dissociative amnesia": "",
+      "Trance disorder": "",
+      "Possession trance disorder": "",
+      "Dissociative identity disorder": "",
+      "Partial dissociative identity disorder": ""
+    }
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      null
+    ],
+    "related_diagnoses": {
+      "anorexia nervosa": "specified feeding and eating disorder",
+      "bulimia nervosa": "specified feeding and eating disorder",
+      "binge-eating disorder": "specified feeding and eating disorder",
+      "depersonalization-derealization disorder": "other specified dissociative disorder",
+      "dissociative disorder, unspecified": "secondary-parented category",
+      "secondary dissociative syndrome": "secondary-parented category"
+    }
+  },
+  {
+    "diagnosis": "null",
+    "symptoms": "null",
+    "treatments": "null",
+    "duration": "null",
+    "description": [
+      "Avoidant-restrictive food intake disorder",
+      "Pica",
+      "Rumination-regurgitation disorder",
+      "Other specified feeding or eating disorder",
+      "Feeding or eating disorder, unspecified"
+    ],
+    "related_diagnoses": {
+      "Enuresis": "",
+      "Encopresis": ""
+    }
+  },
+  {
+    "diagnosis": "null",
+    "symptoms": "null",
+    "treatments": "null",
+    "duration": "null",
+    "description": [
+      "A group of disorders characterized by excessive concern about physical health or body functions.",
+      "Includes specific conditions like Body Integrity Dysphoria."
+    ],
+    "related_diagnoses": {
+      "Alcohol Dependence": "Comorbid with other substance use disorders",
+      "Body Integrity Dysphoria": "Subtype under Disorders of bodily distress or bodily experience"
+    }
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": null
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {
+      "Cannabis-induced disorders": "Same category",
+      "Synthetic cannabinoid-induced disorders": "Same category"
+    }
+  },
+  null,
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {
+      "Cocaine Dependence": "Same Category",
+      "Sedative, Hypnotic or Anxiolytic Intoxication": "Same Category",
+      "Sedative, Hypnotic or Anxiolytic Withdrawal": "Related by Substance Use",
+      "Sedative, Hypnotic or Anxiolytic-Induced Delirium": "Related by Substance Use",
+      "Sedative, Hypnotic or Anxiolytic-Induced Psychotic Disorder": "Related by Substance Use",
+      "Sedative, Hypnotic or Anxiolytic-Induced Mood Disorder": "Related by Substance Use",
+      "Sedative, Hypnotic or Anxiolytic-Induced Anxiety Disorder": "Related by Substance Use"
+    }
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {
+      "Cocaine Intoxication": "substance induced",
+      "Cocaine Withdrawal": "substance induced",
+      "Cocaine-induced Delirium": "substance induced",
+      "Cocaine-induced Psychotic Disorder": "substance induced",
+      "Cocaine-induced Mood Disorder": "substance induced",
+      "Cocaine-induced Anxiety Disorder": "substance induced",
+      "Cocaine-induced Obsessive-Compulsive or Related Disorder": "substance induced",
+      "Cocaine-induced Impulse Control Disorder": "substance induced",
+      "Other Specified Disorder Due To Use Of Cocaine": "substance induced",
+      "Disorder Due To Use Of Cocaine, Unspecified": "substance induced",
+      "Episode Of Harmful Use Of Stimulants Including Amfetamines Methamfetamine And Methcathinone": "harmful use",
+      "Harmless Pattern Of Use Of Stimulants Including Amfetamines Methamfetamine And Methcathinone": "harmful use",
+      "Stimulant Dependence Including Amfetamines Methamfetamine And Methcathinone": "dependence",
+      "Stimulant Intoxication Including Amfetamines Methamfetamine And Methcathinone": "intoxication"
+    }
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {
+      "Stimulant Intoxication": "includes amfetamines, methamfetamine and methcathinone",
+      "Stimulant Withdrawal": "includes amfetamines, methamfetamine and methcathinone",
+      "Stimulant-Induced Delirium": "includes amfetamines, methamfetamine and methcathinone",
+      "Stimulant-Induced Psychotic Disorder": "includes amfetamines, methamfetamine and methcathinone",
+      "Stimulant-Induced Mood Disorder": "includes amfetamines, methamfetamine and methcathinone",
+      "Stimulant-Induced Anxiety Disorder": "includes amfetamines, methamfetamine and methcathinone",
+      "Stimulant-Induced Obsessive-Compulsive or Related Disorder": "includes amfetamines, methamfetamine and methcathinone",
+      "Stimulant-Induced Impulse Control Disorder": "includes amfetamines, methamfetamine and methcathinone",
+      "Other Specified Disorder Due to Use of Stimulants": "includes amfetamines, methamfetamine and methcathinone",
+      "Disorder Due to Use of Stimulants": "unspecified; includes amfetamines, methamfetamine and methcathinone",
+      "Episode of Harmful Use of Synthetic Cathinones": null,
+      "Harmless Pattern of Use of Synthetic Cathinones": null,
+      "Specify pattern (for Harmful Pattern of Use)": [
+        "Episodic",
+        "Continuous"
+      ]
+    }
+  },
+  null,
+  null,
+  null,
+  null,
+  {
+    "diagnosis": "dissociative drug dependence",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "pattern of substance use or remission"
+    ],
+    "related_diagnoses": {
+      "dissociative drug intoxication": "includes similar effects",
+      "dissociative drug-induced delirium": "result of prolonged use",
+      "dissociative drug-induced psychotic disorder": "potential outcome",
+      "dissociative drug-induced mood disorder": "can cause mood changes",
+      "dissociative drug-induced anxiety disorder": "may lead to anxiety disorders",
+      "other specified disorder due to use of dissociative drugs": "less defined conditions",
+      "disorder due to use of dissociative drugs, unspecified": "generalized term for unknown cases",
+      "episode of harmful use of other specified psychoactive substance": "similar but broader context",
+      "harmful pattern of use of other specified psychoactive substance": "another form of misuse",
+      "other specified psychoactive substance dependence": "comparable dependency on different substances"
+    }
+  },
+  {
+    "diagnosis": "Other specified psychoactive substance intoxication",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Psychoactive substance intoxication not otherwise specified"
+    ],
+    "related_diagnoses": {
+      "Delirium induced by other specified psychoactive substance": "Induced by same class of substances",
+      "Mood disorder induced by other specified psychoactive substance": "Substance-induced mood disturbance",
+      "Anxiety disorder induced by other specified psychoactive substance": "Substance-induced anxiety",
+      "Obsessive-compulsive or related disorder induced by other specified psychoactive substance": "Substance-induced obsessive-compulsive or related disorder",
+      "Impulse control disorder induced by other specified psychoactive substance": "Substance-induced impulse control disorder"
+    }
+  },
+  {
+    "diagnosis": "Substance-induced disorders",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A group of conditions caused by using one or more unidentified or specific psychoactive substances."
+    ],
+    "related_diagnoses": {
+      "substance abuse disorders": "may be comorbid",
+      "withdrawal syndromes": "can result from cessation of use",
+      "toxic effects": "similar manifestations can occur during intoxication"
+    }
+  },
+  {
+    "diagnosis": "Unknown or unspecified psychoactive substance dependence",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Specify pattern of substance use or remission"
+    ],
+    "related_diagnoses": {
+      "Intoxication due to unknown or unspecified psychoactive substance": "Related disorder",
+      "Withdrawal due to unknown or unspecified psychoactive substance": "Related disorder",
+      "Delirium induced by unknown or unspecified psychoactive substance": "Related disorder",
+      "Psychotic disorder induced by unknown or unspecified psychoactive substance": "Related disorder",
+      "Mood disorder induced by unknown or unspecified psychoactive substance": "Related disorder",
+      "Anxiety disorder induced by unknown or unspecified psychoactive substance": "Related disorder",
+      "Obsessive-compulsive or related disorder induced by unknown or unspecified psychoactive substance": "Related disorder",
+      "Impulse control disorder induced by unknown or unspecified psychoactive substance": "Related disorder"
+    }
+  },
+  {
+    "diagnosis": null,
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": null,
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": "null",
+    "symptoms": "null",
+    "treatments": "null",
+    "duration": "null",
+    "description": [
+      "A group of conditions characterized by recurrent urges that lead to harmful actions despite negative consequences.",
+      "These include but are not limited to pyromania, kleptomania, compulsive sexual behavior disorder, intermittent explosive disorder, other specified impulse control disorder, and unspecified impulse control disorder."
+    ],
+    "related_diagnoses": {
+      "Trichotillomania": "Subtype under body-focused repetitive behaviour disorders",
+      "Excoriation (skin-picking) disorder": "Subtype under body-focused repetitive behaviour disorders",
+      "Gambling disorder": "Disorder due to addictive behaviours"
+    }
+  },
+  {
+    "diagnosis": "Impulse Control Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A gaming disorder characterized by impaired control over gaming, increasing precedence given to gaming over other interests and daily activities, and continuation or escalation of gaming despite negative consequences."
+    ],
+    "related_diagnoses": {
+      "Substance-Induced Impulse Control Disorders": "May result from substance abuse.",
+      "Secondary Impulse Control Syndrome": "Associated with various underlying conditions."
+    }
+  },
+  {
+    "diagnosis": "Oppositional defiant disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A disorder characterized by persistent negativistic, hostile, and defiant behavior towards authority figures that is not limited to temper tantrums.",
+      "May include chronic irritability-anger and limitations in prosocial emotions."
+    ],
+    "related_diagnoses": {
+      "Conduct-dissocial disorder": "Shares features; can develop into more severe form if untreated"
+    }
+  },
+  {
+    "diagnosis": "personality disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Prominent personality traits or patterns"
+    ],
+    "related_diagnoses": {
+      "negative affectivity": "",
+      "detachment": "",
+      "dissociality": "",
+      "disinhibition": "",
+      "anankastia": "",
+      "borderline pattern": ""
+    }
+  },
+  null,
+  {
+    "diagnosis": "Delirium",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A state of temporary but acute mental confusion"
+    ],
+    "related_diagnoses": {
+      "Mild neurocognitive disorder": "May be associated with",
+      "Amnestic disorder": "Can result from similar causes"
+    }
+  },
+  {
+    "diagnosis": "Amnestic disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Memory loss caused by specific psychoactive substances or medications"
+    ],
+    "related_diagnoses": {
+      "Alzheimer disease": "Subtype of dementia",
+      "Cerebrovascular disease": "Mixed type of dementia",
+      "Lewy body disease": "Type of dementia",
+      "Frontotemporal dementia": "Type of dementia",
+      "Substance abuse disorders": "Caused by psychoactive substances"
+    }
+  },
+  {
+    "diagnosis": "dementia",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A general term for a group of brain disorders that affect memory, thinking, language, judgment, and behavior"
+    ],
+    "related_diagnoses": {
+      "Parkinson disease": "causal condition",
+      "Huntington disease": "causal condition",
+      "HIV": "causal condition",
+      "multiple sclerosis": "causal condition",
+      "prion disease": "causal condition",
+      "normal-pressure hydrocephalus": "causal condition",
+      "injury to the head": "causal condition",
+      "Down syndrome": "causal condition",
+      "other specified disease classified elsewhere": "causal condition"
+    }
+  }
+]
