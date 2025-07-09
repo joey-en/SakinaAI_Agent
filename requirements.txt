@@ -15,6 +15,7 @@ faiss-cpu>=1.7.4              # Vector search library for embedding-based docume
 # === Utilities ===
 numpy>=1.24.0                 # Numerical operations, required by FAISS and other libs
 python-dotenv>=1.0.1          # Loads environment variables from a .env file (e.g., API keys)
+pypdf                         # Formerly known as PyPDF2. It is PDF parsing library.
 
 # === Notes ===
 # - FANAR uses OpenAI-compatible API: https://api.fanar.qa/v1

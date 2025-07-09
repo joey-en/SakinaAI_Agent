@@ -1,0 +1,306 @@
+[
+  {
+    "diagnosis": "Intellectual Disability (Intellectual Developmental Disorder)",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Characterized by deficits in general mental abilities.",
+      "Results in impairments of adaptive functioning."
+    ],
+    "related_diagnoses": {
+      "autism spectrum disorder": "may coexist",
+      "attention-deficit/hyperactivity disorder (ADHD)": "often comorbid",
+      "specific learning disorder": "can overlap"
+    }
+  },
+  {
+    "diagnosis": "Intellectual Disability",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Disorder with onset during the developmental period that includes both intellectual and adaptive functioning deficits in conceptual, social, and practical domains.",
+      "Deficits in intellectual functions such as reasoning, problem solving, planning, abstract thinking, judgment, academic learning, and learning from experience."
+    ],
+    "related_diagnoses": null
+  },
+  null,
+  {
+    "diagnosis": "Intellectual Disability",
+    "symptoms": null,
+    "treatments": null,
+    "duration": "lifelong",
+    "description": [
+      "Deficit in intellectual and adaptive functioning established before age 18.",
+      "Delayed motor, language, and social milestones."
+    ],
+    "related_diagnoses": {
+      "Neurocognitive Disorder": "May co-occur with intellectual disability.",
+      "Autism Spectrum Disorder": "Common comorbidity, can complicate assessment of intellectual functioning.",
+      "Attention-deficit/Hyperactivity Disorder": "Frequent comorbidity.",
+      "Depressive and Bipolar Disorders": "Can occur throughout the range of severity of intellectual disability.",
+      "Anxiety Disorders": "Frequent comorbidity.",
+      "Stereotypic Movement Disorder": "With or without self-injurious behavior.",
+      "Impulse-Control Disorders": "Frequent comorbidity."
+    }
+  },
+  {
+    "diagnosis": "Language Disorder",
+    "symptoms": [
+      "Persistent difficulties in acquiring and using language",
+      "Deficits in comprehension or production of vocabulary",
+      "Limited sentence structure",
+      "Impairments in discourse",
+      "Reduced vocabulary",
+      "Difficulties following instructions of increasing length",
+      "Difficulties remembering new words and sentences",
+      "Difficulties with narrative coherence"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Deficits in language acquisition and use.",
+      "Substantially lower language abilities compared to peers."
+    ],
+    "related_diagnoses": {
+      "Speech Sound Disorder": "Co-occurrence possible",
+      "Intellectual Disability (Intellectual Developmental Disorder)": "Not attributed to, but may coexist"
+    }
+  },
+  {
+    "diagnosis": "Speech Sound Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Persistent difficulty with speech sound production that interferes with speech intelligibility or prevents verbal communication of messages.",
+      "Difficulties are not attributable to congenital or acquired conditions."
+    ],
+    "related_diagnoses": {
+      "Normal Variations in Speech": "Considered before making the diagnosis.",
+      "Hearing or Other Sensory Impairment": "May result in abnormalities of speech. Deficits of speech sound production may be associated with a hearing impairment...",
+      "Structural Deficits": "Speech impairment may be due to structural deficits (e.g., cleft palate)."
+    }
+  },
+  {
+    "diagnosis": "Childhood-onset fluency disorder (stuttering)",
+    "symptoms": [
+      "Sound and syllable repetitions",
+      "Sound prolongations of consonants and vowels",
+      "Broken words (pauses within a word)",
+      "Audible or silent blocking (filled or unfilled pauses in speech)",
+      "Circumlocutions (word substitutions to avoid problematic words)",
+      "Words produced with an excess of physical tension",
+      "Monosyllabic whole-word repetitions"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Disturbance in the normal fluency and time patterning of speech.",
+      "Interference with academic or occupational achievement or social communication."
+    ],
+    "related_diagnoses": {
+      "Autism Spectrum Disorder": "Not better explained by...",
+      "Intellectual Disability (Intellectual Developmental Disorder)": "Not better explained by..."
+    }
+  },
+  {
+    "diagnosis": "Autism Spectrum Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Persistent deficits in social communication and social interaction.",
+      "Restricted, repetitive patterns of behavior, interests, or activities."
+    ],
+    "related_diagnoses": {
+      "Social (Pragmatic) Communication Disorder": "May be diagnosed instead if symptoms don't fully meet criteria for ASD",
+      "Intellectual Disability (Intellectual Developmental Disorder)": "Frequently co-occurs; social communication should be below that expected for general developmental level to diagnose both conditions."
+    }
+  },
+  {
+    "diagnosis": "Autism Spectrum Disorder",
+    "symptoms": [
+      "Severe deficits in verbal and nonverbal social communication skills",
+      "Very limited initiation of social interactions",
+      "Minimal response to social overtures from others",
+      "Marked inflexibility of behavior",
+      "Extreme difficulty coping with change",
+      "Other restricted/repetitive behaviors causing significant interference with functioning"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Persistent impairment in reciprocal social communication and social interaction",
+      "Restricted, repetitive patterns of behavior, interests, or activities"
+    ],
+    "related_diagnoses": {
+      "Attention-deficit/Hyperactivity Disorder": "Often comorbid",
+      "Developmental Coordination Disorder": "May occur alongside",
+      "Disruptive Behavior, Impulse-Control, or Conduct Disorders": "Can coexist",
+      "Anxiety, Depressive, or Bipolar Disorders": "Common comorbidities",
+      "Tics or Tourette's Disorder": "Sometimes associated",
+      "Self-Injury": "Potential symptom",
+      "Feeding, Elimination, or Sleep Disorders": "Possible secondary issues"
+    }
+  },
+  {
+    "diagnosis": "Autism Spectrum Disorder",
+    "symptoms": [
+      "Absent, reduced, or atypical social interest",
+      "Rejection of others",
+      "Passivity",
+      "Inappropriate approaches seeming aggressive or disruptive",
+      "Lack of shared social play and imagination",
+      "Insistence on playing by very fixed rules",
+      "Difficulty understanding appropriate behavior in different situations",
+      "Misunderstanding how language is used (e.g., irony)",
+      "Preference for solitary activities or interacting with people significantly younger or older",
+      "Desire to establish friendships without a complete idea of what they entail",
+      "Stereotyped or repetitive motor movements",
+      "Repetitive use of objects",
+      "Repetitive speech (echolalia, etc.)",
+      "Excessive adherence to routines and rigid patterns of behavior",
+      "Highly restricted, fixated interests with abnormal intensity or focus",
+      "Extreme reactions to sensory input (e.g., sounds, textures)"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Social communication deficits judged against norms for age, gender, and culture.",
+      "Restricted, repetitive patterns of behavior, interests, or activities."
+    ],
+    "related_diagnoses": {
+      "Intellectual Disability": "May coexist with autism spectrum disorder.",
+      "Language Impairment": "Commonly associated with autism spectrum disorder."
+    }
+  },
+  {
+    "diagnosis": "Autism spectrum disorder",
+    "symptoms": [
+      "Marked social and communication impairments",
+      "Restricted/repetitive behaviors",
+      "Difficulties in early childhood and early school years",
+      "Developmental gains in later childhood in some areas",
+      "Behavioral deterioration during adolescence for a small proportion",
+      "Social naivety and vulnerability",
+      "Difficulties organizing practical demands without aid",
+      "Prone to anxiety and depression",
+      "Compensation strategies used to mask difficulties in public",
+      "Impairments causing current functioning issues in social, occupational, or other important areas"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A neurodevelopmental disorder characterized by persistent deficits in social communication and interaction across multiple contexts.",
+      "Defined by the presence of restricted, repetitive patterns of behavior, interests, or activities."
+    ],
+    "related_diagnoses": {
+      "Rett syndrome": "May exhibit similar symptoms during regression phase but improves later.",
+      "Selective mutism": "Early development not typically disturbed, appropriate communication in certain contexts.",
+      "Language disorders and social (pragmatic) communication disorder": "Problems of communication and secondary social difficulties without abnormal nonverbal communication or restricted/repetitive patterns of behavior.",
+      "Intellectual disability (intellectual developmental disorder)": "Differentiation can be challenging in young children. Appropriate if no significant discrepancy between social-communicative skills and other intellectual skills."
+    }
+  },
+  {
+    "diagnosis": "Attention-Deficit/Hyperactivity Disorder",
+    "symptoms": [
+      "Overly focused or easily distracted attention",
+      "Hyperactivity"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "Persistent pattern of inattention and/or hyperactivity-impulsivity interfering with functioning or development.",
+      "Difficulty sustaining attention, finishing tasks, staying organized."
+    ],
+    "related_diagnoses": {
+      "autism spectrum disorder": "may coexist, requiring dual diagnosis if criteria for both are met",
+      "other comorbid mental disorders": "common, including anxiety disorders, depressive disorders, etc."
+    }
+  },
+  {
+    "diagnosis": "Attention-Deficit/Hyperactivity Disorder",
+    "symptoms": [
+      "wandering off task",
+      "lacking persistence",
+      "having difficulty sustaining focus",
+      "being disorganized",
+      "excessive motor activity",
+      "fidgeting",
+      "tapping",
+      "talkativeness",
+      "hasty actions without forethought",
+      "interrupting others excessively"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A persistent pattern of inattention and/or hyperactivity-impulsivity interfering with functioning or development.",
+      "Manifests as wandering off task, lacking persistence, disorganization, and impulsive behaviors."
+    ],
+    "related_diagnoses": {
+      "conduct disorder": "secondary development of conduct problems",
+      "antisocial personality disorder": "increased likelihood for substance use disorders and incarceration",
+      "substance use disorders": "elevated risk, especially when conduct disorder or antisocial personality disorder develops"
+    }
+  },
+  {
+    "diagnosis": "Attention-Deficit/Hyperactivity Disorder",
+    "symptoms": [
+      "reduced school performance",
+      "academic attainment",
+      "social rejection",
+      "poorer occupational performance",
+      "unemployment",
+      "elevated interpersonal conflict",
+      "conduct disorder development",
+      "antisocial personality disorder development",
+      "substance use disorders",
+      "incarceration",
+      "increased risk of accidental injury",
+      "traffic accidents and violations",
+      "obesity"
+    ],
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "a disorder characterized by persistent patterns of inattention and/or hyperactivity-impulsivity that impairs functioning or development"
+    ],
+    "related_diagnoses": {
+      "oppositional defiant disorder": "may resist work or school tasks that require self-application due to negativity, hostility, and defiance",
+      "intermittent explosive disorder": "high levels of impulsive behavior, but does not include serious aggression towards others nor inattention issues like ADHD",
+      "autism spectrum disorder": "similar social dysfunction and peer rejection, but distinct in terms of social disengagement, isolation, and communication cues",
+      "reactive attachment disorder": "shows social disinhibition but lacks the full ADHD symptom cluster and displays different features",
+      "anxiety disorders": "shared symptoms of inattention, but differs in cause - ADHD due to attraction to external stimuli while anxiety due to worry and rumination",
+      "depressive disorders": "presents with inability to concentrate, but only during a depressive episode",
+      "bipolar disorder": "includes increased activity, poor concentration, and impulsivity episodically accompanied by elevated mood, grandiosity, etc.",
+      "disruptive mood dysregulation disorder": "characterized by pervasive irritability and intolerance of frustration, but impulsiveness and disorganized attention are not essential features",
+      "substance use disorders": "differentiation may be problematic if the first presentation of ADHD symptoms follows the onset of abuse or frequent use."
+    }
+  },
+  {
+    "diagnosis": "Attention-Deficit/Hyperactivity Disorder",
+    "symptoms": null,
+    "treatments": null,
+    "duration": null,
+    "description": [
+      "A neurodevelopmental disorder characterized by persistent patterns of inattention, hyperactivity, and impulsivity."
+    ],
+    "related_diagnoses": {
+      "Oppositional Defiant Disorder": "Co-occurs frequently.",
+      "Conduct Disorder": "Commonly co-occurs.",
+      "Disruptive Mood Dysregulation Disorder": "May co-occur.",
+      "Specific Learning Disorder": "Often co-occurs.",
+      "Anxiety Disorders": "More common than in the general population.",
+      "Major Depressive Disorder": "Occurs less frequently than anxiety disorders but still higher than average.",
+      "Intermittent Explosive Disorder": "Present in some adults with ADHD.",
+      "Substance Use Disorders": "Relatively more frequent among adults with ADHD in the general population but affects a minority.",
+      "Antisocial Personality Disorder": "May co-occur in adults.",
+      "Obsessive-Compulsive Disorder": "May co-occur.",
+      "Tic Disorders": "May co-occur.",
+      "Autism Spectrum Disorder": "May co-occur."
+    }
+  }
+]
