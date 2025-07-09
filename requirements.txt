@@ -1,4 +1,22 @@
-streamlit
-faiss-cpu
-numpy
-mistralai
+# === Core Web App ===
+streamlit>=1.32.0             # Web UI framework to build the Sakina chatbot interface
+
+# === LLM Framework ===
+langchain>=0.1.14             # Framework for managing LLM chains, tools, and prompts
+langchain-community>=0.0.25   # Community-contributed LangChain integrations (e.g., FAISS)
+
+# === LLM Clients ===
+openai>=1.13.3                # Client library for OpenAI-compatible APIs (used for FANAR)
+mistralai>=0.0.10             # (Optional) Official Mistral client — comment out if only using FANAR
+
+# === Retrieval + Embeddings ===
+faiss-cpu>=1.7.4              # Vector search library for embedding-based document retrieval
+
+# === Utilities ===
+numpy>=1.24.0                 # Numerical operations, required by FAISS and other libs
+python-dotenv>=1.0.1          # Loads environment variables from a .env file (e.g., API keys)
+
+# === Notes ===
+# - FANAR uses OpenAI-compatible API: https://api.fanar.qa/v1
+# - Set FANAR_API_KEY in your .env file for access
+# - To run locally: source .venv/bin/activate && streamlit run app.py
