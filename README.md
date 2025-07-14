@@ -45,7 +45,7 @@ This will generate a JSON file in the following format:
 
 ### Processing Steps
 
-1. **Parse DSM-5 ** (🟢ON-GOING)
+1. **Parse DSM-5** (🟢ON-GOING)
 
    * Extract diagnoses and their metadata
    * Identify symptoms, criteria, treatments, duration, description, and related_diagnoses

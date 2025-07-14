@@ -2,19 +2,23 @@ import os
 import streamlit as st
 import faiss
 import numpy as np
-from mistralai import Mistral, UserMessage
+from openai import OpenAI
 
 # ========== CONFIG ==========
 from dotenv import load_dotenv
 
 load_dotenv(".env")
-api_key = os.getenv("MISTRAL_API_KEY", "MISTRAL_API_KEY not found")
-client = Mistral(api_key=api_key)
+client = OpenAI(
+    base_url="https://api.fanar.qa",
+    api_key= os.getenv("FANAR_API_KEY", "FANAR_API_KEY not found"),
+)
+MODEL_NAME = "Fanar"
 
 DOCUMENT_FOLDER = "./data"
 INDEX_PATH = "./database/faiss.index"
 CHUNK_PATH = "./database/chunks.pkl"
 READ_FILE_LIST = "./database/read_files.json"
+PROMPT_PATH = "prompts/system_prompt.txt"
 
 # ========== CONTENT LOADING ==========
 from langchain.document_loaders import PyPDFLoader, TextLoader
@@ -103,7 +107,7 @@ def create_embeddings(text_list, batch_size=30, delay=2.0): # Added batch size b
     try:
         for i in range(0, list_size, batch_size):
             batch = text_list[i:i + batch_size]
-            response = client.embeddings.create(model="mistral-embed", inputs=batch)
+            response = client.embeddings.create(model="Fanar", input=batch)
             embeddings = [r.embedding for r in response.data]
             all_embeddings.extend(embeddings)
 
@@ -149,41 +153,33 @@ def fetch_relevant_chunks(query, index, chunks, num_chunks=3):
 
 # ========== LLM RESPONSE GENERATION ==========
 
-def ask_mistral(context_chunks, query):
+def ask_fanar(chat_history, context_chunks, query):
     context = "\n".join(context_chunks)
-    prompt = (
-        f"""
-        You are the Sakina supportive mental health assistant — a calm, caring companion who listens without judgement and offers clear, thoughtful guidance.
+    messages = []
 
-        **Greeting:** Always begin with a warm greeting and use emojis to connect with the user.
+    with open(PROMPT_PATH, "r", encoding="utf-8") as file: system_prompt = file.read()
 
-        **Tone & Length:** By default, reply in 1–2 short, empathetic paragraphs that show genuine curiosity and active listening. This should feel like a caring, natural chat — use bullet points *within* the reply if it helps clarity.
+    # System prompt
+    messages.append({ "role": "system", "content": system_prompt})
 
-        **Deeper Explanations:** When asked to explain mental health concepts, expand thoughtfully to 3+ paragraphs. Start with a gentle, high-level overview to relate to the user’s feelings, then break things into smaller, digestible parts. Use analogies or everyday examples if they help.
+    # Add previous turns
+    for turn in chat_history:
+        messages.append({"role": "user", "content": turn["user"]})
+        messages.append({"role": "assistant", "content": turn["assistant"]})
 
-        **Closing:** End each reply with an open-ended question that invites the user to share more or reflect on what they’ve read.
+    # Add current query
+    messages.append({"role": "user", "content": query})
 
-        ---
-
-        Context:
-        {context}
-
-        User Query:
-        {query}
-
-        ---
-
-        Supportive Reply:
-        """
-    )
     try:
-        response = client.chat.complete(
-            model="mistral-large-latest",
-            messages=[UserMessage(content=prompt)]
+        response = client.chat.completions.create(
+            model=MODEL_NAME, 
+            messages=messages,
+            temperature=0.7,
+            max_tokens=600
         )
         return response.choices[0].message.content
     except Exception as e:
-        st.error(f"Error generating response from Mistral: {e}")
+        st.error(f"FANAR API error: {e}")
         return "Sorry, something went wrong. Please try again."
 
 # ========== STREAMLIT UI ==========
@@ -191,6 +187,10 @@ def ask_mistral(context_chunks, query):
 st.set_page_config(page_title="Mental Health Chatbot Sakina Ai", page_icon="🧠")
 st.title("🧠 Mental Health Support Chatbot Sakina AI")
 st.markdown("_This tool provides general mental health support and is **not** a substitute for professional help. If you're in crisis, please contact a professional or emergency service._")
+
+# Initialize chat_history
+if "chat_history" not in st.session_state:
+    st.session_state.chat_history = []
 
 # Initialize chunks and FAISS index once
 if 'chunks' not in st.session_state:
@@ -245,9 +245,23 @@ if st.button("Start Chat"):
     if user_query.strip() and 'faiss_index' in st.session_state:
         context_chunks = fetch_relevant_chunks(user_query, st.session_state['faiss_index'], st.session_state['chunks'])
         if context_chunks:
-            answer = ask_mistral(context_chunks, user_query)
-            st.markdown(f"**SakinaAI Agent:**\n\n{answer}")
+            answer = ask_fanar(st.session_state.chat_history, context_chunks, user_query)
+            st.session_state.chat_history.append({
+                "user": user_query,
+                "assistant": answer
+            })
+
+            # Display all messages so far
+            for turn in st.session_state.chat_history:
+                st.markdown(f"**You:** {turn['user']}")
+                st.markdown(f"**SakinaAI Agent:** {turn['assistant']}")
+                st.markdown("---")
+
         else:
             st.warning("Sorry, I couldn't find relevant context. Please try again.")
     else:
         st.warning("Please enter something you'd like help with.")
+
+if st.button("Reset Conversation"):
+    st.session_state.chat_history = []
+    st.experimental_rerun()
