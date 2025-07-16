@@ -11,7 +11,7 @@ The goal here is to turn a structured mental health reference (like DSM-5 or ICD
 ### How to run
 
 ```bash
-python graph_creation/document_extraction.py
+python src/document_parsing.py >> src/saved_json/error_outputs/DSM_5_full_output.txt
 ```
 
 This will generate a JSON file in the following format:

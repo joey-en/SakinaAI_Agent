@@ -18,7 +18,7 @@ client = OpenAI(
     api_key=os.getenv("FANAR_API_KEY"),
 )
 
-FOLDER_NAME = "graph_creation"
+FOLDER_NAME = "src/saved_json/"
 CHUNK_SIZE = 10000
 CHUNK_OVERLAP = 1000
 MAX_TOKENS = 1024
@@ -145,7 +145,7 @@ def extract_dict_from_file(file_path: str, notes= "", checkpoint_chunk=20):
         json.dump(extracted_data, f, indent=2)
 
     # Log to extraction metadata
-    log_file = Path(f"./{FOLDER_NAME}/extracted_files.json")
+    log_file = Path(f"./{FOLDER_NAME}/_extracted_files.json")
     if log_file.exists():
         with open(log_file, "r", encoding="utf-8") as f:
             log = json.load(f)
@@ -166,4 +166,4 @@ def extract_dict_from_file(file_path: str, notes= "", checkpoint_chunk=20):
 
     return extracted_data, final_name, backup_dir.name, log_entry
 
-extract_dict_from_file("./data/ICD-11.pdf", notes=f"CHUNK_SIZE_{CHUNK_SIZE} CHUNK_OVERLAP_{CHUNK_OVERLAP} MAX_TOKENS={MAX_TOKENS} SYSTEM_PROMPT={SYSTEM_PROMPT}")
+extract_dict_from_file("./data/DSM_5.txt", notes=f"CHUNK_SIZE_{CHUNK_SIZE} CHUNK_OVERLAP_{CHUNK_OVERLAP} MAX_TOKENS={MAX_TOKENS} SYSTEM_PROMPT={SYSTEM_PROMPT}")
