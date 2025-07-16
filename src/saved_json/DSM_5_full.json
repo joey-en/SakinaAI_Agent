@@ -6578,5 +6578,228 @@
       "Posttraumatic stress disorder": "more appropriate if susto resulted from a traumatic event.",
       "Somatic symptom disorder": "resembled when susto was characterized by various recurrent somatic symptoms."
     }
+  },
+  {
+    "diagnosis": "Schizophrenia",
+    "symptoms": [],
+    "treatments": [],
+    "duration": ["continuous", "multiple episodes"],
+    "description": [
+      "A heterogeneous clinical syndrome involving impaired occupational or social functioning.",
+      "Constellation of signs and symptoms associated with impaired occupational or social functioning."
+    ],
+    "related_diagnoses": {
+      "Autism spectrum disorder": "Comorbid",
+      "Communication disorder of childhood onset": "Comorbid"
+    },
+    "course_specifiers": [
+      "First episode, currently in acute episode",
+      "First episode, currently in partial remission",
+      "First episode, currently in full remission",
+      "Multiple episodes, currently in acute episode",
+      "Multiple episodes, currently in partial remission",
+      "Multiple episodes, currently in full remission",
+      "Continuous",
+      "Unspecified"
+    ],
+    "severity_specifier": ["rated based on psychosis symptoms"],
+    "associated_features": [
+      "Inappropriate affect",
+      "Dysphoric mood",
+      "Disturbed sleep pattern",
+      "Lack of interest in eating",
+      "Depersonalization, derealization, somatic concerns",
+      "Anxiety and phobia",
+      "Cognitive deficits",
+      "Social cognition deficits",
+      "Unawareness of illness (anosognosia)",
+      "Hostility and aggression"
+    ]
+  },
+  {
+    "diagnosis": "Manic Episode",
+    "symptoms": [
+      "abnormally, persistently elevated, expansive, or irritable mood",
+      "persistently increased activity or energy",
+      "inflated self-esteem",
+      "decreased need for sleep",
+      "rapid, pressured, loud speech",
+      "flight of ideas",
+      "distractibility",
+      "increased goal-directed activity",
+      "psychomotor agitation or restlessness",
+      "reckless involvement in activities leading to potential harm"
+    ],
+    "treatments": [],
+    "duration": null,
+    "description": [
+      "Distinct period of abnormally, persistently elevated, expansive, or irritable mood.",
+      "Persistently increased activity or energy."
+    ],
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": "Separation Anxiety Disorder",
+    "symptoms": [
+      "excessive distress when separation from home or attachment figures is anticipated or occurs",
+      "worries about the well-being or death of attachment figures",
+      "need to know the whereabouts of attachment figures and want to stay in touch with them",
+      "fear of untoward events like getting lost, being kidnapped, or having an accident",
+      "reluctance or refusal to go out due to separation fears",
+      "persistent and excessive fear or reluctance about being alone or without major attachment figures",
+      "persistent reluctance or refusal to sleep away from home or to sleep without being near a major attachment figure",
+      "repeated nightmares involving themes of separation",
+      "complaints of physical symptoms like headaches, stomachaches, nausea, vomiting when separation from major attachment figures occurs or is anticipated"
+    ],
+    "treatments": [],
+    "duration": "typically 6 months or longer in adults, at least 4 weeks in children and adolescents under 18 years old",
+    "description": [
+      "Excessive fear or anxiety concerning separation from home or attachment figures.",
+      "Symptoms meeting at least three of the following criteria.",
+      "Recurrent excessive distress upon anticipation or occurrence of separation.",
+      "Worry about the well-being or death of attachment figures.",
+      "Fear of untoward events keeping one from reunion with major attachment figure.",
+      "Reluctance or refusal to go out due to separation fears.",
+      "Persistent and excessive fear or reluctance about being alone or without major attachment figures.",
+      "Persistent reluctance or refusal to sleep away from home or without being near a major attachment figure.",
+      "Repeated nightmares involving themes of separation.",
+      "Complaints of physical symptoms when separation occurs or is anticipated."
+    ],
+    "related_diagnoses": {
+      "Agoraphobia": "refusal to go outside without a trusted companion",
+      "Generalized anxiety disorder": "worries about ill health or other harm befalling significant others",
+      "Illness anxiety disorder": "concerns about having an illness"
+    }
+  },
+  {
+    "diagnosis": "Specific Phobia",
+    "symptoms": [],
+    "treatments": [],
+    "duration": "typically lasting for 6 months or more",
+    "description": [
+      "Fear or anxiety is circumscribed to the presence of a particular situation or object.",
+      "Response differs from normal, transient fears.",
+      "Intense or severe ('marked') fear or anxiety."
+    ],
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": "Gambling Disorder",
+    "symptoms": [
+      "Needs to gamble with increasing amounts of money",
+      "Restlessness or irritability when trying to cut down or stop gambling",
+      "Repeated unsuccessful efforts to control, cut back, or stop gambling",
+      "Often preoccupied with gambling",
+      "Often gambles when feeling distressed",
+      "Returns another day to chase losses after losing money gambling",
+      "Lies to conceal the extent of involvement with gambling",
+      "Jeopardizes significant relationships, jobs, or career opportunities due to gambling",
+      "Relies on others to provide money to relieve desperate financial situations caused by gambling"
+    ],
+    "treatments": [],
+    "duration": null,
+    "description": [
+      "Persistent and recurrent problematic gambling behavior leading to impairment or distress"
+    ],
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": "Neurocognitive Disorder",
+    "symptoms": [
+      "Difficulty in maintaining attention",
+      "Slowed processing speed",
+      "Impaired planning and decision-making",
+      "Memory loss, especially recent memory",
+      "Word-finding difficulty",
+      "Grammatical errors",
+      "Struggles with spatial tasks",
+      "Insensitivity to social standards",
+      "Lack of insight into changes"
+    ],
+    "treatments": [],
+    "duration": null,
+    "description": [
+      "Disorder characterized by significant cognitive decline affecting multiple areas including attention, executive functions, learning and memory, language, perceptual-motor skills, and social cognition"
+    ],
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": "Obsessive-Compulsive Personality Disorder",
+    "symptoms": [
+      "Preoccupation with orderliness, perfectionism, and mental and interpersonal control",
+      "Inability to discard worn-out or worthless objects",
+      "Reluctance to delegate tasks or work with others unless they comply strictly",
+      "Excessive devotion to work and productivity to the exclusion of leisure activities and friendships",
+      "Rigid adherence to rules, trivial details, procedures, lists, schedules, or forms",
+      "Excessive conscientiousness, scrupulosity, and inflexibility regarding morals, ethics, or values",
+      "Difficulty adapting to changes or considering alternative solutions",
+      "Misery caused by perceived wastefulness in spending",
+      "Rigidity and stubbornness in opinions and actions",
+      "Formal and serious approach to daily interactions",
+      "Difficulty expressing tender feelings or giving compliments",
+      "Occupational difficulties arising from lack of flexibility and compromise"
+    ],
+    "treatments": [],
+    "duration": null,
+    "description": [
+      "Pervasive pattern of preoccupations with orderliness, perfectionism, and mental and interpersonal control"
+    ],
+    "related_diagnoses": {}
+  },
+  {
+    "diagnosis": "Schizotypal Personality Disorder",
+    "symptoms": [
+      "Impairments in social and close relationships",
+      "Eccentricities in cognition, perception, and behavior",
+      "Distorted self-image",
+      "Incoherent personal goals",
+      "Suspiciousness",
+      "Restricted emotional expression",
+      "Confused boundaries between self and others",
+      "Unrealistic or incoherent goals",
+      "No clear set of internal standards",
+      "Pronounced difficulty understanding impact of own behaviors on others",
+      "Frequent misinterpretations of others' motivations and behaviors",
+      "Marked impairments in developing close relationships, associated with mistrust and anxiety",
+      "Odd or unusual thought processes",
+      "Vague, circumstantial, metaphorical, overelaborate, or stereotyped thought or speech",
+      "Odd sensations in various sensory modalities",
+      "Thought content and views of reality that are viewed by others as bizarre or idiosyncratic",
+      "Unusual experiences of reality",
+      "Odd, unusual, or bizarre behavior or appearance",
+      "Saying unusual or inappropriate things",
+      "Little reaction to emotionally arousing situations",
+      "Constricted emotional experience and expression",
+      "Indifference or coldness",
+      "Preference for being alone to being with others",
+      "Reticence in social situations",
+      "Avoidance of social contacts and activity",
+      "Lack of initiation of social contact",
+      "Expectations of signs of interpersonal ill-intent or harm",
+      "Heightened sensitivity to signs of interpersonal ill-intent or harm",
+      "Doubts about loyalty and fidelity of others",
+      "Feelings of persecution"
+    ],
+    "treatments": [],
+    "duration": null,
+    "description": [
+      "Disorder characterized by impairments in social and close relationships, eccentricities in cognition, perception, and behavior leading to distorted self-image and incoherent personal goals.",
+      "Associated with suspiciousness and restricted emotional expression."
+    ],
+    "related_diagnoses": {}
+  },
+  {
+  "diagnosis": "Affective Blunting",
+  "symptoms": [
+      "Significant reduction in the intensity of emotional expression",
+      "Absence or near absence of any sign of affective expression",
+      "Discordance between affective expression and the content of speech or ideation",
+      "Mild reduction in the range and intensity of emotional expression",
+      "Abnormal variability in affect with repeated, rapid, and abrupt shifts in affective expression"
+  ],
+  "treatments": null,
+  "duration": null,
+  "description": ["Reduction in the intensity of emotional expression"],
+  "related_diagnoses": null
   }
 ]
