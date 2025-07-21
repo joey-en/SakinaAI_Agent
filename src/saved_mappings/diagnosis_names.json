@@ -2,40 +2,32 @@
   {
     "main": "Intellectual Disability (Intellectual Developmental Disorder)",
     "aliases": [
-      "IDD",
       "Intellectual Developmental Disorder",
-      "Intellectual Disability",
-      "Mental retardation"
+      "Intellectual Disability"
     ]
   },
   {
     "main": "Language Disorder",
-    "aliases": [
-      "F80.2"
-    ]
+    "aliases": []
   },
   {
     "main": "Speech Sound Disorder",
-    "aliases": [
-      "Articulation Disorder",
-      "Phonological Disorder"
-    ]
+    "aliases": []
   },
   {
-    "main": "Childhood-onset fluency disorder (Stuttering)",
+    "main": "Childhood-onset fluency disorder (stuttering)",
     "aliases": [
       "Childhood-onset fluency disorder",
-      "Developmental stuttering",
-      "Stuttering"
+      "stuttering"
     ]
   },
   {
     "main": "Autism Spectrum Disorder",
-    "aliases": [
-      "ASD",
-      "Acute Stress Disorder",
-      "Autism spectrum disorder"
-    ]
+    "aliases": []
+  },
+  {
+    "main": "Autism spectrum disorder",
+    "aliases": []
   },
   {
     "main": "Attention-Deficit/Hyperactivity Disorder",
@@ -57,24 +49,11 @@
   },
   {
     "main": "Stereotypic Movement Disorder",
-    "aliases": [
-      "F98.4"
-    ]
+    "aliases": []
   },
   {
     "main": "Tic Disorder",
-    "aliases": [
-      "Chronic",
-      "Dysthymia",
-      "PICA",
-      "Persistent",
-      "Persistent (Chronic) Motor or Vocal Tic Disorder",
-      "Persistent Depressive Disorder",
-      "Persistent Depressive Disorder (Dysthymia)",
-      "Persistent complex bereavement disorder",
-      "Persistent eating of nonnutritive nonfood substances",
-      "Provisional Tic Disorder"
-    ]
+    "aliases": []
   },
   {
     "main": "Tic disorders",
@@ -83,49 +62,9 @@
   {
     "main": "Psychotic Disorder",
     "aliases": [
-      "Adjustment Disorders",
-      "Attenuated Psychosis Syndrome",
       "Brief Psychotic Disorder",
-      "Bulimia Nervosa",
-      "Delirium",
-      "Delusional Disorder",
-      "Dissociative Amnesia",
-      "Early",
-      "Gender Dysphoria",
-      "Hallucinogen Intoxication",
-      "Insomnia Disorder",
-      "Kleptomania",
-      "Narcolepsy",
-      "Narcolepsy-Cataplexy",
-      "Nightmare Disorder",
-      "None",
-      "None explicitly stated as primary mental health condition",
-      "None provided",
-      "None provided explicitly but common terms might include: Benzodiazepine Dependence, Tranquilizer Abuse",
-      "Opioid withdrawal",
-      "Other",
-      "Other (or Unknown) Substance Use Disorder",
-      "Other (or Unknown) Substance Withdrawal",
-      "Other Hallucinogen Use Disorder",
-      "Other hallucinogen intoxication",
-      "Premature",
-      "Premature (Early) Ejaculation",
-      "Psychosis",
-      "Psychosis Induced by Substances/Medications",
       "Psychotic Disorder Due to Another Medical Condition",
-      "Psychotic Disorder Not Otherwise Specified",
-      "Schizoaffective Disorder",
-      "Schizoid personality disorder",
-      "Schizophrenia",
-      "Sedative, Hypnotic, or Anxiolytic Use Disorder",
-      "Sedative, Hypnotic, or Anxiolytic Withdrawal",
-      "Shift Work Type",
-      "Substance-Induced Disorders",
-      "Substance/Medication-Induced Anxiety Disorder",
-      "Substance/Medication-Induced Psychotic Disorder",
-      "Transvestic disorder",
-      "Unknown Substance Use Disorder",
-      "or Unknown"
+      "Substance/Medication-Induced Psychotic Disorder"
     ]
   },
   {
@@ -134,6 +73,10 @@
   },
   {
     "main": "Schizophreniform disorder",
+    "aliases": []
+  },
+  {
+    "main": "Schizophrenia",
     "aliases": []
   },
   {
@@ -147,7 +90,6 @@
       "Catatonia Associated With Another Mental Disorder (Catatonia Specifier)",
       "Catatonia Specifier",
       "Catatonic Disorder Due to Another Medical Condition",
-      "R29.818",
       "Unspecified Catatonia"
     ]
   },
@@ -157,7 +99,7 @@
       "Bipolar I Disorder",
       "Bipolar II Disorder",
       "Bipolar and Related Disorder Due to Another Medical Condition",
-      "Mixed Episodes"
+      "Substance/Medication-Induced Bipolar and Related Disorder"
     ]
   },
   {
@@ -170,24 +112,11 @@
   },
   {
     "main": "Cyclothymic Disorder",
-    "aliases": [
-      "-",
-      "Antidepressant Discontinuation Syndrome",
-      "Atypical Depression",
-      "Medication-Induced Movement Disorder - Subtype"
-    ]
-  },
-  {
-    "main": "substance/medication-induced bipolar and related disorder",
-    "aliases": [
-      "substance-induced bipolar disorder"
-    ]
+    "aliases": []
   },
   {
     "main": "Hypomanic episode",
-    "aliases": [
-      "Short-duration cyclothymia"
-    ]
+    "aliases": []
   },
   {
     "main": "null",
@@ -200,16 +129,12 @@
   {
     "main": "Disruptive Mood Dysregulation Disorder",
     "aliases": [
-      "DMDD",
-      "Emotional State",
       "Mood Disorder"
     ]
   },
   {
-    "main": "Oppositional Defiant Disorder",
-    "aliases": [
-      "ODD"
-    ]
+    "main": "disruptive mood dysregulation disorder",
+    "aliases": []
   },
   {
     "main": "major depressive disorder",
@@ -217,9 +142,18 @@
   },
   {
     "main": "Major Depressive Disorder",
+    "aliases": []
+  },
+  {
+    "main": "Persistent Depressive Disorder (Dysthymia)",
     "aliases": [
-      "MDD"
+      "Dysthymia",
+      "Persistent Depressive Disorder"
     ]
+  },
+  {
+    "main": "Persistent depressive disorder",
+    "aliases": []
   },
   {
     "main": "premenstrual dysphoric disorder",
@@ -227,24 +161,15 @@
   },
   {
     "main": "Substance/Medication-Induced Depressive Disorder",
-    "aliases": [
-      "Substance-induced depressive disorder"
-    ]
+    "aliases": []
   },
   {
     "main": "Depressive Disorder Due to Another Medical Condition",
     "aliases": []
   },
   {
-    "main": "Other Specified Depressive Disorder",
-    "aliases": [
-      "311",
-      "311 (F32.8)",
-      "311 (F32.9)",
-      "F32.8",
-      "F32.9",
-      "Unspecified Depressive Disorder"
-    ]
+    "main": "Atypical Depression",
+    "aliases": []
   },
   {
     "main": "Anxiety Disorders",
@@ -256,61 +181,44 @@
   },
   {
     "main": "Selective Mutism",
-    "aliases": [
-      "SM"
-    ]
+    "aliases": []
   },
   {
     "main": "Specific Phobia",
-    "aliases": [
-      "AN",
-      "Anorexia Nervosa",
-      "ICD-10-CM codes",
-      "ICD-10-CM codes F50.01, F50.02",
-      "ICD-9-CM code 307.1",
-      "Situational Specific Phobia"
-    ]
+    "aliases": []
   },
   {
-    "main": "Social Anxiety Disorder",
+    "main": "Social Anxiety Disorder (Social Phobia)",
     "aliases": [
-      "Social Anxiety Disorder (Social Phobia)",
+      "Social Anxiety Disorder",
       "Social Phobia"
     ]
   },
   {
-    "main": "panic disorder",
-    "aliases": []
-  },
-  {
     "main": "Panic Disorder",
-    "aliases": [
-      "PD",
-      "Panic Attack"
-    ]
+    "aliases": []
   },
   {
     "main": "Agoraphobia",
     "aliases": [
-      "Situational specific phobia"
+      "Specific phobia, situational type"
     ]
   },
   {
     "main": "Generalized anxiety disorder",
-    "aliases": [
-      "GAD"
-    ]
+    "aliases": []
+  },
+  {
+    "main": "Substance/Medication-Induced Anxiety Disorder",
+    "aliases": []
   },
   {
     "main": "Anxiety Disorder Due to Another Medical Condition",
-    "aliases": [
-      "293.84",
-      "293.84 (FO6.4)",
-      "Anxiety disorder",
-      "Anxiety disorder due to pheochromocytoma",
-      "FO6.4",
-      "Illness anxiety disorder"
-    ]
+    "aliases": []
+  },
+  {
+    "main": "Anxiety disorder",
+    "aliases": []
   },
   {
     "main": "Obsessive-Compulsive Disorder",
@@ -318,8 +226,6 @@
       "300.3",
       "300.3 (F42)",
       "F42",
-      "OCD",
-      "OCPD",
       "Obsessive-Compulsive Personality Disorder",
       "Obsessive-Compulsive and Related Disorder Due to Another Medical Condition",
       "Substance/Medication-Induced Obsessive-Compulsive and Related Disorder",
@@ -329,28 +235,20 @@
   {
     "main": "Body Dysmorphic Disorder",
     "aliases": [
-      "BDD",
       "Dysmorphophobia"
     ]
   },
   {
     "main": "Hoarding Disorder",
-    "aliases": [
-      "300.3",
-      "300.3 (F42)",
-      "F42"
-    ]
+    "aliases": []
   },
   {
     "main": "Trichotillomania",
-    "aliases": [
-      "Hair-Pulling Disorder"
-    ]
+    "aliases": []
   },
   {
     "main": "Excoriation (Skin-Picking) Disorder",
     "aliases": [
-      "Body-Focused Repetitive Behavior",
       "Excoriation",
       "Skin-Picking"
     ]
@@ -358,9 +256,10 @@
   {
     "main": "Obsessive-compulsive and related disorders",
     "aliases": [
+      "CANS",
       "PANDAS",
       "PANS",
-      "Sydenham's chorea"
+      "Sydenham’s chorea"
     ]
   },
   {
@@ -369,27 +268,27 @@
   },
   {
     "main": "Posttraumatic Stress Disorder",
-    "aliases": [
-      "PTSD"
-    ]
+    "aliases": []
   },
   {
     "main": "Acute Stress Disorder",
     "aliases": []
   },
   {
+    "main": "Adjustment Disorders",
+    "aliases": []
+  },
+  {
     "main": "Other Specified Trauma- and Stressor-Related Disorder",
-    "aliases": [
-      "309.89",
-      "309.89 (F43.8)",
-      "F43.8"
-    ]
+    "aliases": []
   },
   {
     "main": "Dissociative Identity Disorder",
-    "aliases": [
-      "DID"
-    ]
+    "aliases": []
+  },
+  {
+    "main": "Dissociative Amnesia",
+    "aliases": []
   },
   {
     "main": "Depersonalization/Derealization Disorder",
@@ -401,28 +300,15 @@
   },
   {
     "main": "Somatic Symptom Disorder",
-    "aliases": [
-      "",
-      "(F45.1)",
-      "DSM-IV",
-      "F45.1",
-      "SSD",
-      "Somatization Disorder",
-      "Somatization Disorder (DSM-IV)"
-    ]
+    "aliases": []
   },
   {
     "main": "Illness Anxiety Disorder",
-    "aliases": [
-      "Health Anxiety Disorder",
-      "Hypochondriasis"
-    ]
+    "aliases": []
   },
   {
     "main": "conversion disorder",
-    "aliases": [
-      "functional neurological symptom disorder"
-    ]
+    "aliases": []
   },
   {
     "main": "Psychological Factors Affecting Other Medical Conditions",
@@ -437,24 +323,19 @@
   },
   {
     "main": "pica",
-    "aliases": [
-      "Nonnutritive, Nonfood Substance Ingestion"
-    ]
+    "aliases": []
   },
   {
     "main": "Rumination Disorder",
-    "aliases": [
-      "307.53",
-      "307.53 (F98.21)",
-      "F98.21"
-    ]
+    "aliases": []
   },
   {
     "main": "Avoidant/Restrictive Food Intake Disorder",
-    "aliases": [
-      "ARFID",
-      "Feeding disorder of infancy or early childhood"
-    ]
+    "aliases": []
+  },
+  {
+    "main": "Anorexia Nervosa",
+    "aliases": []
   },
   {
     "main": "Bulimia Nervosa",
@@ -478,26 +359,23 @@
   },
   {
     "main": "Insomnia Disorder",
-    "aliases": [
-      "Sleeplessness"
-    ]
+    "aliases": []
   },
   {
     "main": "Hypersomnolence Disorder",
     "aliases": []
   },
   {
+    "main": "Narcolepsy",
+    "aliases": []
+  },
+  {
     "main": "Obstructive sleep apnea hypopnea",
-    "aliases": [
-      "OSA",
-      "OSAH"
-    ]
+    "aliases": []
   },
   {
     "main": "Central Sleep Apnea",
-    "aliases": [
-      "G47.37"
-    ]
+    "aliases": []
   },
   {
     "main": "Sleep-Related Hypoventilation",
@@ -505,20 +383,23 @@
   },
   {
     "main": "Delayed Sleep Phase Type",
-    "aliases": [
-      "DSPT"
-    ]
+    "aliases": []
   },
   {
-    "main": "Non-24-hour Sleep-Wake Type",
+    "main": "Circadian Rhythm Sleep-Wake Disorders",
+    "aliases": []
+  },
+  {
+    "main": "Shift Work Type",
     "aliases": []
   },
   {
     "main": "Non-Rapid Eye Movement Sleep Arousal Disorder",
-    "aliases": [
-      "Sleep Terrors",
-      "Sleepwalking"
-    ]
+    "aliases": []
+  },
+  {
+    "main": "Nightmare Disorder",
+    "aliases": []
   },
   {
     "main": "Rapid Eye Movement Sleep Behavior Disorder",
@@ -563,22 +444,27 @@
     "aliases": []
   },
   {
+    "main": "Premature (Early) Ejaculation",
+    "aliases": [
+      "Early",
+      "Premature"
+    ]
+  },
+  {
     "main": "Substance/Medication-Induced Sexual Dysfunction",
     "aliases": []
   },
   {
     "main": "Gender Dysphoria",
-    "aliases": [
-      "Transgender",
-      "Transsexual",
-      "Transsexualism"
-    ]
+    "aliases": []
+  },
+  {
+    "main": "Oppositional Defiant Disorder",
+    "aliases": []
   },
   {
     "main": "Intermittent Explosive Disorder",
-    "aliases": [
-      "IED"
-    ]
+    "aliases": []
   },
   {
     "main": "Conduct Disorder",
@@ -589,30 +475,20 @@
     "aliases": []
   },
   {
+    "main": "Kleptomania",
+    "aliases": []
+  },
+  {
     "main": "Substance Use Disorder",
-    "aliases": [
-      "Anxiolytic Misuse",
-      "Benzodiazepine Dependence",
-      "Sedative, Hypnotic, or Anxiolytic Use Disorder",
-      "Sedatives, Hypnotics, or Anxiolytics",
-      "Substance Abuse",
-      "Substance Abuse (Sedatives, Hypnotics, or Anxiolytics)"
-    ]
+    "aliases": []
   },
   {
     "main": "Substance-Induced Disorders",
-    "aliases": [
-      "Cannabis Use Disorder",
-      "F12.x",
-      "Substance-Related Disorders",
-      "Substance-Related and Addictive Disorders"
-    ]
+    "aliases": []
   },
   {
     "main": "Alcohol Use Disorder",
-    "aliases": [
-      "AUD"
-    ]
+    "aliases": []
   },
   {
     "main": "Alcohol Withdrawal",
@@ -624,15 +500,11 @@
   },
   {
     "main": "Caffeine Withdrawal",
-    "aliases": [
-      "Caffeine Abstinence"
-    ]
+    "aliases": []
   },
   {
     "main": "Cannabis Use Disorder",
-    "aliases": [
-      "Cannabis Dependence"
-    ]
+    "aliases": []
   },
   {
     "main": "Cannabis Intoxication",
@@ -640,12 +512,24 @@
   },
   {
     "main": "Phencyclidine Use Disorder",
-    "aliases": [
-      "PCP Use Disorder"
-    ]
+    "aliases": []
   },
   {
     "main": "Hallucinogen Use Disorder",
+    "aliases": [
+      "Other Hallucinogen Use Disorder"
+    ]
+  },
+  {
+    "main": "Hallucinogen Intoxication",
+    "aliases": []
+  },
+  {
+    "main": "Other hallucinogen intoxication",
+    "aliases": []
+  },
+  {
+    "main": "Inhalant Use Disorder",
     "aliases": []
   },
   {
@@ -654,25 +538,27 @@
   },
   {
     "main": "Opioid Use Disorder",
-    "aliases": [
-      "Narcotic Addiction",
-      "OUD",
-      "Opiate Dependence"
-    ]
+    "aliases": []
   },
   {
     "main": "Opioid-induced disorders",
-    "aliases": [
-      "Opioid-induced mental disorders"
-    ]
+    "aliases": []
+  },
+  {
+    "main": "Opioid withdrawal",
+    "aliases": []
+  },
+  {
+    "main": "Sedative, Hypnotic, or Anxiolytic Use Disorder",
+    "aliases": []
+  },
+  {
+    "main": "Sedative, Hypnotic, or Anxiolytic Withdrawal",
+    "aliases": []
   },
   {
     "main": "Stimulant Use Disorder",
-    "aliases": [
-      "Amphetamine-Type Stimulants Use Disorder",
-      "Amphetamine-type substance use disorder",
-      "Cocaine use disorder"
-    ]
+    "aliases": []
   },
   {
     "main": "Stimulant Intoxication",
@@ -684,30 +570,21 @@
   },
   {
     "main": "Tobacco Use Disorder",
-    "aliases": [
-      "Nicotine Dependence",
-      "Tobacco Dependence"
-    ]
+    "aliases": []
   },
   {
     "main": "Gambling Disorder",
-    "aliases": [
-      "312.31",
-      "312.31 (F63.0)",
-      "F63.0"
-    ]
+    "aliases": []
   },
   {
     "main": "neurocognitive disorder",
-    "aliases": []
+    "aliases": [
+      "Major neurocognitive disorder"
+    ]
   },
   {
     "main": "Neurocognitive Disorder",
     "aliases": [
-      "Dementia due to Alzheimer's Disease",
-      "F19.188",
-      "F19.288",
-      "F19.988",
       "Major or Mild Frontotemporal Neurocognitive Disorder",
       "Major or Mild Neurocognitive Disorder",
       "Major or Mild Neurocognitive Disorder With Lewy Bodies",
@@ -723,45 +600,35 @@
   },
   {
     "main": "Alzheimer's disease",
-    "aliases": [
-      "AD"
-    ]
+    "aliases": []
   },
   {
     "main": "Traumatic Brain Injury",
-    "aliases": [
-      "TBI"
-    ]
+    "aliases": []
   },
   {
     "main": "Huntington's disease",
-    "aliases": [
-      "HD"
-    ]
+    "aliases": []
   },
   {
     "main": "Personality Disorder",
     "aliases": [
-      "APD",
       "Antisocial Personality Disorder",
-      "Avoidant Personality Disorder",
-      "BPD",
       "Borderline Personality Disorder",
-      "DPD",
       "Dependent Personality Disorder",
-      "Dyssocial Personality Disorder",
-      "F60.0",
-      "F60.81",
-      "HPD",
       "Histrionic Personality Disorder",
-      "NPD",
       "Narcissistic Personality Disorder",
-      "PPD",
       "Paranoid Personality Disorder",
-      "Psychopathy",
-      "Schizotypal Personality Disorder",
-      "Sociopathy"
+      "Schizotypal Personality Disorder"
     ]
+  },
+  {
+    "main": "Schizoid personality disorder",
+    "aliases": []
+  },
+  {
+    "main": "avoidant personality disorder",
+    "aliases": []
   },
   {
     "main": "Personality Change Due to Another Medical Condition",
@@ -776,24 +643,28 @@
     "aliases": []
   },
   {
+    "main": "Sexual Masochism Disorder",
+    "aliases": []
+  },
+  {
     "main": "Sexual Sadism Disorder",
-    "aliases": [
-      "302.84",
-      "302.84 (F65.52)",
-      "F65.52"
-    ]
+    "aliases": []
   },
   {
     "main": "Fetishistic Disorder",
-    "aliases": [
-      "Paraphilia"
-    ]
+    "aliases": []
+  },
+  {
+    "main": "Transvestic Disorder",
+    "aliases": []
   },
   {
     "main": "Neuroleptic Malignant Syndrome",
-    "aliases": [
-      "NMS"
-    ]
+    "aliases": []
+  },
+  {
+    "main": "Antidepressant Discontinuation Syndrome",
+    "aliases": []
   },
   {
     "main": "Child Maltreatment",
@@ -801,19 +672,22 @@
   },
   {
     "main": "Child Neglect",
-    "aliases": [
-      "T74.02XA",
-      "T74.02XD"
-    ]
+    "aliases": []
   },
   {
     "main": "Nonsuicidal Self-Injury",
-    "aliases": [
-      "Self-harm"
-    ]
+    "aliases": []
+  },
+  {
+    "main": "Attenuated Psychosis Syndrome",
+    "aliases": []
   },
   {
     "main": "short-duration hypomania",
+    "aliases": []
+  },
+  {
+    "main": "Persistent complex bereavement disorder",
     "aliases": []
   },
   {
@@ -839,21 +713,24 @@
     ]
   },
   {
+    "main": "None explicitly stated as primary mental health condition",
+    "aliases": []
+  },
+  {
     "main": "Affective Blunting",
-    "aliases": [
-      "Blunted Affect"
-    ]
+    "aliases": []
   },
   {
     "main": "Delusion",
-    "aliases": [
-      "Idea of Reference"
-    ]
+    "aliases": []
+  },
+  {
+    "main": "Pica",
+    "aliases": []
   },
   {
     "main": "dhat syndrome",
     "aliases": [
-      "khyal cap",
       "koro",
       "shen-k'uei"
     ]

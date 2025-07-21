@@ -1,0 +1,284 @@
+{
+  "diagnosis": "Attention-Deficit/Hyperactivity Disorder",
+  "aliases": ["ADHD"],
+  "symptoms": [
+    "Reduced school performance",
+    "Academic attainment issues",
+    "Social rejection",
+    "Poorer occupational performance",
+    "Higher probability of unemployment",
+    "Elevated interpersonal conflict",
+    "Conduct disorder development in adolescence",
+    "Antisocial personality disorder development in adulthood",
+    "Increased risk of substance use disorders and incarceration",
+    "Accidents and traffic violations frequency",
+    "Obesity possibility",
+    "Laziness interpretation due to task application issues",
+    "Family discord and negative interactions",
+    "Peer rejection, neglect, or teasing",
+    "Intellectual score reduction compared to peers",
+    "Marked impairment in social, familial, scholastic, and occupational adjustment (severe form)",
+    "Inattention leading to academic deficits, school-related problems, and peer neglect",
+    "Hyperactivity or impulsivity leading to peer rejection and accidental injury",
+    "Impulsive behavior shared with intermittent explosive disorder but no aggression towards others nor tic disorders like Tourette's syndrome",
+    "Repetitive motor behavior differentiation from stereotypy movement disorder and autism spectrum disorder",
+    "Frustration, lack of interest, or limited ability differentiating inattention in specific learning disorder from ADHD",
+    "Symptoms appearing only during non-academic tasks distinguishing ADHD from intellectuall disability when placed in inappropriate academic settings",
+    "Distinguishing social disengagement, isolation, and indifference to facial and tonal communication cues in autism spectrum disorder from social dysfunction and peer rejection in ADHD",
+    "Tantrums caused by inability to tolerate change versus impulsivity or poor self-control in ADHD",
+    "Lack of enduring relationships excluding reactive attachment disorder from ADHD diagnosis despite showing social disinhibition",
+    "Differentiating inattention due to attraction to external stimuli, new activities, or preoccupation with enjoyable activities from worry and rumination seen in anxiety disorders",
+    "Restlessness distinction between ADHD and anxiety disorders based on absence of worry and rumination association in former case",
+    "Inability to concentrate becoming prominent only during depressive episodes separating ADHD from depressive disorders",
+    "Episodic increase in activity, poor concentration, and impulsivity accompanied by elevated mood, grandiosity, and other bipolar features contrasting with ADHD symptoms being episodic too but lacking mania duration requirement (4+ days)"
+  ],
+  "treatments": null,
+  "duration": null,
+  "description": [
+    "Characterized by persistent pattern of inattention and/or hyperactivity-impulsivity that interferes with functioning or development.",
+    "May lead to various functional consequences including educational underachievement, social difficulties, employment challenges."
+  ],
+  "related_diagnoses": {
+    "Oppositional Defiant Disorder": "Behavior characterized by negativity, hostility, and defiance needs differentiation from resistance to tasks due to difficulty maintaining focus or impulse control.",
+    "Intermittent Explosive Disorder": "Shares impulsive behavior but differs through serious aggression towards others absent in ADHD along with rarity in childhood.",
+    "Stereotypic Movement Disorder": "Motoric behavior usually fixed and repetitive unlike generalized fidgetiness of ADHD.",
+    "Autism Spectrum Disorder": "Social disengagement, isolation, indifference to facial & tonal communication cues differentiates ASD from social dysfunction & peer rejection observed in ADHD.",
+    "Specific Learning Disorder": "Appears inattentive due to frustration, lack of interest or limited ability however this does not extend beyond academic setting unlike ADHD.",
+    "Intellectual Disability (Intellectual Developmental Disorder)": "Symptoms become apparent only when child is placed into unsuitable academic environment.",
+    "Reactive Attachment Disorder": "Shows social disinhibition yet lacks complete ADHD symptom cluster plus displays lack of enduring relationships distinct from latter.",
+    "Anxiety Disorders": "Inattention results from fascination with external stimuli rather than worry & rumination typical of anxiety disorders while restlessness unrelated to worry distinguishes both.",
+    "Depressive Disorders": "Poor concentration emerges solely during depressive episodes contrasted against constant issue faced by ADHD patients.",
+    "Bipolar Disorder": "Increase in activity level alongside poor concentration & heightened impulsivity occurs episodically lasting several days simultaneously exhibiting elation & grandiose thoughts dissimilarly absent from ADHD.",
+    "Disruptive Mood Dysregulation Disorder": "Pervasive irritability coupled with intolerance towards frustration though impetuosity & disordered attention unessential components hence requiring separate diagnoses should co-occur.",
+    "Substance Use Disorders": "Difficulties arise when initial manifestation coincides post initiation thus prior records documenting existence beforehand crucial for accurate classification.",
+    "Personality Disorders": "Shared traits include disorganization, sociability intrusion, emotional instability & cognitive irregularity
+
+
+
+{
+  "diagnosis": null,
+  "aliases": null,
+  "symptoms": null,
+  "treatments": null,
+  "duration": null,
+  "description": [
+    "These codes represent various types of abuse against adults by non-spouses or non-partners.",
+    "They also cover encounters for mental health services due to these abuses and related issues like homelessness, poverty, acculturation difficulties, etc."
+  ],
+  "related_diagnoses": {
+    "Adjustment Disorder": "Psychological reaction to a stressor",
+    "Mental Disorders Due to Substance Use": "May occur alongside substance abuse if present",
+    "Posttraumatic Stress Disorder": "Possible outcome of traumatic experiences like abuse"
+  }
+}
+
+
+
+{
+  "diagnosis": null,
+  "aliases": null,
+  "symptoms": null,
+  "treatments": null,
+  "duration": null,
+  "description": [
+    "These codes represent various psychosocial and environmental issues that might be the focus of clinical attention.",
+    "They do not indicate mental health diagnoses."
+  ],
+  "related_diagnoses": null
+}
+
+
+
+{
+  "diagnosis": null,
+  "aliases": null,
+  "symptoms": ["feeling more irritated, grouchy, angry", "sleeping less than usual but still having a lot of energy", "starting too many projects or doing more risky activities", "nervousness, anxiety, worry, or being on edge", "avoiding situations that cause anxiety", "unexplained aches and pains", "thoughts of hurting oneself"],
+  "treatments": null,
+  "duration": null,
+  "description": null,
+  "related_diagnoses": {
+    "depression": "may serve as a guide for additional inquiry",
+    "anger": "may serve as a guide for additional inquiry",
+    "mania": "may serve as a guide for additional inquiry",
+    "anxiety": "may serve as a guide for additional inquiry",
+    "somatic symptoms": "may serve as a guide for additional inquiry",
+    "suicidal ideation": "guide for additional inquiry even with a slight rating",
+    "psychosis": "guide for additional inquiry even with a slight rating",
+    "sleep problems": "may serve as a guide for additional inquiry",
+    "memory problems": null,
+    "repetitive thoughts and behaviors": "may serve as a guide for additional inquiry",
+    "dissociation": null,
+    "personality functioning": null,
+    "substance use": "guide for additional inquiry even with a slight rating",
+    "inattention": "indicator for additional inquiry with a slight rating (children)"
+  }
+}
+
+
+
+{
+  "diagnosis": null,
+  "aliases": null,
+  "symptoms": null,
+  "treatments": null,
+  "duration": null,
+  "description": ["Description of WHODAS 2.0 questionnaire assessing difficulties due to health/mental health conditions"],
+  "related_diagnoses": null
+}
+
+
+
+{
+"diagnosis": null,
+"aliases": null,
+"symptoms": null,
+"treatments": null,
+"duration": null,
+"description": [
+    "A framework for assessing cultural features of an individual's mental health problem.",
+    "Includes understanding how it relates to a social and cultural context and history."
+],
+"related_diagnoses": null
+}
+
+
+
+{
+"diagnosis": null,
+"aliases": null,
+"symptoms": null,
+"treatments": null,
+"duration": null,
+"description": ["Understanding and clarifying key aspects of the presenting clinical problem from the informant's perspective"],
+"related_diagnoses": null
+}
+
+
+
+{
+  "diagnosis": null,
+  "aliases": null,
+  "symptoms": null,
+  "treatments": null,
+  "duration": null,
+  "description": ["Cultural Formulation Interview (CFI)-Informant Version", "Collects collateral information from knowledgeable informants.", "Explains the informant's perspective on the patient's problem."],
+  "related_diagnoses": null
+}
+
+
+
+{
+  "diagnosis": null,
+  "aliases": null,
+  "symptoms": null,
+  "treatments": null,
+  "duration": null,
+  "description": [
+    "The specific ways in which individuals enact gender roles provided in their societies.",
+    "A category of social identity referring to an individual's identification as male, female or other.",
+    "A change of gender through medical (hormones, surgery) or legal means (government recognition)",
+    "Perception-like experiences with the clarity and impact of true perceptions but without external stimulation.",
+    "Believing one is superior and deserving special treatment; self-centeredness; entitlement feelings.",
+    "Odd and inappropriate facial expressions unrelated to situations.",
+    "False sensory experiences with the clarity and impact of true perceptions.",
+    "Auditory hallucinations involving perceived sound, usually voice.",
+    "Visual hallucinations involving geometric shapes like tunnels, funnels, spirals etc.",
+    "Hallucinations involving taste perception, typically unpleasant.",
+    "Mood congruent psychotic features - delusions matching current mood.",
+    "Mood incongruent psychotic features - delusions not matching current mood.",
+    "Hallucinations involving smell perception, e.g. burning rubber or rotting fish.",
+    "Hallucinations involving bodily sensations, e.g. electrical shocks or crawling sensations.",
+    "Tactile hallucinations involving touch or sensations under the skin.",
+    "Visual hallucinations involving sight, including formed images or flashes of light.",
+    "Persistent or frequent angry feelings; responding angrily to minor slights; mean behavior.",
+    "Increased auditory perception.",
+    "Condition where inappropriate objects are placed in the mouth.",
+    "Stronger than usual urge for sexual activity.",
+    "Excessive sleepiness evident in prolonged night sleep, difficulty remaining alert during day or unwanted naps.",
+    "Enhanced sensory sensitivity with heightened vigilance searching for threats leading to fatigue and social issues.",
+    "Abnormality of mood similar to mania but less intense.",
+    "Episodes of shallow breathing or unusually low respiratory rates.",
+    "Feeling that casual incidents and external events hold personal significance beyond what is reasonable.",
+    "Experience of oneself as unique with stable self-esteem and accurate self-appraisal along with managing emotions effectively.",
+    "Misperception or misinterpretation of real external stimuli, e.g. hearing rustling leaves as voices.",
+    "Acting impulsively based on immediate stimuli without planning or considering consequences.",
+    "Speech or thinking that is largely incomprehensible due to illogical connections between words or phrases.",
+    "Subjective complaint about difficulty sleeping or poor sleep quality.",
+    "Condition where biological indicators of sex conflict or are ambiguous.",
+    "Depth and duration of connection with others reflecting mutual regard shown via interpersonal behavior.",
+    "Avoidance of close relationships, attachments and intimacy despite desires for them.",
+    "Disregard for financial and other commitments resulting in disrespect towards agreements and promises coupled with careless handling of others’ property."
+  ],
+  "related_diagnoses": {}, 
+}
+
+
+
+{
+"diagnosis": null,
+"aliases": null,
+"symptoms": [
+    "specific food cravings",
+    "Irresistible desire for special types of food",
+    "startle response",
+    "stereotypies",
+    "repetitive, abnormally frequent, non-goal-directed movements",
+    "stress",
+    "pattern of specific and nonspecific responses",
+    "disruption of normal physiological, cognitive, emotional, or behavioral balance",
+    "psychological stressors",
+    "life events or changes associated with mental disorder onset or exacerbation",
+    "lack of psychomotor activity ranging from not relating to environment to complete immobility",
+    "adaptation of behavior to others' interests despite personal antipathy",
+    "below specified level or threshold for a particular condition",
+    "thoughts about self-harm with consideration or planning of suicide methods",
+    "act of intentionally causing one's own death",
+    "attempt to end one's own life potentially leading to death",
+    "expectations of interpersonal ill intent or harm",
+    "doubts about loyalty and fidelity of others",
+    "feelings of being mistreated, used, and/or persecuted by others",
+    "belief in unusual abilities like mind reading, telekinesis, thought-action fusion",
+    "unusual experiences of reality including hallucinatory experiences",
+    "emotional outbursts associated with children or emotionally distressed individuals",
+    "tendency to treat thoughts and actions as equivalent",
+    "involuntary, sudden, rapid, recurrent, nonrhythmic motor movements or vocalizations",
+    "situation requiring increased dosage for same drug effect over time",
+    "identification with a gender different from natal gender with potential social or somatic transition",
+    "event causing or threatening death, serious injury, or sexual violence to oneself, family members, or friends",
+    "uncontrollable unpleasant or uncomfortable thoughts resistant to distraction efforts",
+    "preference for solitude over socializing, avoidance of social contacts and activities, lack of initiating social contact"
+],
+"treatments": null,
+"duration": null,
+"description": [
+    null,  # No description provided directly for "diagnosis". Use lists below instead.
+    [ "Specific craving for certain foods.", "Involuntary reflexive reaction to unexpected stimuli." ],  # Aliases & Descriptions combined here due to absence of separate fields. Adjust structure according to strict requirements if needed. But given context - these seem best grouped together under 'symptoms' initially then further categorized within them. Let's refine: 
+
+   // Refined version:
+
+     ["specific food cravings","irresistible desire for special types of food"], //Symptoms
+
+     ["startle response","startle reaction","involuntary (reflexive) reaction to a sudden unexpected stimulus"], //Symptoms
+
+     ["stereotypies","stereotyped behaviors/movements","repetitive abnormal frequent non goal directed movements"], //Symptoms
+
+     ["stress","pattern of specific and nonspecific responses","person makes to stimulus events disturbing equilibrium exceeding coping ability"], //Description
+
+     ["stressor","any emotional physical social economic etc factor disrupting normal physiological cognitive emotional behavioral balance"], //Description
+
+     ["psychological stressor","life event or change possibly linked temporally causally with mental disorder onset occurrence exacerbation"], //Description
+
+     ["stupor","lack psychomotor activity ranging from not actively relating to environment to complete immobility"], //Description
+
+     ["submissiveness","adapting behavior to actual perceived interests desires of others against ones own interests needs desires"], //Description
+
+     ["social withdrawal","preference for being alone over being with others","reticence in social situations","avoidance of social contacts and activities","lack of initiating social contact"], //Description
+
+     ["worry","unpleasant uncontrollable repetitive thoughts disproportionate to subject matter persisting despite attempts diversion"] //Description
+
+], 
+
+ "related_diagnoses": {},  //No explicit relation listed explicitly though implied relations exist across various concepts discussed above. This field should ideally contain pairs where first element represents related disorder while second provides brief description regarding nature connection e.g., {'panic disorder':'may share features'}, however since exact relationships weren't clearly stated we leave this section empty adhering strictly to instruction guidelines. }
+
+
+

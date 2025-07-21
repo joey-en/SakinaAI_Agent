@@ -117,7 +117,10 @@ def normalize_names_from_mapping(
     for obj in data:
         name = obj.get("diagnosis", "")
         aliases = obj.get("aliases", []) or []
+        if not isinstance(aliases, list):
+            aliases = [aliases] if aliases else []
         all_terms = [name] + aliases
+
 
         best_match = None
         best_score = -1
@@ -146,8 +149,6 @@ def normalize_names_from_mapping(
         json.dump(normalized, f, indent=2, ensure_ascii=False)
 
     print(f"✅ Saved normalized file to {output_json_path}")
-
-
 
 def main():
     create_name_mapping(
