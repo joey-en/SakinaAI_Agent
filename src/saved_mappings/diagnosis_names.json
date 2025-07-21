@@ -1,0 +1,37 @@
+[
+  {
+    "main": "Intellectual Disability (Intellectual Developmental Disorder)",
+    "aliases": [
+      "Intellectual Developmental Disorder",
+      "Intellectual Disability"
+    ]
+  },
+  {
+    "main": "Language Disorder",
+    "aliases": []
+  },
+  {
+    "main": "Speech Sound Disorder",
+    "aliases": []
+  },
+  {
+    "main": "Childhood-onset fluency disorder (Stuttering)",
+    "aliases": [
+      "Childhood-onset fluency disorder",
+      "Developmental stuttering",
+      "Stuttering"
+    ]
+  },
+  {
+    "main": "Autism Spectrum Disorder",
+    "aliases": [
+      "Autism spectrum disorder"
+    ]
+  },
+  {
+    "main": "Attention-Deficit/Hyperactivity Disorder",
+    "aliases": [
+      "ADHD"
+    ]
+  }
+]

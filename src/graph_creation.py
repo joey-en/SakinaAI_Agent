@@ -3,34 +3,34 @@ from dotenv import load_dotenv
 import json
 
 from neo4j import GraphDatabase
-from rapidfuzz import process, fuzz
 
-from build_diagnosis_map import build_diagnosis_alias_map, save_diagnosis_map, load_diagnosis_map
+def create_kg_entry(tx, entry):
+    diagnosis = entry.get("diagnosis")
+    # if not diagnosis: return
 
-class DiagnosisNormalizer:
-    def __init__(self):
-        self.known_diagnoses = {}
+    aliases = entry.get("aliases", [])
+    alias_names = flatten_to_strings(aliases)
 
-    def load_alias_map(self, mapping: dict):
-        self.alias_map = {k.lower(): v for k, v in mapping.items()}
+    print(diagnosis, alias_names)
 
-    def normalize(self, diagnosis: str) -> str:
-        if not diagnosis:
-            return ""
-        return self.alias_map.get(diagnosis.lower().strip(), diagnosis.strip())
+    # Create diagnosis node with aliases
+    tx.run("""
+        MERGE (d:Diagnosis {name: $name})
+        SET d.description = $desc, d.aliases = $aliases
+    """,
+        name=diagnosis,
+        desc=" ".join(flatten_to_strings(entry.get("description", []))),
+        aliases=alias_names
+    )
 
-def create_kg_entry(tx, entry, normalizer):
-    raw_diganosis_name = entry.get("diagnosis")
-    if not raw_diganosis_name: return
-
-    diagnosis = normalizer.normalize(raw_diganosis_name)
-    if not diagnosis: return
-    
-    print(diagnosis, "\t>>>", raw_diganosis_name)
-
-    tx.run("MERGE (d:Diagnosis {name: $name}) SET d.description = $desc",
-           name=diagnosis,
-           desc=" ".join(flatten_to_strings(entry.get("description", []))))
+    for alias in alias_names:
+        if alias.lower() != diagnosis.lower():
+            tx.run("""
+                MERGE (a:DiagnosisAlias {name: $alias})
+                WITH a
+                MATCH (d:Diagnosis {name: $diagnosis})
+                MERGE (a)-[:ALIAS_OF]->(d)
+            """, alias=alias, diagnosis=diagnosis)
 
     for symptom in entry.get("symptoms") or []:
         if symptom:
@@ -60,14 +60,11 @@ def create_kg_entry(tx, entry, normalizer):
         if not note: #if note is null give generic message
             note = "related" 
 
-        if related:
-            related_normalized = normalizer.normalize(related)
-            
             tx.run("""
                 MERGE (d1:Diagnosis {name: $d1})
                 MERGE (d2:Diagnosis {name: $d2})
                 MERGE (d1)-[:RELATED_TO {note: $note}]->(d2)
-            """, d1=diagnosis, d2=related_normalized, note=note)
+            """, d1=diagnosis, d2=related, note=note)
 
 def flatten_to_strings(value):
     """
@@ -105,39 +102,24 @@ def main():
     # Connect to Neo4j MAKE SURE THE INSTANCE IS RUNNING
     load_dotenv(".env")
     driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", os.getenv("NEO4J_DSM5_KG_PASS")))
-    normalizer = DiagnosisNormalizer()
 
-    JSON_PATH    = "./src./saved_json./DSM_5_full.json"
-    MAPPING_PATH = "./src/saved_mappings/diagnoses_iso.json"
-    create_alias_map = False
+    JSON_PATH = "./src./saved_json./DSM_5 Short (cleaned).json"
 
     # Load cleaned DSM-5 JSON
     with open(JSON_PATH, "r", encoding="utf-8") as f:
         records = json.load(f)
 
     # Filter out unusable entries ⚠️ TEMPORARY SOLUTION TO IGNORE NULL DIAGNOSIS
-    cleaned_records = [
-        r for r in records
-        if isinstance(r, dict) and r.get("diagnosis") and r["diagnosis"].strip() != ""
-    ]
+    # cleaned_records = [
+    #     r for r in records
+    #     if isinstance(r, dict) and r.get("diagnosis") and r["diagnosis"].strip() != ""
+    # ]
+    cleaned_records = records
     
-    # Making a diagnosis fuzzy alias map 
-    diagnosis_names = list(set(
-            r["diagnosis"].strip() for r in cleaned_records
-            if isinstance(r.get("diagnosis"), str)
-        ))
-    
-    if create_alias_map:
-        alias_map = build_diagnosis_alias_map(diagnosis_names)
-        save_diagnosis_map(alias_map, MAPPING_PATH)
-    else:
-        alias_map = load_diagnosis_map(MAPPING_PATH)
-    normalizer.load_alias_map(alias_map)
-
     # Insert into Neo4j
     with driver.session() as session:
         for entry in cleaned_records:
-            session.execute_write(create_kg_entry, entry, normalizer)
+            session.execute_write(create_kg_entry, entry)
 
     print(f"Loaded {len(cleaned_records)} records to Neo4j.")
     

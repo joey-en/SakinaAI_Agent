@@ -74,16 +74,15 @@ def clean_json_string(raw_output: str) -> str:
 
     return no_trailing_commas.strip()
 
-def extract_dict_from_chunk(text_chunk: str, retries=3, delay=1.5) -> dict:
+def extract_dict_from_chunk(text_chunk: str, retries=3, delay=1.5, backup_dir=None) -> dict:
     """
     Send a text chunk (e.g., one page) to Fanar to parse into structured JSON.
-    Retries on error with exponential backoff.
+    Retries on error with exponential backoff. Optionally saves failed outputs.
     """
-    user_prompt = f"Extract info from this text:\n\n{text_chunk}\n\n Output only valid JSON with NO COMMENTS."
+    user_prompt = f"Extract info from this text:\n\n{text_chunk}\n\nOutput only valid JSON with NO COMMENTS."
 
     for attempt in range(retries):
         try:
-            # Asks FANAR to make a JSON based on the text_chunk
             messages = [
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {"role": "user", "content": user_prompt},
@@ -96,26 +95,73 @@ def extract_dict_from_chunk(text_chunk: str, retries=3, delay=1.5) -> dict:
                 max_tokens=MAX_TOKENS,
             )
 
-            # Cleans the LLM output (removes comments and spaces and ensures proper structure)
             raw_output = response.choices[0].message.content.strip()
             start = raw_output.find("{")
             end = raw_output.rfind("}")
-            json_str = raw_output[start:end+1]
+            json_str = raw_output[start:end + 1]
+
             try:
                 cleaned = clean_json_string(json_str)
-                return json.loads(cleaned)
-            except json.JSONDecodeError as e:
-                print(f"Failed to decode cleaned output:\n{raw_output}\nError: {e}\n\n\n")
-                return None
+                parsed = json.loads(cleaned)
+
+                # Retry with FANAR if JSON invalid or diagnosis missing
+                if not parsed.get("diagnosis"):
+                    raise ValueError("Missing diagnosis field.")
+
+                return parsed
+
+            except (json.JSONDecodeError, ValueError) as e:
+                # Retry asking FANAR to fix the JSON format
+                repair_prompt = (
+                    "The following JSON is invalid or incomplete. Fix it to be valid, copy-pasteable JSON. "
+                    "No comments. Keep the original structure.\n\n"
+                    f"```\n{raw_output}\n```"
+                )
+
+                messages = [
+                    {"role": "system", "content": "Fix invalid JSON and return valid JSON only."},
+                    {"role": "user", "content": repair_prompt},
+                ]
+
+                repair_response = client.chat.completions.create(
+                    model="Fanar",
+                    messages=messages,
+                    temperature=0,
+                    max_tokens=MAX_TOKENS,
+                )
+
+                repaired_output = repair_response.choices[0].message.content.strip()
+                start = repaired_output.find("{")
+                end = repaired_output.rfind("}")
+                repaired_str = repaired_output[start:end + 1]
+
+                try:
+                    repaired_cleaned = clean_json_string(repaired_str)
+                    repaired_json = json.loads(repaired_cleaned)
+                    
+                    if not repaired_json.get("diagnosis"):
+                        raise ValueError("Missing diagnosis in repaired JSON.")
+
+                    return repaired_json
+
+                except Exception as e:
+                    if backup_dir:
+                        os.makedirs(backup_dir, exist_ok=True)
+                        with open(os.path.join(backup_dir, "error_outputs.txt"), "a", encoding="utf-8") as f:
+                            f.write(f"==== Attempt {attempt + 1} Failure ====\n")
+                            f.write(f"Raw output: {raw_output}\n")
+                            f.write(f"Repaired output: {repaired_output}\n")
+                            f.write("\n\n")
 
         except Exception as e:
-            print(f"Attempt {attempt+1} failed with error: {e} \n{text_chunk.replace("\n", "").replace("\r", "")[:200]}...")
+            print(f"Attempt {attempt + 1} failed with error: {e}")
             time.sleep(delay * (2 ** attempt))
 
     print("Failed to extract structured data from text chunk after retries.")
     return None
 
-def extract_dict_from_file(file_path: str, notes= "", checkpoint_chunk=20):
+
+def extract_dict_from_file(file_path: str, notes= "", checkpoint_chunk=100):
     start_time = datetime.now()
     extracted_data = []
     file = Path(file_path)
@@ -132,7 +178,7 @@ def extract_dict_from_file(file_path: str, notes= "", checkpoint_chunk=20):
     backup_dir.mkdir(parents=True, exist_ok=True)
 
     for i, chunk in enumerate(chunks):
-        result = extract_dict_from_chunk(chunk)
+        result = extract_dict_from_chunk(chunk, backup_dir=backup_dir)
         extracted_data.append(result)
 
         if (i + 1) % checkpoint_chunk == 0:
@@ -166,4 +212,4 @@ def extract_dict_from_file(file_path: str, notes= "", checkpoint_chunk=20):
 
     return extracted_data, final_name, backup_dir.name, log_entry
 
-extract_dict_from_file("./data/DSM_5.txt", notes=f"CHUNK_SIZE_{CHUNK_SIZE} CHUNK_OVERLAP_{CHUNK_OVERLAP} MAX_TOKENS={MAX_TOKENS} SYSTEM_PROMPT={SYSTEM_PROMPT}")
+extract_dict_from_file("./data/DSM_5.txt", checkpoint_chunk=10, notes=f"CHUNK_SIZE_{CHUNK_SIZE} CHUNK_OVERLAP_{CHUNK_OVERLAP} MAX_TOKENS={MAX_TOKENS} SYSTEM_PROMPT={SYSTEM_PROMPT}")
