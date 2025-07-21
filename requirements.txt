@@ -9,6 +9,10 @@ langchain-community>=0.0.25   # Community-contributed LangChain integrations (e.
 openai>=1.13.3                # Client library for OpenAI-compatible APIs (used for FANAR)
 mistralai>=0.0.10             # (Optional) Official Mistral client — comment out if only using FANAR
 
+# === Knowledge Graph ===
+neo4j                         # Stores KG
+rapidfuzz                     # To compare incoming diagnosis names to existing ones
+
 # === Retrieval + Embeddings ===
 faiss-cpu>=1.7.4              # Vector search library for embedding-based document retrieval
 

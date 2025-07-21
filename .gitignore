@@ -1,1 +1,5 @@
-/.env
+# All . files and . folders
+.*
+
+# All pycache folder across the repo
+**/__pycache__/ 

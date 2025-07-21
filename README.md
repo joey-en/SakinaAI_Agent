@@ -2,82 +2,87 @@
 
 This project builds a structured, semantic knowledge graph from sources like DSM-5 and uses it to support contextual chat interactions — particularly for mental health support.
 
+```bash
+# activate existing venv
+.venv\Scripts\activate
+
+# create a venv and install requirements if there is no existing venv
+.\scripts\env_set_up.bat 
+```
 ---
 
 ## 1. Creating a Knowledge Graph from DSM-5 (🟢ON-GOING)
 
 The goal here is to turn a structured mental health reference (like DSM-5 or ICD-11) into a navigable knowledge graph.
 
-### How to run
-
-```bash
-python src/document_parsing.py >> src/saved_json/error_outputs/DSM_5_full_output.txt
-```
-
-This will generate a JSON file in the following format:
-
-```json
-[
-  {
-    "diagnosis": "Childhood-onset fluency disorder (stuttering)",
-    "symptoms": [
-      "Sound and syllable repetitions",
-      "Sound prolongations of consonants and vowels",
-      "Broken words (pauses within a word)",
-      "Audible or silent blocking (filled or unfilled pauses in speech)",
-      "Circumlocutions (word substitutions to avoid problematic words)",
-      "Words produced with an excess of physical tension",
-      "Monosyllabic whole-word repetitions"
-    ],
-    "treatments": null,
-    "duration": null,
-    "description": [
-      "Disturbance in the normal fluency and time patterning of speech.",
-      "Interference with academic or occupational achievement or social communication."
-    ],
-    "related_diagnoses": {
-      "Autism Spectrum Disorder": "Not better explained by...",
-      "Intellectual Disability (Intellectual Developmental Disorder)": "Not better explained by..."
-    }
-  }, ...
-]
-```
-
-### Processing Steps
-
-1. **Parse DSM-5** (🟢ON-GOING)
+### 1.1 **Parsing diagnoses DSM-5** 
 
    * Extract diagnoses and their metadata
    * Identify symptoms, criteria, treatments, duration, description, and related_diagnoses
 
-2. **Build Graph Nodes**
+  ```bash
+  python src/document_parsing.py >> src/saved_json/error_outputs/DSM_5_full_output.txt
+  ```
 
-   * Each concept (diagnosis, symptom, treatment) becomes a node
+  This will generate a JSON file in the following format:
 
-3. **Create Edges**
+  ```json
+  [
+    {
+      "diagnosis": "Childhood-onset fluency disorder (stuttering)",
+      "symptoms": [
+        "Sound and syllable repetitions",
+        "Sound prolongations of consonants and vowels",
+        "Broken words (pauses within a word)",
+        "Audible or silent blocking (filled or unfilled pauses in speech)",
+        "Circumlocutions (word substitutions to avoid problematic words)",
+        "Words produced with an excess of physical tension",
+        "Monosyllabic whole-word repetitions"
+      ],
+      "treatments": null,
+      "duration": null,
+      "description": [
+        "Disturbance in the normal fluency and time patterning of speech.",
+        "Interference with academic or occupational achievement or social communication."
+      ],
+      "related_diagnoses": {
+        "Autism Spectrum Disorder": "Not better explained by...",
+        "Intellectual Disability (Intellectual Developmental Disorder)": "Not better explained by..."
+      }
+    }, ...
+  ]
+  ```
 
-   * Link nodes (e.g. `GAD --has_symptom→ Restlessness`)
+### 1.2. **Building Nodes and Edges** (🟢ON-GOING)
 
-4. **Store Metadata**
+  * Transform the cleaned DSM-5 JSON data into a local Neo4j Knowledge Graph
+  * Each concept (diagnosis, symptom, treatment) becomes a node
+  * Link nodes (e.g. `GAD --has_symptom→ Restlessness`)
 
-   * Descriptions, ICD codes, synonyms, etc.
 
-5. **Embed Nodes**
+  #### Neo4j connection
 
-   * Use `sentence-transformers` to generate vector embeddings
-   * Store with FAISS, Annoy, or plain NumPy arrays
+  ```bash
+  # You can test the connection by running:
+  python trials/3_neo4j_connection.py
+  ```
 
-### Sample Graph (Text View)
+  * Instance: `DSM5_KG`
+  * Database: `dsm5`
+  * Neo4j version: `2025.06.2`
+  * Bolt connection: `neo4j://127.0.0.1:7687`
 
-```
-Diagnosis: GAD
-  ├── has_symptom → Worry
-  ├── has_symptom → Restlessness
-  ├── has_duration → "6 months"
-  ├── treated_by → CBT
-```
+  #### Load JSON and populate KG
 
----
+  ```bash
+  python src/graph_creation.py
+  ```
+
+  * Loads from `./src./saved_json./DSM_5_full.json`
+  * Build nodes and edges into the `dsm5` database
+
+
+  You can explore the graph visually in Neo4j Desktop or run Cypher queries directly in the browser at [http://localhost:7474](http://localhost:7474).
 
 ## 2. Chatbot Query Flow
 
