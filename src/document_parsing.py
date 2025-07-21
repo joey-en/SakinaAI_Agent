@@ -145,13 +145,10 @@ def extract_dict_from_chunk(text_chunk: str, retries=3, delay=1.5, backup_dir=No
                     return repaired_json
 
                 except Exception as e:
-                    if backup_dir:
+                    if backup_dir and attempt == retries-1:
                         os.makedirs(backup_dir, exist_ok=True)
                         with open(os.path.join(backup_dir, "error_outputs.txt"), "a", encoding="utf-8") as f:
-                            f.write(f"==== Attempt {attempt + 1} Failure ====\n")
-                            f.write(f"Raw output: {raw_output}\n")
-                            f.write(f"Repaired output: {repaired_output}\n")
-                            f.write("\n\n")
+                            f.write(f"{raw_output}\n\n\n\n")
 
         except Exception as e:
             print(f"Attempt {attempt + 1} failed with error: {e}")
@@ -186,7 +183,7 @@ def extract_dict_from_file(file_path: str, notes= "", checkpoint_chunk=100):
                 json.dump(extracted_data, f, indent=2)
 
     # Save final result
-    final_name = f"./{FOLDER_NAME}/{filename}_full.json"
+    final_name = f"./{FOLDER_NAME}/{filename} 1_parsed.json"
     with open(final_name, "w", encoding="utf-8") as f:
         json.dump(extracted_data, f, indent=2)
 
@@ -212,4 +209,4 @@ def extract_dict_from_file(file_path: str, notes= "", checkpoint_chunk=100):
 
     return extracted_data, final_name, backup_dir.name, log_entry
 
-extract_dict_from_file("./data/DSM_5.txt", checkpoint_chunk=10, notes=f"CHUNK_SIZE_{CHUNK_SIZE} CHUNK_OVERLAP_{CHUNK_OVERLAP} MAX_TOKENS={MAX_TOKENS} SYSTEM_PROMPT={SYSTEM_PROMPT}")
+extract_dict_from_file("./data/DSM_5.txt", notes=f"CHUNK_SIZE_{CHUNK_SIZE} CHUNK_OVERLAP_{CHUNK_OVERLAP} MAX_TOKENS={MAX_TOKENS} SYSTEM_PROMPT={SYSTEM_PROMPT}")

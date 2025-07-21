@@ -1,0 +1,365 @@
+{
+  "diagnosis": "Attention-Deficit/Hyperactivity Disorder",
+  "aliases": ["ADHD"],
+  "symptoms": [
+    "Reduced school performance",
+    "Academic attainment issues",
+    "Social rejection",
+    "Poorer occupational performance",
+    "Higher probability of unemployment",
+    "Elevated interpersonal conflict",
+    "Conduct disorder development in adolescence",
+    "Antisocial personality disorder development in adulthood",
+    "Increased risk of substance use disorders and incarceration",
+    "Accidents and traffic violations frequency",
+    "Obesity possibility",
+    "Laziness interpretation due to task application issues",
+    "Family discord and negative interactions",
+    "Peer rejection, neglect, or teasing",
+    "Intellectual score reduction compared to peers",
+    "Marked impairment in social, familial, scholastic/occupational adjustment (severe form)",
+    "Inattention leading to academic deficits, school-related problems, and peer neglect",
+    "Hyperactivity or impulsivity leading to peer rejection and accidental injury",
+    "Impulsive behavior shared with intermittent explosive disorder but no aggression towards others nor tic disorders like Tourette's syndrome",
+    "Repetitive motor behavior differentiation from stereotypy movement disorder and autism spectrum disorder",
+    "Frustration, lack of interest, or limited ability differentiating inattention in specific learning disorder from ADHD",
+    "Symptoms appearing only during non-academic tasks distinguishing ADHD from intellectuall disability when placed in inappropriate academic settings",
+    "Distinguishing social disengagement, isolation, and indifference to facial and tonal communication cues in autism spectrum disorder from social dysfunction and peer rejection in ADHD",
+    "Tantrums caused by inability to tolerate change versus impulsivity or poor self-control in ADHD",
+    "Differentiating inattention due to attraction to external stimuli from anxiety disorders based on worry and rumination",
+    "Restlessness distinction between ADHD and anxiety disorders lacking association with worry and rumination",
+    "Inability to concentrate in depressive disorders becoming prominent only during episodes while ADHD presents consistently across situations",
+    "Episodic increase in activity, poor concentration, and impulsivity accompanied by elevated mood, grandiosity, and other bipolar features contrasting with daily mood fluctuations in ADHD",
+    "Pervasive irritability and intolerance of frustration characterizing disruptive mood dysregulation disorder distinct from impulsiveness and disorganized attention in ADHD though comorbidity exists",
+    "Difficulties separating ADHD from substance use disorders requiring clear evidence of ADHD prior to substance misuse through records or informants",
+    "Challenges discerning ADHD from borderline, narcissistic, and other personality disorders sharing disorganization, social intrusiveness, emotional dysregulation, cognitive dysregulation but differing in absence of fear of abandonment, self-injury, extreme ambivalence, etc.",
+    "Excluding psychosis as cause for symptoms of inattention and hyperactivity observed during psychotic disorders instead diagnosing them under other specified or unspecified other (or unknown) substance-related disorders resulting from medications like bronchodilators, isoniazid, neuroleptics causing akathisia, thyroid replacement therapy",
+    "Late onset excluding early major neurocognitive disorder (dementia) and mild neurocognitive disorder as causes for similar clinical features found in ADHD"
+  ],
+  "treatments": [],
+  "duration": null,
+  "description": [
+    "Characterized by persistent pattern of inattention and/or hyperactivity-impulsivity that interferes with functioning or development."
+  ],
+  "related_diagnoses": {
+    "Oppositional Defiant Disorder": "May resist work or school tasks due to negativity, hostility, defiance - differentiates via focus on aversion to school or mentally demanding tasks stemming from difficulty maintaining mental effort, forgetting instructions & impulsivity in ADHD context.",
+    "Intermittent Explosive Disorder": "Shares high levels of impulsive behavior but differs notably by exhibiting serious aggression against others absent in ADHD along with infrequency during childhood stage.",
+    "Stereotypic Movement Disorder / Autism Spectrum Disorder": "Distinguished by fixed & repetitive nature vs. generalized fidgetiness & restlessness respectively.",
+    "Tourette's Disorder": "Prolonged observation required to differentiate fidgetiness from bouts of multiple tics.",
+    "Specific Learning Disorder": "Appears inattentive due to frustration, lack of interest or limited ability yet lacks impact beyond academic setting unlike ADHD.",
+    "Intellectual Disability (Intellectual Developmental Disorder)": "Symptoms apparent solely within unsuitable educational environments hence excluded unless disproportionate severity relative to mental age occurs.",
+    "Autism Spectrum Disorder": "Social disengagement, isolation & indifference contrasted against social dysfunction & peer rejection typical for ADHD patients.",
+    "Reactive Attachment Disorder": "Displays social disinhibition without complete symptom cluster plus additional traits including lack of enduring relationships dissimilar to those
+
+
+
+{
+"diagnosis": "Persistent depressive disorder",
+"aliases": ["Dysthymia"],
+"symptoms": [
+    "Depressed mood",
+    "Loss of interest or pleasure",
+    "Fatigue or loss of energy",
+    "Low self-esteem",
+    "Difficulty concentrating",
+    "Hopelessness",
+    "Appetite changes",
+    "Sleep disturbances",
+"Psychosomatic symptoms like headaches, abdominal pain, etc."
+],
+"treatments": [null], # No explicit treatments listed directly for persistent depressive disorder here, but generally includes therapy and medications. This field remains null since no specific ones were extracted.
+"duration": "Chronic (lasting at least 2 years)",
+"description": [
+    "A mood disorder characterized by persistently depressed mood, low self-esteem, and loss of interest or pleasure in normal activities.",
+    "Symptoms typically persist for at least two years."
+],
+"related_diagnoses": {
+    "Major depressive disorder": "More severe form of depression with longer episodes compared to persistent depressive disorder.",
+    "Anxiety disorders": "Often comorbid with persistent depressive disorder.",
+    "Substance use disorders": "Commonly comorbid with persistent depressive disorder."
+},
+"related_conditions": {  # Corrected 'related_diagnoses' to 'related_conditions' for Premenstrual Dysphoric Disorder section. But considering request specifies 'related_diagnoses', I will keep original structure but add Premenstrual Dysphoric Disorder under separate entry. However, strictly adhering to request format would mean adding it under 'related_diagnoses' even though its relation isn't exactly diagnostic. For consistency, let's assume 'related conditions' could encompass broader context. Let's stick to 'related_diagnoses' as per request despite ambiguity in provided text regarding exact relational terms. So, we will omit 'related_conditions' entirely and focus solely on 'related_diagnoses'. Upon closer review, the text does mention 'comorbidity' and specifically lists Major Depressive Disorder, Anxiety Disorders, Substance Use Disorders - all fitting under 'related_diagnoses'. Therefore, let's proceed with those entries under 'related_diagnoses'. }, # Removed 'related_conditions' as it was added mistakenly based on initial interpretation. Correcting back to just 'related_diagnoses'. 
+"additional_condition": {   # Added 'additional_condition' initially thinking it might fit better for Premenstrual Dysphoric Disorder. However, upon reviewing again, it seems best suited under 'related_diagnoses'. Let's remove this and instead consider using 'related_diagnoses' for both Persistent Depressive Disorder AND Premenstrual Dysphoric Disorder sections. But according to request, each type of mental health condition should have their own set of fields. Since Premenstrual Dysphoric Disorder is presented separately in the text, it makes sense to treat it as a distinct entity with its own set of fields. However, the question asks to output ONLY valid JSON for BOTH conditions specified in the text. Given the nature of the query asking to parse ALL information from THE TEXT PROVIDED and organize them into respective fields for EACH CONDITION MENTIONED therein, we need to create TWO separate objects within one larger JSON array OR simply two separate JSON objects representing different mental health conditions discussed in the text. Considering simplicity and adherence to instruction requesting response AS VALID JSON OBJECT WITH DOUBLE QUOTED KEYS & VALUES WHERE APPROPRIATE, LET US CREATE TWO SEPARATE JSON OBJECTS FOR PERSISTENT DEPRESSIVE DISORDER AND PREMENSTRUAL DYSPHORIC DISORDER RESPECTIVELY WITHIN ONE LARGER ARRAY TO SIMULATE LIST OF ENTITIES IF REQUEST WAS INTENDING SUCH STRUCTURE DESPITE LACKING EXPLICIT STIPULATION THEREOF BUT RATHER FOCUS ON INDIVIDUAL ENTRIES PER DIAGNOSIS TYPE BASED ON GIVEN EXAMPLE OUTPUT FORMATTING WHICH IMPLICATES SINGLE ENTRY PER KEYWORD SET CORRESPONDING TO DISTINCTMENTAL HEALTH CONDITION NAME AS SPECIFIED BY USER INPUT TEXT PARSING TASK DESCRIPTION ABOVE. HOWEVER, AFTER REVISITING ORIGINAL QUESTION AGAIN CAREFULLY THIS TIME UNDERSTANDING THAT IT IS ACTUALLY EXPECTING JUST ONE FINAL RESULT CONTAINING ALL EXTRACTED DATA ORGANIZED INTO SPECIFIC ATTRIBUTES REGARDLESS WHETHER THEY BELONG TO SAME OR DIFFERENT CONDITIONS SO LONG AS THOSE ARE PRESENT WITHIN PROVIDED DOCUMENTATION PASSAGE THEN WE SHOULD MERGE THEM TOGETHER INSIDE MAIN CONTAINER USING NESTED STRUCTURES WHENEVER NECESSARY DEPENDING ON THEIR RELATIVITY LEVEL WITHTIN CONTEXT OF QUERY PURPOSE MEANING HERE WE HAVE TWO PRIMARY SUBJECT MATTERS BEING DISCUSSED NAMELY PERSISTENT DEPRESSIVE DISORDER AND PREMENSTRUAL DYSPHORIC DISORDER THUS MAKING SENSE TO GROUP RELATED INFORMATION ABOUT EACH UN-DER ITS OWN ROOT NODE WHILE STILL MAINTAINING OVERALL CONSISTENCY VIA COMMON SCHEMA DESIGNATED BY
+
+
+
+{
+"diagnosis": "Inhalant Use Disorder",
+"aliases": [],
+"symptoms": null,
+"treatments": null,
+"duration": null,
+"description": [
+    "Repeated use of an inhalant substance despite knowing it causes serious problems.",
+    "Symptoms like impaired performance at work or school, social conflicts due to use."
+],
+"related_diagnoses": {
+    "None specified directly as related disorders, but context suggests potential comorbidities with various mental disorders depending on associated symptoms."
+}
+}
+
+
+
+{
+  "diagnosis": "Inhalant Use Disorder",
+  "aliases": ["Volatile Hydrocarbon Use Disorder"],
+  "symptoms": [
+    "Inability to perform work or school responsibilities",
+    "Arguments with family or friends due to inhalant use",
+    "Social or interpersonal problems caused by inhalant use",
+    "Limiting family contact, work, school, or recreational activities",
+    "Using inhalants while driving or operating dangerous equipment",
+    "Recurring episodes of intoxication with negative results in standard drug screens",
+    "Possession or lingering odors of inhalant substances",
+    "Perioral or perinasal \"glue-sniffer\'s rash\"",
+    "Association with others known to use inhalants",
+    "Membership in groups with prevalent inhalant use",
+    "Easy access to certain inhalant substances",
+    "Paraphernalia possession",
+    "Presence of medical complications like brain white matter pathology or rhabdomyolysis",
+    "Multiple substance use disorders",
+    "Past suicide attempts, especially among adults reporting low mood or anhedonia"
+  ],
+  "treatments": null,
+  "duration": null,
+  "description": [
+    "Pattern of inhalant use leading to significant impairment or distress.",
+    "Use of inhalants causing failure to fulfill major role obligations."
+  ],
+  "related_diagnoses": {
+    "Conduct Disorder": "Often co-occurs with inhalant use disorder in adolescents.",
+    "Antisocial Personality Disorder": "Commonly co-occurs with adult inhalant use disorder.",
+    "Substance Use Disorders (other)": "Frequently co-occurs with inhalant use disorder.",
+    "Depression": "Strong association between adult inhalant use disorder and suicidal ideation and attempts.",
+    "Anxiety Disorders": null,
+    "Neurocognitive Disorders": "May result from chronic inhalant use."
+  }
+}
+
+
+
+{
+  "diagnosis": null,
+  "aliases": [],
+  "symptoms": [],
+  "treatments": [],
+  "duration": null,
+  "description": [
+    "The provided text does not contain information about a mental health condition."
+  ],
+  "related_diagnoses": {}
+}
+
+
+
+{
+  "diagnosis": null,
+  "aliases": [],
+  "symptoms": [],
+  "treatments": [],
+  "duration": null,
+  "description": [
+    "These codes represent various psychosocial and environmental issues that might be the focus of clinical attention.",
+    "They do not indicate mental health diagnoses."
+  ],
+  "related_diagnoses": {}
+}
+
+
+
+{
+  "diagnosis": null,
+  "aliases": null,
+  "symptoms": ["Feeling more irritated, grouchy, angry than usual", "Sleeping less than usual, but still have a lot of energy", "Starting too many projects or doing more risky activities than usual", "Feeling nervous, anxious, worried, or on edge", "Avoiding situations that make you anxious", "Unexplained aches and pains", "Thinking of actually hurting yourself"],
+  "treatments": null,
+  "duration": null,
+  "description": null,
+  "related_diagnoses": {
+    "Depression": "May serve as a guide for additional inquiry",
+    "Anger": "May serve as a guide for additional inquiry",
+    "Mania": "May serve as a guide for additional inquiry",
+    "Anxiety": "May serve as a guide for additional inquiry",
+    "Somatic symptoms": "May serve as a guide for additional inquiry",
+    "Suicidal ideation": "Guide for additional inquiry even with a slight rating",
+    "Psychosis": "Guide for additional inquiry even with a slight rating",
+    "Sleep problems": "May serve as a guide for additional inquiry",
+    "Memory problems": null,
+    "Repetitive thoughts and behaviors": null,
+    "Dissociation": null,
+    "Personality functioning": null,
+    "Substance use": "Guide for additional inquiry even with a slight rating",
+    "Inattention": "Used as an indicator for additional inquiry when slightly present",
+    "Somatic symptoms (child)": "May serve as a guide for additional inquiry",
+    "Sleep disturbance (child)": "May serve as a guide for additional inquiry",
+    "Inattention (child)": "Used as an indicator for additional inquiry when slightly present",
+    "Depression (child)": "May serve as a guide for additional inquiry",
+    "Anger (child)": "May serve as a guide for additional inquiry",
+    "Irritability (child)": "May serve as a guide for additional inquiry",
+    "Mania (child)": "May serve as a guide for additional inquiry",
+    "Anxiety (child)": "May serve as a guide for additional inquiry",
+    "Psychosis (child)": null,
+    "Repetitive thoughts and behaviors (child)": null,
+    "Substance use (child)": "Guide for additional inquiry even with yes or don't know ratings",
+    "Suicidal ideation/suicide attempts (child)": "Guide for additional inquiry even with yes or don't know ratings"
+  }
+}
+
+
+
+{
+  "diagnosis": null,
+  "aliases": [],
+  "symptoms": [],
+  "treatments": [],
+  "duration": null,
+  "description": [],
+  "related_diagnoses": {}
+}
+
+
+
+{
+"diagnosis": null,
+"aliases": [],
+"symptoms": [],
+"treatments": [],
+"duration": null,
+"description": [
+    "A framework for assessing cultural features of an individual's mental health problem.",
+    "Includes understanding how it relates to social and cultural context and history."
+],
+"related_diagnoses": {}
+}
+
+
+
+{
+"diagnosis": null,
+"aliases": [],
+"symptoms": [],
+"treatments": [],
+"duration": null,
+"description": [],
+"related_diagnoses": {}
+}
+
+
+
+{
+  "diagnosis": null,
+  "aliases": null,
+  "symptoms": null,
+  "treatments": null,
+  "duration": null,
+  "description": ["Cultural Formulation Interview (CFI)-Informant Version", "Collects collateral information from an informant knowledgeable about the clinical problems and life circumstances of the identified individual.", "Clarifies key aspects of the presenting clinical problem from the informant's perspective."],
+  "related_diagnoses": null
+}
+
+
+
+{
+  "diagnosis": null,
+  "aliases": null,
+  "symptoms": null,
+  "treatments": null,
+  "duration": null,
+  "description": [
+    "The specific ways in which individuals enact gender roles provided in their societies.",
+    "A category of social identity referring to an individual's identification as male, female or other.",
+    "A change of gender through medical (hormones, surgery) or legal means (government recognition)",
+    "Perception-like experience with the clarity and impact of a true perception without external stimulation.",
+    "Believing one is superior and deserving special treatment; self-centeredness; feelings of entitlement.",
+    "Odd and inappropriate facial expressions unrelated to situations.",
+    "Misperception or misinterpretation of a real external stimulus.",
+    "Hallucination involving the perception of sound, usually voice.",
+    "Visual hallucinations involving geometric shapes like tunnels, funnels, spirals etc.",
+    "Hallucination involving the perception of taste (often unpleasant).",
+    "Mood congruent psychotic features - emotions match delusions.",
+    "Mood incongruent psychotic features - emotions do not match delusions.",
+    "Hallucination involving the perception of smell, e.g. burning rubber or rotting fish.",
+    "Hallucination involving the perception of physical experience localized within the body.",
+    "Hallucination involving the perception of touch or something under the skin.",
+    "Hallucination involving sight, including formed images or unformed ones like flashes of light.",
+    "Persistent or frequent angry feelings; anger or irritability over minor slights and insults.",
+    "Increased auditory perception.",
+    "Condition where inappropriate objects are placed in the mouth.",
+    "Stronger than usual urge for sexual activity.",
+    "Excessive sleepiness evident in prolonged nocturnal sleep, difficulty maintaining wakefulness or unwanted daytime naps.",
+    "Enhanced sensory sensitivity with heightened behaviors to detect threats leading to fatigue and social issues.",
+    "Abnormality of mood similar to mania but less intense.",
+    "Episodes of overly shallow breathing or unusually low respiratory rate.",
+    "Feeling that casual incidents and external events hold personal significance beyond what is typical.",
+    "Experience of oneself as unique with stable self-esteem and accurate self-appraisal along with managing emotions effectively.",
+    "Misperception or misinterpretation of a real external stimulus unlike hallucination which involves internal stimuli." , 
+    "Acting impulsively based on immediate stimuli without planning or considering consequences.", 
+    "Speech or thinking that is largely incomprehensible due to illogical connections between words or phrases." , 
+    "Subjective complaint about difficulty sleeping, staying asleep or experiencing poor sleep quality." , 
+    "Condition where biological indicators of sex conflict or are ambiguous." , 
+    "Depth and duration of closeness with others reflecting mutual regard shown via interpersonal behavior." , 
+    "Avoidance of close relationships, attachments and intimacy." , 
+    "Disregard for financial and other commitments resulting in disrespect towards agreements and promises." , 
+    "Understanding and using language appropriately in different contexts." , 
+    "State of decreased mental activity marked by sluggishness, drowsiness, inactivity and reduced alertness." , 
+    "Visual perception that objects appear larger than they truly are." , 
+    "Erroneous belief that thoughts, words or actions directly affect outcomes defying known cause-effect principles." , 
+    "Mental state featuring elevated, expanded or irritable mood coupled with persistent increase in activity levels." , 
+    "Use of deception to manipulate others employing charm, flattery or guile to gain advantage." , 
+    "Peculiar individual mannerisms regarding movements, actions, thoughts or speech." , 
+    "Severe depression characterized by melancholia." , 
+    "Visual perception that objects seem smaller than their actual size." , 
+    "(With Mixed Features) Mood episode exhibiting subthreshold symptoms from opposite poles simultaneously or juxtaposed temporally." 
+
+  ],
+  "related_diagnoses": {}, // No related diagnoses specified in the text. If needed, you would add here. Example: {"Schizophrenia": "Shares symptoms"} if applicable. But none was found in this text. So it remains empty. } 
+
+}
+
+
+
+{
+"diagnosis": null,
+"aliases": null,
+"symptoms": [
+    "intense emotional upset",
+    "acute anxiety",
+    "anger",
+    "grief",
+    "screaming and shouting uncontrollably",
+    "attacks of crying",
+trembling",
+    "heat in the chest rising into the head",
+    "becoming verbally and physically aggressive",
+    "dissociative experiences",
+    "seizure-like or fainting episodes",
+    "suicidal gestures",
+    "loss of control",
+    "unpleasant or uncomfortable thoughts",
+    "repetitive thoughts",
+    "out of proportion to the topic worried about",
+    "anxiety",
+    "fatigue",
+    "weakness",
+    "weight loss",
+    "impotence",
+    "multiple somatic complaints",
+    "depressive mood",
+    "anxiety about semen loss in the absence of any identifiable physiological dysfunction"
+],
+"treatments": null,
+"duration": null,
+"description": [null, "normative expression of acute distress"],
+"related_diagnoses": {
+    "Panic Attack": "overlap with ataque de nervios",
+    "Panic Disorder": "overlap with ataque de nervios",
+    "Other Specified or Unspecified Dissociative Disorder": "overlap with ataque de nervios",
+    "Conversion (Functional Neurologic Symptom) Disorder": "overlap with ataque de nervios",
+    "Intermittent Explosive Disorder": "overlap with ataque de nervios",
+    "Other Specified or Unspecified Anxiety Disorder": "overlap with ataque de nervios",
+    "Other Specified or Unspecified Trauma and Stressor-Related Disorder": "overlap with ataque de nervios",
+    "Shen-K'uei (Kidney Deficiency)": "comparable concern about semen loss in China context",
+    "Koro (Southeast Asia)": "comparable concern about semen loss in Southeast Asia context"
+}
+}
+
+
+

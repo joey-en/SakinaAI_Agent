@@ -103,7 +103,7 @@ def main():
     load_dotenv(".env")
     driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", os.getenv("NEO4J_DSM5_KG_PASS")))
 
-    JSON_PATH = "./src./saved_json./DSM_5 Short (cleaned).json"
+    JSON_PATH = "./src./saved_json./DSM_5 2_normalized.json"
 
     # Load cleaned DSM-5 JSON
     with open(JSON_PATH, "r", encoding="utf-8") as f:

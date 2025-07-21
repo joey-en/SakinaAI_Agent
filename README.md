@@ -11,7 +11,7 @@ This project builds a structured, semantic knowledge graph from sources like DSM
 ```
 ---
 
-## 1. Creating a Knowledge Graph from DSM-5 (🟢ON-GOING)
+## 1. Creating a Knowledge Graph from DSM-5
 
 The goal here is to turn a structured mental health reference (like DSM-5 or ICD-11) into a navigable knowledge graph.
 
@@ -21,7 +21,7 @@ The goal here is to turn a structured mental health reference (like DSM-5 or ICD
    * Identify symptoms, criteria, treatments, duration, description, and related_diagnoses
 
   ```bash
-  python src/document_parsing.py >> src/saved_json/error_outputs/DSM_5_full_output.txt
+  python src/document_parsing.py
   ```
 
   This will generate a JSON file in the following format:
@@ -30,6 +30,11 @@ The goal here is to turn a structured mental health reference (like DSM-5 or ICD
   [
     {
       "diagnosis": "Childhood-onset fluency disorder (stuttering)",
+      "aliases": [
+        "Childhood-onset fluency disorder",
+        "Developmental stuttering",
+        "Stuttering"
+        ],
       "symptoms": [
         "Sound and syllable repetitions",
         "Sound prolongations of consonants and vowels",
@@ -50,6 +55,32 @@ The goal here is to turn a structured mental health reference (like DSM-5 or ICD
         "Intellectual Disability (Intellectual Developmental Disorder)": "Not better explained by..."
       }
     }, ...
+  ]
+  ```
+
+  Optionally, running `src/alias_grouper.py` will make a normallzed name mapping in `src\saved_mappings\diagnosis_names.json` created a cleaned version of the original JSON
+
+  ```bash
+  python src/alias_grouper.py
+  ```
+
+  ```json
+  [
+  {
+    "main": "Intellectual Disability (Intellectual Developmental Disorder)",
+    "aliases": [
+      "Intellectual Developmental Disorder",
+      "Intellectual Disability"
+    ]
+  },
+  {
+    "main": "Childhood-onset fluency disorder (Stuttering)",
+    "aliases": [
+      "Childhood-onset fluency disorder",
+      "Developmental stuttering",
+      "Stuttering"
+    ]
+  },...
   ]
   ```
 

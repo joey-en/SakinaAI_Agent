@@ -3,7 +3,7 @@ import os
 from rapidfuzz import fuzz, process
 import re
 
-FUZZY_THRESHOLD = 90  # Good default
+FUZZY_THRESHOLD = 96 # Good default
 
 def extract_parenthetical_aliases(name: str) -> list:
     """
@@ -30,6 +30,7 @@ def create_name_mapping(input_json_path, output_json_path):
 
     for entry in records:
         names = set()
+        print(entry)
         main_name = entry.get("diagnosis", "")
         for n in extract_parenthetical_aliases(main_name):
             names.add(n)
@@ -150,14 +151,14 @@ def normalize_names_from_mapping(
 
 def main():
     create_name_mapping(
-        input_json_path="./src/saved_json/DSM_5 Short.json",
+        input_json_path="./src/saved_json/DSM_5 1_parsed.json",
         output_json_path="./src/saved_mappings/diagnosis_names.json"
     )
     
     normalize_names_from_mapping(
-        input_json_path="./src/saved_json/DSM_5 Short.json",
+        input_json_path="./src/saved_json/DSM_5 1_parsed.json",
         alias_mapping_path="./src/saved_mappings/diagnosis_names.json",
-        output_json_path="./src/saved_json/DSM_5 Short (cleaned).json"
+        output_json_path="./src/saved_json/DSM_5 2_normalized.json"
     )
 
 main()
